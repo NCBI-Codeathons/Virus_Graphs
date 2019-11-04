@@ -1,3 +1,5 @@
 # Virus_Graphs
-Making Representative Genome Graphs from Eukaryotic Viruses and Phages
- foo bar foo bar- hari
+
+HIV inference based on NGS data. 
+
+This is the README
