@@ -6,9 +6,25 @@ https://www.hiv.lanl.gov/content/sequence/NEWALIGN/align.html
 
 --- HIV1_REF_2010_genome_DNA.fasta (whole genome)
 --- HIV1_REF_2010_env_DNA.fasta (just ENV region)
---- HIV1_REF_2010_pol_DNA.fasta (just pol)
+--- HIV1_REF_2010_pol_DNA.fasta (just POL)
 
 For alignment type, select ‘Subtype Reference’
 Organism ‘HIV-1/SIVcpz’
+
+
+HIV-1 Gene Diagram
+
+env --- the gene from 6225 to 8795; the ENV gene which the proteins (GP120 and GP41) 
+pol --- the gene from 2Kb to 5Kb, 2085 to 5096;  POL has a bunch of different protein products which are made---protease and reverse transcriptase and there's an RNA
+
+
+
+
+### HIV1_REF_2010_genome_DNA.fasta (whole genome) already in MSA format
+
+> Ref.B.FR.83
+
+> Ref.B.US.98
+
 
 
