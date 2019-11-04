@@ -2,6 +2,13 @@
 
 HIV inference based on NGS data. 
 
-This is the README
+## Ideas
 
-Hey, I'm Norris
+* k-mer idea
+
+## Outline, plan of action
+
+hey
+
+### Discussions today, 4th November 2019
+
