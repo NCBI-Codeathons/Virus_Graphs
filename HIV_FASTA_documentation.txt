@@ -1,0 +1,14 @@
+
+
+Subtype reference 'alignments' for different HIV sequences
+
+https://www.hiv.lanl.gov/content/sequence/NEWALIGN/align.html
+
+--- HIV1_REF_2010_genome_DNA.fasta (whole genome)
+--- HIV1_REF_2010_env_DNA.fasta (just ENV region)
+--- HIV1_REF_2010_pol_DNA.fasta (just pol)
+
+For alignment type, select ‘Subtype Reference’
+Organism ‘HIV-1/SIVcpz’
+
+
