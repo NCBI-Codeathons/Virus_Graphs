@@ -53,6 +53,12 @@ Usage: msa2vcf [options] Files
 
 
 
+ java -jar dist/msa2vcf.jar /Users/evanbiederstedt/Virus_Graphs/data/Ref.B_FR.83_and_US.98.fasta -R Ref.B.FR.83.HXB2_LAI_IIIB_BRU.K03455 -o Ref.B_FR.83_and_US.98.vcf
+[INFO][MsaToVcf]Reading from /Users/evanbiederstedt/Virus_Graphs/data/Ref.B_FR.83_and_US.98.fasta
+[INFO][MsaToVcf]format : Fasta
+[INFO][MsaToVcf]Done
+
+
 
 
 
