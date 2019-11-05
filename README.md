@@ -15,8 +15,6 @@ HIV inference based on NGS data.
 hey
 
 ### Discussions today, 4th November 2019
-
-
 ## Identifying region of interest on genome graphs
 
 Region of interest can be defined as loops, or "bubbles", within a genome path
@@ -97,10 +95,4 @@ Tried approaches:
 #### Kmer indexing
 
 WIP
-
-
-
-
-
-
 
