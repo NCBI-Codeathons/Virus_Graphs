@@ -1,0 +1,14 @@
+
+
+
+sudo docker run --entrypoint /bin/bash -i -t  -v /app:/home/evan.biederstedt adamnovak/vg:latest
+
+
+
+
+/home/evan.biederstedt/vg/bin/vg vg construct -r 
+
+
+
+
+/home/evan.biederstedt/Virus_Graphs/data/Ref.B_FR.83_and_US.98.vcf
