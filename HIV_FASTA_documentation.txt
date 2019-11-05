@@ -19,7 +19,7 @@ pol --- the gene from 2Kb to 5Kb, 2085 to 5096;  POL has a bunch of different pr
 
 ########################
 
-### HIV1_REF_2010_genome_DNA.fasta (whole genome) already in MSA format
+HIV1_REF_2010_genome_DNA.fasta (whole genome) already in MSA format
 
 > Ref.B.FR.83
 
@@ -57,6 +57,14 @@ Usage: msa2vcf [options] Files
 [INFO][MsaToVcf]Reading from /Users/evanbiederstedt/Virus_Graphs/data/Ref.B_FR.83_and_US.98.fasta
 [INFO][MsaToVcf]format : Fasta
 [INFO][MsaToVcf]Done
+
+
+
+
+### entire FASTA 
+cd /Users/evanbiederstedt/jvarkit
+
+java -jar dist/msa2vcf.jar /Users/evanbiederstedt/Virus_Graphs/data/HIV1_REF_2010_genome_DNA.fasta -R Ref.B.FR.83.HXB2_LAI_IIIB_BRU.K03455 -o HIV1_REF_2010_genome_DNA_total.vcf
 
 
 
