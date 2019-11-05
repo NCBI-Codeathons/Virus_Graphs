@@ -37,6 +37,12 @@ Genome graphs with:
 T-virus
 HIV-1
 
+Datasets: 
+
+SRA, searchterms: "HIV-1 and RNAseq and virus"
+
+Bioproject: PRJNA320293
+
 ### Discussions today, 4th November 2019
 
 Too busy..
