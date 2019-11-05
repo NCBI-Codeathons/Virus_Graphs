@@ -18,13 +18,24 @@ class GenomeGraph:
       self.name = name
       self.seq = None
       self.origin = None
+      self.visited = False
+      self.num = 0
+      self.parent = None
+      self.low = 0
       self.incoming = {}
       self.outgoing = {}
+
+    def num_out_edges(self):
+      return len(self.outgoing)
+
+    def num_in_edges(self):
+      return len(self.incoming)
 
   def __init__(self):
     self.nodes = {}
     self.paths = []
     self.visited = {}
+    self.node_counter = 0
 
   def add_node(self, name, target=None):
     if name not in self.nodes:
@@ -34,6 +45,9 @@ class GenomeGraph:
         self.nodes[target] = self.Node(target)
       self.nodes[target].incoming[name] = 0
       self.nodes[name].outgoing[target] = 0
+
+  def nodelist(self):
+    return [self.nodes[x] for x in self.nodes]
 
   def find_start_nodes(self):
     start_nodes = []
@@ -48,13 +62,12 @@ class GenomeGraph:
       print("{}\t{}".format(i, ','.join(x for x in self.nodes[i].outgoing)))
     nodes = self.find_start_nodes()
     if nodes:
-      for i in nodes:
-        self.paths += self.resolve_paths(i)
       print("All graph paths:")
-      for i in self.paths:
-        print(' -> '.join(x for x in i))
+      for i in nodes:
+        for j in self.resolve_path(i):
+          print(' -> '.join(x for x in j))
 
-  def resolve_paths(self, start, path=None):
+  def resolve_path(self, start, path=None): # DFS search
     if not path:
       path = []
     path = path + [start]
@@ -65,6 +78,28 @@ class GenomeGraph:
     for i in self.nodes[start].outgoing:
       if i not in visited:
         visited[i] = 0
-        for j in self.resolve_paths(i, path):
+        for j in self.resolve_path(i, path):
           paths.append(j)
     return paths
+
+  def find_paths(self):
+    startnodes = self.find_start_nodes()
+    if startnodes:
+      for i in startnodes:
+        self.paths += self.resolve_path(i)
+
+  def find_articulation_nodes(self, node):
+    node.visited = True
+    node.low = self.node_counter
+    node.num = self.node_counter
+    self.node_counter += 1
+    for i in node.outgoing:
+      if not self.nodes[i].visited: # fwd edge from start
+        self.nodes[i].parent = node.name
+        self.find_articulation_nodes(self.nodes[i])
+        if self.nodes[i].low >= node.num:
+          print("articulation point", node.name)
+        node.low = min(self.nodes[i].low, node.low)
+      else:
+        if node.parent != self.nodes[i].name:
+          node.low = min(node.low, self.nodes[i].num)
