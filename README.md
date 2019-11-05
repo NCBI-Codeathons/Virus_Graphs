@@ -1,4 +1,8 @@
-  # Virus_Graphs
+# Virus_Graphs
+
+<img src="Screen Shot 2019-11-04 at 5.56.51 PM.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 HIV inference based on NGS data.
 
@@ -33,6 +37,8 @@ be extracted and mapped to existing annotations.
 
                Graph 1
 ```
+
+
 
 Several tools exists to constructing virus graphs and most (all?) are based an
 creating kmers. Unfortunately, corresponding metadata, e.g. kmer position, is
