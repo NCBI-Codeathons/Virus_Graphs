@@ -1,3 +1,4 @@
 $ ALL_INDIVIDUALS=$( ls *[0-9].fasta ) ; python3 /Users/tiszamj/SWIGG/code/swigg.py -k 51 -t 5 -rw 1 -ra 1 -o MCV_full_Refs_k51_t5 -f $ALL_INDIVIDUALS
 $ ALL_INDIVIDUALS=$( ls Ref.[A-J]*.fasta | grep -v "CPZ" ) ; python3 /Users/tiszamj/SWIGG/code/swigg.py -k 41 -t 2 -rw 1 -ra 1 -o HIV_A-J_Refs_k41_t2 -f $ALL_INDIVIDUALS
 $ ALL_INDIVIDUALS=$( ls Ref.*.fasta | grep -v "CPZ" ) ; python3 /Users/tiszamj/SWIGG/code/swigg.py -k 41 -t 2 -rw 1 -ra 1 -o HIV_all_Refs_k41_t2 -f $ALL_INDIVIDUALS
+$ ALL_INDIVIDUALS=$( ls Ref.*.fasta ) ; python3 /Users/tiszamj/SWIGG/code/swigg.py -k 23 -t 2 -rw 1 -ra 1 -o HIV_full_Refs_k23_1 -f $ALL_INDIVIDUALS
