@@ -18,9 +18,7 @@ HIV inference
 <img src="/data/HIV_full_Refs_k23_1_Color_Annotated.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure:** n = 170 references.
-
-SWIGG, visualized in Gephi.
+**Figure: HIV-1 references (n = 170)** SWIGG, visualized in Gephi.
 
 n = 39 without non-recombinants. 
 
