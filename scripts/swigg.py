@@ -97,6 +97,7 @@ for name in seq_df.ID.unique():
     print(str(len(kmers)) + " total possible k-mers of length " + str(k_length) + " for sample " + str(name), flush=True)
     list_of_dfs.append(kmers_df_subset)
 
+
 ## concatenate the list of pandas dataframes
 kmers_df = pd.concat(list_of_dfs)
 
@@ -131,6 +132,7 @@ print("Getting rid of direct neighbor kmers...")
 kmers_df_filt['order'] = range(len(kmers_df_filt))
 kmer_grouped_df_expanded = kmers_df_filt[:-1][(kmers_df_filt.pos_start.values[1:]-kmers_df_filt.pos_start.values[:-1]>k_length) &
                                        (kmers_df_filt.alt_seq.values[1:]==kmers_df_filt.alt_seq[:-1])]
+
 kmer_grouped_df_expanded.head()
 print(str(len(kmer_grouped_df_expanded)) + " distinct kmers.", flush=True)
 
@@ -162,6 +164,22 @@ edges_to_csv=pd.DataFrame(kmers_1)
 edges_to_csv.columns = ['kmer_1']
 edges_to_csv['kmer_2'] = edges_df_group['kmer_2'].apply(lambda x: list(x)[0]).values
 edges_to_csv['distance'] = edges_df_group['distance'].apply(np.mean).values
+
+
+## Hack to match attributes from kmers_df to edges_to_csv
+## Add the Attribute for each k-mer
+
+## Should convert kmers_df to a dictionary, with key and value lists
+
+kmer_dictionary = kmers_df[['kmer', 'attribute']].groupby('kmer')['attribute'].apply(list).to_dict()
+
+for kname in kmer_dictionary.keys():
+    if not edges_to_csv.loc[edges_to_csv.kmer_1 == kname].empty:
+        edges_to_csv.loc[edges_to_csv.kmer_1 == kname, "kmer1_attribute"] = list(kmer_dictionary[kname]) 
+    if not edges_to_csv.loc[edges_to_csv.kmer_2 == kname].empty:       
+    edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = list(kmer_dictionary[kname])     
+
+
 edges_to_csv.to_csv(args.out+'.tsv', sep="\t", header=None, index_label=None)
 
 # Creating graph file
