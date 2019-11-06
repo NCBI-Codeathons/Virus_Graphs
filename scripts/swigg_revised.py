@@ -59,7 +59,7 @@ args = parser.parse_args()
 
 seq_list = []
 for seqq in args.fasta:
-    attribute_name = str(list(SeqIO.parse(foo, "fasta"))[0].description)
+    attribute_name = str(list(SeqIO.parse(seqq, "fasta"))[0].description)
     attribute_name = attribute_name[attribute_name.find("[")+1:attribute_name.rfind("]")].split('=')[0]  ## the first item in [name=value]  ## ONLY ONE CURRENTLY ACCEPTED!!!
     seq_list = seq_list + [(str(list(SeqIO.parse(seqq, "fasta"))[0].id), str(list(SeqIO.parse(seqq, "fasta"))[0].seq), str(attribute_name) )]
     
