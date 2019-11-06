@@ -43,6 +43,10 @@ required.add_argument("-o", "--out",
                     help='required, path to prefix of output file name. Two files will be created - 1. Edge file ".tsv" and 2. Graph file ".gexf" ',
                     required=True)
 
+required.add_argument("-a", "--attribute",
+                    help='required, attribute name in FASTAs, string; assuming same attribute in all FASTAs',
+                    required=True)
+
 args = parser.parse_args()
 
 ########################################################
@@ -52,10 +56,10 @@ args = parser.parse_args()
 
 seq_list = []
 for seqq in args.fasta:
-    seq_list = seq_list + [(str(list(SeqIO.parse(seqq, "fasta"))[0].id), str(list(SeqIO.parse(seqq, "fasta"))[0].seq))]
+    seq_list = seq_list + [(str(list(SeqIO.parse(seqq, "fasta"))[0].id), str(list(SeqIO.parse(seqq, "fasta"))[0].seq), str(args.attribute) )]
     
 seq_df = pd.DataFrame(seq_list).head()
-seq_df.columns=['ID', 'Sequence']
+seq_df.columns=['ID', 'Sequence', 'Attribute']
 
 ## name = name of FASTA file
 ## ID = str(list(SeqIO.parse(seqq, "fasta"))[0].id
@@ -77,14 +81,17 @@ repeat_threshold_across = int(args.repeat_threshold_across)
 ## Here is where we add in the ID names
 ## iterate over unique IDs
 
+### ASSUMING THE SAME ATTRIBUTE BY INPUT FASTA FIRST
+
 list_of_dfs = []
 
 for name in seq_df.ID.unique():
     print("Finding all possible kmers within Sample " + str(name), flush=True)
     ## subset dataframe
     subset_df = seq_df.loc[seq_df.ID == name]
-    kmers = [(name, i_strain, seq[i_base:(i_base+k_length)], i_base) for i_strain, seq in enumerate(subset_df.Sequence.values) for i_base in range(len(seq)-k_length)]
-    kmers_df_subset = pd.DataFrame(kmers, columns = ['ID', 'alt_seq', 'kmer', 'pos_start'])
+    attribute_name = str(seq_df.loc[seq_df.ID == name].Attribute.unique()[0])
+    kmers = [(name, attribute_name, i_strain, seq[i_base:(i_base+k_length)], i_base) for i_strain, seq in enumerate(subset_df.Sequence.values) for i_base in range(len(seq)-k_length)]
+    kmers_df_subset = pd.DataFrame(kmers, columns = ['ID', 'attribute', 'alt_seq', 'kmer', 'pos_start'])
     print(str(len(kmers)) + " total possible k-mers of length " + str(k_length) + " for sample " + str(name), flush=True)
     list_of_dfs.append(kmers_df_subset)
 
