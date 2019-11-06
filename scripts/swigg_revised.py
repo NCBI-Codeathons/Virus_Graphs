@@ -177,7 +177,7 @@ for kname in kmer_dictionary.keys():
     if not edges_to_csv.loc[edges_to_csv.kmer_1 == kname].empty:
         edges_to_csv.loc[edges_to_csv.kmer_1 == kname, "kmer1_attribute"] = list(kmer_dictionary[kname]) 
     if not edges_to_csv.loc[edges_to_csv.kmer_2 == kname].empty:       
-    edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = list(kmer_dictionary[kname])     
+        edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = list(kmer_dictionary[kname])     
 
 
 edges_to_csv.to_csv(args.out+'.tsv', sep="\t", header=None, index_label=None)
