@@ -58,13 +58,13 @@ Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51).
 <img src="igv_snapshot_HXB2-mapping_reads_from_SRR3472915_v2.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: cDNA+PCR DNAseq ("classic RNAseq").** A. Reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. B. RmDup-processed reads, controling for PCR duplicates after initial alignment. Search strategy = SRA. Searchterms: "HIV-1 and RNAseq and virus". Bioproject: PRJNA320293, specifically SRR3472915.
+**Figure: cDNA+PCR DNAseq ("classic RNAseq").** A. Reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. B. RmDup-processed reads, controling for PCR duplicates after initial alignment. Search strategy = SRA. Searchterms: "HIV-1 and RNAseq and virus". Bioproject: PRJNA320293, specifically SRR3472915. Viewed in IGV.
 
 
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1).
+**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Viewed in IGV.
 
 # Patient Information #
 
