@@ -65,13 +65,11 @@ Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51).
 **Patient Information**
 
 Acute infection (n=525)
-AIDS (n=6)
-Asymptomatic (n=33)
-(n=)
-(n=)
-(n=)
-(n=)
-(n=)
+AIDS (n=66)
+Asymptomatic (n=223)
+Symptomatic (n=83)
+Deceased (n=7)
+Chronic (n= 174)
 
 
 ### HIV-1 Sequencing data ###
