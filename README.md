@@ -86,7 +86,7 @@ Chronic (n= 174)
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. Viewed in IGV. (Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller.)
+**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. Viewed in IGV. Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller. Note also that PCR was used during ONT library prep.
 
 
 <img src="igv_snapshot_HXB2-mapping_reads_from_Tg26_subset.png"
