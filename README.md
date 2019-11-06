@@ -48,6 +48,23 @@ Unpublished HXB2 ONT dataset.
 <img src="igv_snapshot HXB2 4000 read subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+     
+Day 3:
+
+HIV-1 datasets (as mutli-sequence alignments (MSA)/with gaps, and as multi-FASTA/gappless) from [LANL HIV Database](https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html) November 5th-6th,2019. Files include HXB2 K03455 as reference.
+
+All complete genomes (n=10568)
+CD4+ T cell (n=) vs PBMC (n=1555)
+Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51)
+Acute infection (n=)
+(n=)
+(n=)
+(n=)
+(n=)
+(n=)
+(n=)
+(n=)
+
 
 ### Discussions today, 4th November 2019
 
