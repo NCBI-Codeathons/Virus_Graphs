@@ -64,7 +64,7 @@ Search strategy = SRA; searchterms: "HIV-1 and RNAseq and virus". Bioproject: PR
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished HXB2 ONT dataset.**
+**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1).
 
 # Patient Information #
 
