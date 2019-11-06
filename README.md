@@ -13,8 +13,11 @@ HIV inference based on NGS data.
 HIV inference
 
 n = 170 references
+
 n = 39 without non-recombinants
+
 env, V1-V5
+
 pol
 
 How much variation can we have in a reference graph genome?
