@@ -1,0 +1,218 @@
+---
+title: "HIV Genome Graph"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    social: menu
+    source_code: embed
+runtime: shiny
+---
+
+```{r global, include=FALSE}
+library(tidyverse)
+library(ggraph)
+library(igraph)
+library(rgexf)
+library(plotly)
+knitr::opts_chunk$set(message = FALSE)
+```
+
+```{r preprocess}
+### Saria's summary of SWIGG output (error?! what is the first column?)
+kmer_hits <- read.delim("../data/HIV_full_Refs_k23_1.tsv.fasta.reference_hits", header = FALSE, stringsAsFactors = FALSE)
+colnames(kmer_hits) <- c("unknown", "acc_id", "kmer_seq")
+kmer_anno <- kmer_hits %>%
+  group_by(kmer_seq) %>%
+  summarise(
+    n_acc_ids = length(unique(acc_id)),
+    the_acc_ids = paste(unique(acc_id), collapse = ";")
+  ) 
+
+### Load SWIGG output
+swigg <- read.delim("../data/HIV_full_Refs_k23_1.tsv", header = FALSE, stringsAsFactors = FALSE)
+
+### Edge annotation
+edges <- swigg
+edges$acc_ids <- paste(
+  ifelse(
+    kmer_anno$the_acc_ids[kmer_anno$kmer_seq == edges$V2]
+    ),
+  kmer_anno$the_acc_ids[kmer_anno$kmer_seq == edges$V3], 
+  collapse = ";"
+)
+edges_anno1a <- merge(
+  edges, kmer_anno, by.x = "V2", by.y = "kmer_seq", all.x = TRUE
+)$the_acc_ids
+edges_anno1b <- merge(
+  edges, kmer_anno, by.x = "V3", by.y = "kmer_seq", all.x = TRUE
+)$the_acc_ids
+edges$the_acc_ids <- paste(edges_anno1a, edges_anno1b, sep = ";")
+
+edges_anno2a <- merge(edges, kmer_anno, by.x = "V2", by.y = "kmer_seq", all.x = TRUE)$n_acc_ids
+edges_anno2b <- merge(edges, kmer_anno, by.x = "V3", by.y = "kmer_seq", all.x = TRUE)$n_acc_ids
+edges$n_acc_ids <- edges_anno2a + edges_anno2b
+
+### Node annotation
+# use kmer_anno
+
+# Load gfex
+gfex <- "../data/HIV_full_Refs_k23_1_Color_Annotated.gexf"
+gr <- rgexf::gexf.to.igraph(rgexf::read.gexf(gfex))
+
+# Add annotation - Edges
+E(gr)$n_acc_ids <- edges$n_acc_ids
+E(gr)$the_acc_ids <- edges$the_acc_ids
+
+# Add annotation - Nodes
+kmer_anno <- kmer_anno[order(kmer_anno$kmer_seq, names(V(gr))), ]
+V(gr)$n_acc_ids <- kmer_anno$n_acc_ids
+V(gr)$the_acc_ids <- kmer_anno$the_acc_ids
+```
+
+Plot one
+===================================== 
+
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+### Color by specific accession
+selectInput(
+  "acc",
+  "fasta to plot",
+  sort(unique(kmer_hits$acc_id)),
+  selected = sort(unique(kmer_hits$acc_id))[1]
+)
+
+### layout algorithm (from igraph)
+selectInput(
+  "alg",
+  "algorithm",
+  c("kk", "dh", "nicely", "dh", "fr", "gem", 
+    # "grid, "randomly", "sphere", "graphopt", # these aren't useful
+    "lgl", "mds", "sugiyama"
+  ),
+  selected = "kk"
+)
+
+### node formatting (not done yet)
+
+
+### edge formatting (not done yet)
+```
+
+Column {}
+------------------------------------------------------------------------------
+
+```{r}
+renderPlot({
+  
+  # group 
+  E(gr)$acc <- ifelse(
+    E(gr)$the_acc_ids %in% 
+      E(gr)$the_acc_ids[grep(input$acc, E(gr)$the_acc_ids)], 
+    "YES", "NO"
+  )
+  
+  # plot
+  set.seed(1116)
+  print(
+    
+    gr %>%
+      ggraph(layout = "igraph", algorithm = input$alg) +
+      
+      # add nodes
+      geom_node_point(aes(alpha = n_acc_ids), shape = 21, fill = "black", color = "black") +
+      
+      # add edges
+      geom_edge_link(aes(color = acc, alpha = acc, width = acc)) +
+      
+      # format edges
+      scale_edge_width_manual(values = c("YES" = 0.9, "NO" = 0.3)) +
+      scale_edge_color_manual(values = c("YES" = "red", "NO" = "black")) +
+      scale_edge_alpha_manual(values = c("YES" = 1, "NO" = 1))
+    
+    )
+})
+```
+
+
+Plot two
+===================================== 
+
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+```{r}
+### Color by specific accession
+selectInput(
+  "accA",
+  "A",
+  sort(unique(kmer_hits$acc_id)),
+  selected = sort(unique(kmer_hits$acc_id))[1]
+)
+selectInput(
+  "accB",
+  "B",
+  sort(unique(kmer_hits$acc_id)),
+  selected = sort(unique(kmer_hits$acc_id))[2]
+)
+
+### layout algorithm (from igraph)
+selectInput(
+  "alg2",
+  "algorithm",
+  c("kk", "dh", "nicely", "dh", "fr", "gem", 
+    # "grid, "randomly", "sphere", "graphopt", # these aren't useful
+    "lgl", "mds", "sugiyama"
+  ),
+  selected = "kk"
+)
+
+### node formatting (not done yet)
+
+
+### edge formatting (not done yet)
+```
+
+Column {}
+------------------------------------------------------------------------------
+
+```{r}
+renderPlot({
+  
+  # group 
+  E(gr)$accA <- ifelse(
+    E(gr)$the_acc_ids %in% 
+      E(gr)$the_acc_ids[grep(input$accA, E(gr)$the_acc_ids)], 
+    "A", ""
+  )
+  E(gr)$accB <- ifelse(
+    E(gr)$the_acc_ids %in% 
+      E(gr)$the_acc_ids[grep(input$accB, E(gr)$the_acc_ids)], 
+    "B", ""
+  )
+  E(gr)$acc <- paste0(E(gr)$accA, E(gr)$accB)
+  E(gr)$acc[E(gr)$acc == ""] <- "neither"
+    
+  # plot
+  set.seed(1116)
+  print(
+    
+    gr %>%
+      ggraph(layout = "igraph", algorithm = input$alg2) +
+      
+      # add nodes
+      geom_node_point(aes(alpha = n_acc_ids), shape = 21, fill = "black", color = "black") +
+      
+      # add edges
+      geom_edge_link(aes(color = acc, width = acc)) +
+      
+      # format edges
+      scale_edge_width_manual(values = c("AB" = 0.9, "A" = 0.9, "B" = 0.9, "neither" = 0.3)) +
+      scale_edge_color_manual(values = c("AB" = "red", "A" = "blue", "B" = "green", "neither" = "grey25")) 
+    
+    )
+})
+```
+
