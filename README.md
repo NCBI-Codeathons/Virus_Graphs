@@ -25,13 +25,7 @@ pol
 
 How much variation can we have in a reference graph genome?
 
-Tools?
-
-[VG](https://github.com/vgteam/vg)
-
-[NovoGraph](https://github.com/NCBI-Hackathons/NovoGraph)
-
-[SWIGG](https://github.com/NCBI-Codeathons/SWIGG)
+Tools considered: [VG](https://github.com/vgteam/vg), [NovoGraph](https://github.com/NCBI-Hackathons/NovoGraph), [SWIGG](https://github.com/NCBI-Codeathons/SWIGG).
 
 ## Outline, plan of action
 
