@@ -16,10 +16,11 @@ my $input_kmerlength = $ARGV[0];
 my $input_fq         = $ARGV[1];
 my $input_tsv        = $ARGV[2];
 
-my $cmd = "/usr/bin/jellyfish.linux count --mer-len=$input_kmerlength --size=100M -t 4 -o ${input_fq}.jf input_fq";
+my $cmd = "/usr/bin/jellyfish-linux count --mer-len=$input_kmerlength --size=100M -t 4 -o ${input_fq}.jf $input_fq";
 system( $cmd );
-$cmd = "/usr/bin/jellyfish.linux dump ${input_fq}.jf > ${input_fq}.jf.count.fasta";
+$cmd = "/usr/bin/jellyfish-linux dump ${input_fq}.jf > ${input_fq}.jf.count.fasta";
 system( $cmd );
+
 
 open my $FQCOUNTFA, '<', "${input_fq}.jf.count.fasta" or die "Cannot open ${input_fq}.jf.count.fasta\n";
 open my $TSV, '<', "$input_tsv" or die "Cannot open $input_tsv\n";
@@ -31,26 +32,28 @@ while ( my $line = <$FQCOUNTFA> ){									# get kmers and count from jellyfish 
 	if ( $line =~ /^>/ ){
 		my $kmer = <$FQCOUNTFA>;
 		$line    =~ s/^>//;
+		chomp $line; chomp $kmer;
 		$fq_kmer_hash{$kmer} = $line;
 	}
 }
 
 my $header = <$TSV>;											# get header with annotations from TSV, scalable for additional attributes
-my @header_arr = split ("\t", $header);
+my @header_arr = split (/\,/, $header);
 
 print $OUT "kmer in fastq, count in fastq";
-for my $val (2..$#header_arr){
-	print $OUT ",$val";
+for my $val (2 .. (scalar @header_arr -1) ){
+	print $OUT ",$header_arr[$val]";
 }
-print $OUT "\n";
 
 while ( my $line = <$TSV> ){									# parse SWIGG CSV data lines
-	my @tsv_data_arr = split (/,/, $line);
+	my @tsv_data_arr = split (/\,/, $line);
 
 	if ( exists $fq_kmer_hash{$tsv_data_arr[0]} ){				# printing kmer in fastq, count in fastq, sample, genbank_accession, taxonomy_id
-		print $OUT "$tsv_data_arr[0],$fq_kmer_hash{$tsv_data_arr[0]},$tsv_data_arr[2],$tsv_data_arr[3],$tsv_data_arr[4],$tsv_data_arr[5]\n";
+		print $OUT "$tsv_data_arr[0],$fq_kmer_hash{$tsv_data_arr[0]},$tsv_data_arr[2],$tsv_data_arr[3],$tsv_data_arr[4],$tsv_data_arr[5]";
 	}
 	elsif ( exists $fq_kmer_hash{$tsv_data_arr[1]} ){
-		print $OUT "$tsv_data_arr[0],$fq_kmer_hash{$tsv_data_arr[0]},$tsv_data_arr[2],$tsv_data_arr[3],$tsv_data_arr[4],$tsv_data_arr[5]\n";
+		print $OUT "$tsv_data_arr[0],$fq_kmer_hash{$tsv_data_arr[1]},$tsv_data_arr[2],$tsv_data_arr[3],$tsv_data_arr[4],$tsv_data_arr[5]";
 	}
 }
+
+close ($OUT);
