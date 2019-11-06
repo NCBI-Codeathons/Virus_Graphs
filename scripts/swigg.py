@@ -52,6 +52,8 @@ args = parser.parse_args()
 ########################################################
 
 ## seqq = fasta file name
+## name = name of FASTA file
+## ID = str(list(SeqIO.parse(seqq, "fasta"))[0].id
 ## sequence = str(list(SeqIO.parse(seqq, "fasta"))[0].seq
 
 seq_list = []
@@ -61,9 +63,6 @@ for seqq in args.fasta:
 seq_df = pd.DataFrame(seq_list).head()
 seq_df.columns=['ID', 'Sequence', 'Attribute']
 
-## name = name of FASTA file
-## ID = str(list(SeqIO.parse(seqq, "fasta"))[0].id
-## sequence = str(list(SeqIO.parse(seqq, "fasta"))[0].seq
 
 # Length of k-mers to search for
 k_length = int(args.kmer_length)
