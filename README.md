@@ -19,7 +19,7 @@ n = 170 references
 
 n = 39 without non-recombinants
 
-<img src="/data/HIV_full_Refs_k23_1_Color_Annotated.pdf"
+<img src="/data/HIV_full_Refs_k23_1_Color_Annotated.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
