@@ -49,12 +49,16 @@ SRA, searchterms: "HIV-1 and RNAseq and virus"
 
 Bioproject: PRJNA320293
 
+<img src="igv_snapshot_HXB2-mapping_reads_from_SRR3472915_v2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 Unpublished HXB2 ONT dataset.
 
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-     
+         
 Day 3:
 
 # Datasets #
