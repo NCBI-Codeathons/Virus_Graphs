@@ -41,19 +41,33 @@ Day 3:
 
 # Datasets #
 
-## Genome assemblies ##
+## HIV-1 Genome assemblies ##
 
 HIV-1 datasets (as mutli-sequence alignments (MSA)/with gaps, and as multi-FASTA/gappless) from Los Alamos National Laboratory's [HIV Sequence Database](https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html) on November 5th-6th,2019. Files set to include HXB2 K03455 as reference.
 
 All complete genomes (n=10568).
 
+**Tissue type**
+
 CD4+ T cell (n=) vs PBMC (n=1555).
+
+**Tropism**
 
 Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51).
 
+**Patient Information**
+
+Acute infection (n=525)
+AIDS (n=6)
+Asymptomatic (n=33)
+(n=)
+(n=)
+(n=)
+(n=)
+(n=)
+
+
 ## Sequencing data ##
-
-
 
 <img src="igv_snapshot_HXB2-mapping_reads_from_SRR3472915_v2.png"
      alt="Markdown Monster icon"
@@ -66,16 +80,6 @@ Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51).
      style="float: left; margin-right: 10px;" />
 **Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary with reads. Viewed in IGV. (Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller.)
 
-# Patient Information #
-
-Acute infection (n=525)
-AIDS (n=6)
-Asymptomatic (n=33)
-(n=)
-(n=)
-(n=)
-(n=)
-(n=)
 
 ### Discussions today, 4th November 2019
 
