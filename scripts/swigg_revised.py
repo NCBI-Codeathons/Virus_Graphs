@@ -179,19 +179,14 @@ edges_to_csv['distance'] = edges_df_group['distance'].apply(np.mean).values
 ## Add the Attribute for each k-mer
 
 ## Should convert kmers_df to a dictionary, with key and value lists
-
+## each key has a list of attributes
 kmer_dictionary = kmers_df[['kmer', 'attribute']].groupby('kmer')['attribute'].apply(list).to_dict()
 
 for kname in kmer_dictionary.keys():
-    print("WHAT IS kname")
-    print(kname)
-    print("*************HERE IS THE LIST***********")
-    print(list(kmer_dictionary[kname]) )
     if not edges_to_csv.loc[edges_to_csv.kmer_1 == kname].empty:
-        edges_to_csv.loc[edges_to_csv.kmer_1 == kname, "kmer1_attribute"] = [list(kmer_dictionary[kname])]
+        edges_to_csv.loc[edges_to_csv.kmer_1 == kname, "kmer1_attribute"] = pd.Series(kmer_dictionary[kname])
     if not edges_to_csv.loc[edges_to_csv.kmer_2 == kname].empty:     
-        edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = [list(kmer_dictionary[kname])]  
-
+        edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = pd.Series(kmer_dictionary[kname])
 
 edges_to_csv.to_csv(args.out+'.tsv', sep="\t", header=None, index_label=None)
 
