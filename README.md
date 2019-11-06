@@ -39,9 +39,9 @@ HIV-1
          
 Day 3:
 
-# Datasets #
+## Datasets ##
 
-## HIV-1 Genome assemblies ##
+### HIV-1 Genome assemblies ###
 
 HIV-1 datasets (as mutli-sequence alignments (MSA)/with gaps, and as multi-FASTA/gappless) from Los Alamos National Laboratory's [HIV Sequence Database](https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html) on November 5th-6th, 2019. Files set to include HXB2 K03455 as reference.
 
@@ -67,7 +67,7 @@ Asymptomatic (n=33)
 (n=)
 
 
-## Sequencing data ##
+### HIV-1 Sequencing data ###
 
 <img src="igv_snapshot_HXB2-mapping_reads_from_SRR3472915_v2.png"
      alt="Markdown Monster icon"
