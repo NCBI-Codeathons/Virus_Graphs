@@ -1,13 +1,7 @@
 # Virus_Graphs
-<<<<<<< HEAD
-Making Representative Genome Graphs from Eukaryotic Viruses and Phages
-<<<<<<< HEAD
- foo bar foo bar- hari
-=======
 
-Nature Methods cover article: 
->>>>>>> 3d391b26d70dd66e3a35041ccfb356897e37d6d8
-=======
+Making Representative Genome Graphs from Eukaryotic Viruses and Phages
+
 
 <img src="Screen Shot 2019-11-04 at 5.56.51 PM.png"
      alt="Markdown Monster icon"
@@ -57,7 +51,7 @@ Bioproject: PRJNA320293
 
 Unpublished HXB2 ONT dataset.
 
-<img src="igv_snapshot HXB2 4000 read subset.png"
+<img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
      
@@ -95,4 +89,3 @@ Too busy..
 
 
 
->>>>>>> 0675d6cc98cfb498149d6f123f960fb98acce2c1
