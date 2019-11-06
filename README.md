@@ -77,5 +77,7 @@ Too busy..
 
 ### Discussions today, 5th November 2019
 
+### Discussions today, 6th November 2019
+
 
 
