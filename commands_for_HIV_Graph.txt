@@ -1,0 +1,68 @@
+mkdir HIV_Graph
+mkdir HIV_Graph/intermediate_files
+
+
+# Map your input contigs with minimap2:
+minimap2 -t 4 -a -x asm20 ../Virus_Sequences/Reference_Seq.fasta  ../Virus_Sequences/All-Contigs.fasta | /usr/local/bin/samtools view -Sb - > HIV_Graph/_allContigs_unsorted.bam
+
+# You could also use bwa:
+# bwa mem -t 4 ../Virus_Sequences/Reference_Seq.fasta  ../Virus_Sequences/All-Contigs.fasta | /usr/local/bin/samtools view -Sb - > HIV_Graph/_allContigs_unsorted.bam
+
+# Check that the following command returns 0 - otherwise remove entries of unmapped entries from BAM:
+/usr/local/bin/samtools view -c -f 0x4 HIV_Graph/_allContigs_unsorted.bam
+
+# Check that all input data look OK:
+perl scripts/checkBAM_SVs_and_INDELs.pl --BAM HIV_Graph/_allContigs_unsorted.bam --referenceFasta ../Virus_Sequences/Reference_Seq.fasta --readsFasta ../Virus_Sequences/All-Contigs.fasta --sam2alignment_executable src/sam2alignment --samtools_path /usr/local/bin/samtools
+
+# Convert BAM into a simple text format readable by the next step:
+perl scripts/BAM2ALIGNMENT.pl --BAM  HIV_Graph/_allContigs_unsorted.bam --referenceFasta ../Virus_Sequences/Reference_Seq.fasta --readsFasta ../Virus_Sequences/All-Contigs.fasta --outputFile  HIV_Graph/intermediate_files/_AlignmentInput.txt --sam2alignment_executable src/sam2alignment --samtools_path /usr/local/bin/samtools
+
+# Find globally best alignment for each input contig:
+perl scripts/FIND_GLOBAL_ALIGNMENTS.pl --alignmentsFile  HIV_Graph/intermediate_files/_AlignmentInput.txt.sortedWithHeader  --referenceFasta ../Virus_Sequences/Reference_Seq.fasta --outputFile  HIV_Graph/_forMAFFT.sam --outputTruncatedReads  HIV_Graph/_truncatedReads --outputReadLengths  HIV_Graph/intermediate_files/_postGlobalAlignment_readLengths --samtools_path /usr/local/bin/samtools
+
+# Prepare the multiple sequence alignment step:
+perl scripts/BAM2MAFFT.pl --SAM  HIV_Graph/_forMAFFT.sam --referenceFasta ../Virus_Sequences/Reference_Seq.fasta --readsFasta ../Virus_Sequences/All-Contigs.fasta --outputDirectory  HIV_Graph/intermediate_files/_forMAFFT --inputTruncatedReads  HIV_Graph/_truncatedReads  --processNonChrReferenceContigs 1 --sam2alignment_executable src/sam2alignment --samtools_path /usr/local/bin/samtools
+
+# Kick off multiple sequence alignment generation. This commands assumes that you are using an SGE cluster environment.
+# If you have no cluster available, you can specify --qsub 0 to directly execute all required MSA commands, but be prepared for this to take a rather long time.
+# If you are using PBSPro instead of SGE, you can add the following arguments (modified for your local environment):
+#        --PBSPro 1 --PBSPro_select 'select=1:ncpus=16:mem=48GB' --PBSPro_A IMMGEN --preExec 'module load Perl; module load SamTools; module load Mafft/7.407' --chunkSize 500
+# If you are using the open source scheduler TORQUE, you can add the following arguments (modified for your local environment):
+#        --torque 1 --torque_select 'select=1:ncpus=16:mem=48GB' --torque_A IMMGEN --preExec 'module load Perl; module load SamTools; module load Mafft/7.407' --chunkSize 500
+# The --chunkSize parameter determines how many alignment jobs are assigned to each submitted job on your cluster, i.e. as you increase --chunkSize, the total number
+# of submitted jobs is reduced.
+perl scripts/CALLMAFFT.pl --action kickOff --mafftDirectory  HIV_Graph/intermediate_files/_forMAFFT --mafft_executable ../mafft-linux64/ --fas2bam_path scripts/fas2bam.pl --samtools_path /usr/local/bin/samtools --bamheader windowbam.header.txt --qsub 1  
+ 
+# It often happens that individual alignment jobs fail for idiosyncratic reasons. Therefore, when all jobs have finished, try the following command - if all cluster jobs were
+# executed successfully, the command will tell you; otherwise, it will try to create the missing alignments. Also supports --qsub 1 and PBSPro parameters like the preceding command.
+perl scripts/CALLMAFFT.pl --action reprocess --mafftDirectory  HIV_Graph/intermediate_files/_forMAFFT --mafft_executable ../mafft-linux64/ --fas2bam_path scripts/fas2bam.pl --samtools_path /usr/local/bin/samtools --bamheader windowbam.header.txt --qsub 0
+
+# Now check that all alignments were computed successfully:
+perl scripts/CALLMAFFT.pl --action check --mafftDirectory  HIV_Graph/intermediate_files/_forMAFFT --mafft_executable ../mafft-linux64/ --fas2bam_path scripts/fas2bam.pl --samtools_path /usr/local/bin/samtools --bamheader windowbam.header.txt
+
+# If there are still chunks without valid valignments, try adding --usePreClustering 1.
+# ... when --usePreClustering 1 is active, the algorithm will try increasigly aggressive multiple sequence alignment strategies.
+perl scripts/CALLMAFFT.pl --action reprocess --usePreClustering 1 --mafftDirectory  HIV_Graph/intermediate_files/_forMAFFT --mafft_executable ../mafft-linux64/ --fas2bam_path scripts/fas2bam.pl --samtools_path /usr/local/bin/samtools --bamheader windowbam.header.txt --qsub 0
+
+# Combine the multiple sequence alignments (MSAs) created during the previous step:
+perl scripts/globalize_windowbams.pl --fastadir  HIV_Graph/intermediate_files/_forMAFFT/  --msadir  HIV_Graph/intermediate_files/_forMAFFT/ --contigs  HIV_Graph/intermediate_files/_postGlobalAlignment_readLengths --output  HIV_Graph/_combined.sam --samtools_path /usr/local/bin/samtools
+
+# Convert the combined genome-wide MSAs into CRAM format:
+/usr/local/bin/samtools view -h -t GRCh38.headerfile.txt  HIV_Graph/_combined.sam >  HIV_Graph/_combined.sam_with_header.sam;
+/usr/local/bin/samtools sort  HIV_Graph/_combined.sam_with_header.sam -o  HIV_Graph/_combined.sam_with_header_sorted.sam;
+cat  HIV_Graph/_combined.sam_with_header_sorted.sam | /usr/local/bin/samtools view -C -T ../Virus_Sequences/Reference_Seq.fasta - >  HIV_Graph/_combined.cram;
+/usr/local/bin/samtools index  HIV_Graph/_combined.cram
+
+# Check that the data still look OK:
+perl scripts/checkMAFFT_input_and_output.pl --MAFFTdir  HIV_Graph/intermediate_files/_forMAFFT/  --contigLengths  HIV_Graph/intermediate_files/_postGlobalAlignment_readLengths --preMAFFTBAM  HIV_Graph/_forMAFFT.sam  --finalOutputCRAM  HIV_Graph/_combined.cram --fas2bam_path scripts/fas2bam.pl --samtools_path /usr/local/bin/samtools --bamheader windowbam.header.txt
+
+# Prepare graph/VCF creation:
+perl scripts/CRAM2VCF.pl --CRAM  HIV_Graph/_combined.cram  --referenceFasta ../Virus_Sequences/Reference_Seq.fasta --prefix HIV_Graph/_finalVCF  --contigLengths  HIV_Graph/intermediate_files/_postGlobalAlignment_readLengths --CRAM2VCF_executable src/CRAM2VCF --sam2alignment_executable src/sam2alignment --samtools_path /usr/local/bin/samtools 
+
+
+
+# Launch graph/VCF generation process: (10 threads by default, executed in parallel on your local machine)
+perl scripts/launch_CRAM2VCF_C++.pl --prefix HIV_Graph/_finalVCF
+
+# Create one combined graph/VCF:
+perl scripts/CRAM2VCF_createFinalVCF.pl --CRAM HIV_Graph/_combined.cram --referenceFasta ../Virus_Sequences/Reference_Seq.fasta --prefix HIV_Graph/_finalVCF
