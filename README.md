@@ -32,15 +32,17 @@ Tools considered: [VG](https://github.com/vgteam/vg), [NovoGraph](https://github
 
 The color(a compact representation of the number of sub-lineages a particular K-mer appears in) information can be computed by running the Annotate_Colors.ipynb note book. The inputs are the sketch graph of the viral genomes as obtained from SWIGG and the meta data obtained from the reference genomes. 
 
-## Outline, plan of action (Replace with workflow?)
+## Outline, plan of action
 
-hey
+Day 1:
+
+Dataset options: T-virus, HIV-1
+Method options: SWIGG, VG
+Visualization: 
 
 Day 2: 
 
-Genome graphs with:
-T-virus
-HIV-1
+Datasets: T-virus, HIV-1
          
 Day 3:
 
@@ -97,11 +99,14 @@ Chronic (n= 174)
 
 ### Discussions today, 4th November 2019
 
-Too busy..
+Explore datasets and method options.
 
 ### Discussions today, 5th November 2019
 
+Decide final dataset and methods.
+
 ### Discussions today, 6th November 2019
 
+Developing and documenting.
 
 
