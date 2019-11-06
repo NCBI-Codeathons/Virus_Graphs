@@ -22,8 +22,11 @@ HIV inference based on NGS data.
 HIV inference
 
 n = 170 references
+
 n = 39 without non-recombinants
+
 env, V1-V5
+
 pol
 
 How much variation can we have in a reference graph genome?
@@ -60,14 +63,21 @@ Unpublished HXB2 ONT dataset.
      
 Day 3:
 
-HIV-1 datasets (as mutli-sequence alignments (MSA)/with gaps, and as multi-FASTA/gappless) from Los Alamos National Laboratory's [HIV Sequence Database](https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html) November 5th-6th,2019. Files include HXB2 K03455 as reference.
+# Datasets #
 
-All complete genomes (n=10568)
-CD4+ T cell (n=) vs PBMC (n=1555)
-Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51)
-Acute infection (n=)
-(n=)
-(n=)
+HIV-1 datasets (as mutli-sequence alignments (MSA)/with gaps, and as multi-FASTA/gappless) from Los Alamos National Laboratory's [HIV Sequence Database](https://www.hiv.lanl.gov/content/sequence/HIV/mainpage.html) on November 5th-6th,2019. Files include HXB2 K03455 as reference.
+
+All complete genomes (n=10568).
+
+CD4+ T cell (n=) vs PBMC (n=1555).
+
+Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51).
+
+# Patient Information #
+
+Acute infection (n=525)
+AIDS (n=6)
+Asymptomatic (n=33)
 (n=)
 (n=)
 (n=)
@@ -80,6 +90,8 @@ Acute infection (n=)
 Too busy..
 
 ### Discussions today, 5th November 2019
+
+### Discussions today, 6th November 2019
 
 
 
