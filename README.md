@@ -3,7 +3,7 @@
 Making Representative Genome Graphs from Eukaryotic Viruses and Phages
 
 
-<img src="Screen Shot 2019-11-04 at 5.56.51 PM.png"
+<img src="Virus_Graph_Logo.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
