@@ -9,11 +9,11 @@ Making Representative Genome Graphs from Eukaryotic Viruses and Phages
 
 HIV inference based on NGS data. 
 
-## Ideas
+## Ideas ##
 
 * k-mer idea
 
-HIV inference
+HIV inference with reference genome assemblies
 
 <img src="/data/HIV_full_Refs_k23_1_Color_Annotated.png"
      alt="Markdown Monster icon"
@@ -30,19 +30,15 @@ How much variation can we have in a reference graph genome?
 
 Tools considered: [VG](https://github.com/vgteam/vg), [NovoGraph](https://github.com/NCBI-Hackathons/NovoGraph), [SWIGG](https://github.com/NCBI-Codeathons/SWIGG).
 
-The color(a compact representation of the number of sub-lineages a particular K-mer appears in) information can be computed by running the Annotate_Colors.ipynb note book. The inputs are the sketch graph of the viral genomes as obtained from SWIGG and the meta data obtained from the reference genomes. 
+The color (a compact representation of the number of sub-lineages a particular K-mer appears in) information can be computed by running the Annotate_Colors.ipynb note book. The inputs are the sketch graph of the viral genomes as obtained from SWIGG and the meta data obtained from the reference genomes. 
 
-## Outline, plan of action
+## Implementation
 
-hey
+**INSERT WORKFLOW WHEN READY FROM PAPER (Alexis)**
 
-Day 2: 
-
-Genome graphs with:
-T-virus
-HIV-1
-         
-Day 3:
+Method options: SWIGG, VG
+Dataset options: T-virus, HIV-1
+Visualization: 
 
 ## Datasets ##
 
@@ -93,15 +89,6 @@ Chronic (n= 174)
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 **Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. [Tg26 is an HIV-1 transgenic mouse with a deletion in gagpol](https://www.jax.org/strain/022354). PCR-free PE 150. Viewed in IGV.
-
-
-### Discussions today, 4th November 2019
-
-Too busy..
-
-### Discussions today, 5th November 2019
-
-### Discussions today, 6th November 2019
 
 
 
