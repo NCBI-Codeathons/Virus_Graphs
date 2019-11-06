@@ -15,13 +15,14 @@ HIV inference based on NGS data.
 
 HIV inference
 
-n = 170 references
-
-n = 39 without non-recombinants
-
 <img src="/data/HIV_full_Refs_k23_1_Color_Annotated.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+**Figure:** n = 170 references.
+
+SWIGG, visualized in Gephi.
+
+n = 39 without non-recombinants. 
 
 env, V1-V5
 
