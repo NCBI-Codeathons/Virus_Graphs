@@ -77,19 +77,19 @@ Chronic (n= 174)
 <img src="igv_snapshot_HXB2-mapping_reads_from_SRR3472915_v2.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: cDNA+PCR DNAseq ("classic RNAseq").** A. Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. B. RmDup-processed reads, controling for PCR duplicates after initial alignment. Search strategy = SRA. Searchterms: "HIV-1 and RNAseq and virus". Bioproject: PRJNA320293, specifically SRR3472915. Viewed in IGV.
+**Figure: cDNA+PCR DNAseq ("classic RNAseq").** A. Coverage summary of reads mapped to HXB2 K03455 with HISAT2 with usegalaxy.eu. B. RmDup-processed reads, controling for PCR duplicates after initial alignment. Search strategy = SRA. Searchterms: "HIV-1 and RNAseq and virus". Bioproject: PRJNA320293, specifically SRR3472915. Viewed in IGV.
 
 
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary with reads. Viewed in IGV. (Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller.)
+**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. Viewed in IGV. (Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller.)
 
 
 <img src="igv_snapshot_HXB2-mapping_reads_from_Tg26_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary with reads. [Tg26 is an HIV-1 transgenic mouse with a deletion in gagpol](https://www.jax.org/strain/022354). Viewed in IGV.
+**Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. [Tg26 is an HIV-1 transgenic mouse with a deletion in gagpol](https://www.jax.org/strain/022354). PCR-free PE 150. Viewed in IGV.
 
 
 ### Discussions today, 4th November 2019
