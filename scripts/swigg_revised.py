@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 ## revised for Virus_Graph use; to be a future PR to SWIGG...possibly
 
 import argparse
@@ -60,7 +61,7 @@ args = parser.parse_args()
 seq_list = []
 for seqq in args.fasta:
     attribute_name = str(list(SeqIO.parse(seqq, "fasta"))[0].description)
-    attribute_name = attribute_name[attribute_name.find("[")+1:attribute_name.rfind("]")].split('=')[0]  ## the first item in [name=value]  ## ONLY ONE CURRENTLY ACCEPTED!!!
+    attribute_name = attribute_name[attribute_name.find("[")+1:attribute_name.rfind("]")].split('=')[1]  ## the second item in [name=value]  
     seq_list = seq_list + [(str(list(SeqIO.parse(seqq, "fasta"))[0].id), str(list(SeqIO.parse(seqq, "fasta"))[0].seq), str(attribute_name) )]
     
 seq_df = pd.DataFrame(seq_list).head()
@@ -101,11 +102,17 @@ for name in seq_df.ID.unique():
 ## concatenate the list of pandas dataframes
 kmers_df = pd.concat(list_of_dfs)
 
+print("SHAPE HERE")
+
+print(kmers_df.shape)
 
 ## Note: It's very important for the downstream steps that kmers_df is ordered by (alt_seq, pos_start). 
 ## If it is not read in in such a way (ie we end up parallelizing this running on GPUs or something, we will need to do:
 
 # kmers_df = kmers_df.sort_values(['alt_seq', 'pos_start'])
+
+kmers_df = kmers_df.sort_values(['alt_seq', 'pos_start'])
+
 print("Finding conserved & nonrepeating kmers...")
 kmers_x_in_sequence_y = zip(kmers_df.kmer, kmers_df.alt_seq)
 # Counts of (alt_seq, kmer) combos -- how many times kmer appears in alt_seq).
@@ -121,15 +128,17 @@ kmers_unique_in_one_sequence = set([el[0] for el in kmers_x_in_sequence_y_counts
 kmers_repeat_too_many_times = set([el[0] for el in kmers_unique_in_one_sequence if
                     (kmers_x_in_sequence_y_counts[el] > repeat_threshold_across)])
 
+
 # Keep kmers that are conserved in >=min_alt_seqs sequences.
 kmers_approx_nonrepeat = kmers_unique_in_one_sequence.difference(kmers_repeat_too_many_times)
 conserved_seqs = set([el for el in kmers_approx_nonrepeat if kmers_x_count[el] >= min_alt_seqs])
 kmers_df_filt = kmers_df[[k in conserved_seqs for k in kmers_df.kmer]]
 print(str(len(kmers_df_filt)) + " conserved/nonrepeating kmers.", flush=True)
 
+
 # Get rid of kmers that are just right next to each other.
 print("Getting rid of direct neighbor kmers...")
-kmers_df_filt['order'] = range(len(kmers_df_filt))
+## kmers_df_filt['order'] = range(len(kmers_df_filt))  --- a bug? 
 kmer_grouped_df_expanded = kmers_df_filt[:-1][(kmers_df_filt.pos_start.values[1:]-kmers_df_filt.pos_start.values[:-1]>k_length) &
                                        (kmers_df_filt.alt_seq.values[1:]==kmers_df_filt.alt_seq[:-1])]
 
@@ -174,10 +183,12 @@ edges_to_csv['distance'] = edges_df_group['distance'].apply(np.mean).values
 kmer_dictionary = kmers_df[['kmer', 'attribute']].groupby('kmer')['attribute'].apply(list).to_dict()
 
 for kname in kmer_dictionary.keys():
-    if not edges_to_csv.loc[edges_to_csv.kmer_1 == kname].empty:
-        edges_to_csv.loc[edges_to_csv.kmer_1 == kname, "kmer1_attribute"] = list(kmer_dictionary[kname]) 
-    if not edges_to_csv.loc[edges_to_csv.kmer_2 == kname].empty:       
-        edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = list(kmer_dictionary[kname])     
+    print("*************HERE IS THE LIST***********")
+    print(list(kmer_dictionary[kname]) )
+    ##if not edges_to_csv.loc[edges_to_csv.kmer_1 == kname].empty:
+    edges_to_csv.loc[edges_to_csv.kmer_1 == kname, "kmer1_attribute"] = [list(kmer_dictionary[kname])]
+    ## if not edges_to_csv.loc[edges_to_csv.kmer_2 == kname].empty:       
+    edges_to_csv.loc[edges_to_csv.kmer_2 == kname, "kmer2_attribute"] = [list(kmer_dictionary[kname])]  
 
 
 edges_to_csv.to_csv(args.out+'.tsv', sep="\t", header=None, index_label=None)
