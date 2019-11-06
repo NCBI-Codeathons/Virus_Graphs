@@ -64,12 +64,13 @@ Search strategy = SRA; searchterms: "HIV-1 and RNAseq and virus". Bioproject: PR
 <img src="igv_snapshot_HXB2-mapping_reads_from_SRR3472915_v2.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-Figure: cDNA+PCR DNAseq ("classic RNAseq" ONT dataset.
+**Figure: cDNA+PCR DNAseq ("classic RNAseq").** A. Reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. B. RmDup-processed reads, controling for PCR duplicates after initial alignment.
+
 
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-Figure: Unpublished HXB2 ONT dataset.
+**Figure: Unpublished HXB2 ONT dataset.**
 
 # Patient Information #
 
