@@ -43,10 +43,6 @@ required.add_argument("-o", "--out",
                     help='required, path to prefix of output file name. Two files will be created - 1. Edge file ".tsv" and 2. Graph file ".gexf" ',
                     required=True)
 
-required.add_argument("-a", "--attribute",
-                    help='required, attribute name in FASTAs, string; assuming same attribute in all FASTAs',
-                    required=True)
-
 args = parser.parse_args()
 
 ########################################################
@@ -56,9 +52,16 @@ args = parser.parse_args()
 ## ID = str(list(SeqIO.parse(seqq, "fasta"))[0].id
 ## sequence = str(list(SeqIO.parse(seqq, "fasta"))[0].seq
 
+## Required for FASTA annotations:
+## 
+## seq1 [host=human] 
+## 
+
 seq_list = []
 for seqq in args.fasta:
-    seq_list = seq_list + [(str(list(SeqIO.parse(seqq, "fasta"))[0].id), str(list(SeqIO.parse(seqq, "fasta"))[0].seq), str(args.attribute) )]
+    attribute_name = str(list(SeqIO.parse(foo, "fasta"))[0].description)
+    attribute_name = attribute_name[attribute_name.find("[")+1:attribute_name.rfind("]")].split('=')[0]  ## the first item in [name=value]  ## ONLY ONE CURRENTLY ACCEPTED!!!
+    seq_list = seq_list + [(str(list(SeqIO.parse(seqq, "fasta"))[0].id), str(list(SeqIO.parse(seqq, "fasta"))[0].seq), str(attribute_name) )]
     
 seq_df = pd.DataFrame(seq_list).head()
 seq_df.columns=['ID', 'Sequence', 'Attribute']
