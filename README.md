@@ -97,16 +97,4 @@ Chronic (n= 174)
 **Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary of reads mapped to HXB2 K03455 with minimap2 with usegalaxy.eu. [Tg26 is an HIV-1 transgenic mouse with a deletion in gagpol](https://www.jax.org/strain/022354). PCR-free PE 150. Viewed in IGV.
 
 
-### Discussions today, 4th November 2019
-
-Explore datasets and method options.
-
-### Discussions today, 5th November 2019
-
-Decide final dataset and methods.
-
-### Discussions today, 6th November 2019
-
-Developing and documenting.
-
 
