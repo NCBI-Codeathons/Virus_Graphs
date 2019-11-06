@@ -64,7 +64,7 @@ Only CCR5 (n= 456) vs only CXCR4 (n= 43) vs R5X4 (n=51).
 <img src="igv_snapshot_HXB2_4000_read_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary with reads. Viewed in IGV.
+**Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary with reads. Viewed in IGV. (Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller.)
 
 # Patient Information #
 
