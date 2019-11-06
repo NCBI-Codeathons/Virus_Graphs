@@ -89,7 +89,7 @@ Chronic (n= 174)
 <img src="igv_snapshot_HXB2-mapping_reads_from_Tg26_subset.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
-**Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary with reads. Viewed in IGV.
+**Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary with reads. [Tg26 is an HIV-1 transgenic mouse with a deletion in gagpol](https://www.jax.org/strain/022354). Viewed in IGV.
 
 
 ### Discussions today, 4th November 2019
