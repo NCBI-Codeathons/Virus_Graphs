@@ -86,6 +86,12 @@ Chronic (n= 174)
 **Figure: Unpublished HXB2 ONT dataset.** [Gener, 2019](https://www.biorxiv.org/content/10.1101/611848v1). Coverage summary with reads. Viewed in IGV. (Note, "4000 reads" denotes the FASTQ subsetting from Guppy basecaller.)
 
 
+<img src="igv_snapshot_HXB2-mapping_reads_from_Tg26_subset.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+**Figure: Unpublished pNL4:3d1443 Tg26 subset.** Coverage summary with reads. Viewed in IGV.
+
+
 ### Discussions today, 4th November 2019
 
 Too busy..
