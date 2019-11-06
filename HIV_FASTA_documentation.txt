@@ -1,0 +1,72 @@
+
+
+Subtype reference 'alignments' for different HIV sequences
+
+https://www.hiv.lanl.gov/content/sequence/NEWALIGN/align.html
+
+--- HIV1_REF_2010_genome_DNA.fasta (whole genome)
+--- HIV1_REF_2010_env_DNA.fasta (just ENV region)
+--- HIV1_REF_2010_pol_DNA.fasta (just POL)
+
+For alignment type, select ‘Subtype Reference’
+Organism ‘HIV-1/SIVcpz’
+
+
+HIV-1 Gene Diagram
+
+env --- the gene from 6225 to 8795; the ENV gene which the proteins (GP120 and GP41) 
+pol --- the gene from 2Kb to 5Kb, 2085 to 5096;  POL has a bunch of different protein products which are made---protease and reverse transcriptase and there's an RNA
+
+########################
+
+HIV1_REF_2010_genome_DNA.fasta (whole genome) already in MSA format
+
+> Ref.B.FR.83
+
+> Ref.B.US.98
+
+
+java -jar dist/msa2vcf.jar -h
+Usage: msa2vcf [options] Files
+  Options:
+    -R, --REF
+      reference name used for the CHROM column. Optional
+      Default: chrUn
+    -a, --allsites
+      print all sites
+      Default: false
+    -c, --consensus
+      ruse this sequence as CONSENSUS
+    -f, --fasta
+      save computed fasta sequence in this file.
+    -m, --haploid
+      haploid output
+      Default: false
+    -h, --help
+      print help and exit
+    --helpFormat
+      What kind of help. One of [usage,markdown,xml].
+    -o, --output
+      Output file. Optional . Default: stdout
+    --version
+      print version and exit
+
+
+
+ java -jar dist/msa2vcf.jar /Users/evanbiederstedt/Virus_Graphs/data/Ref.B_FR.83_and_US.98.fasta -R Ref.B.FR.83.HXB2_LAI_IIIB_BRU.K03455 -o Ref.B_FR.83_and_US.98.vcf
+[INFO][MsaToVcf]Reading from /Users/evanbiederstedt/Virus_Graphs/data/Ref.B_FR.83_and_US.98.fasta
+[INFO][MsaToVcf]format : Fasta
+[INFO][MsaToVcf]Done
+
+
+
+
+### entire FASTA 
+cd /Users/evanbiederstedt/jvarkit
+
+java -jar dist/msa2vcf.jar /Users/evanbiederstedt/Virus_Graphs/data/HIV1_REF_2010_genome_DNA.fasta -R Ref.B.FR.83.HXB2_LAI_IIIB_BRU.K03455 -o HIV1_REF_2010_genome_DNA_total.vcf
+
+
+
+
+

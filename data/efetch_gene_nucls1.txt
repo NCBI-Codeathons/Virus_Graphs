@@ -1,0 +1,3 @@
+Command to retrieve nucleotide sequences of genes from HIV references
+
+$ grep ">" Ref*.fasta | awk -F. '{print $NF}' | while read LINE ; do /Users/tiszamj/edirect/efetch -db sequences -format fasta_cds_na -id $LINE > ${LINE}.gene_nucl.fasta ; sleep 2s ; done

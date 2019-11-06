@@ -1,0 +1,2610 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="Color_new" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>06/11/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="AAAAACAGGAAAATATGCCAGAA" label="AAAAACAGGAAAATATGCCAGAA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="AATTAACAGAAGTGGTGCAAAAA" label="AATTAACAGAAGTGGTGCAAAAA">
+        <attvalues>
+          <attvalue for="0" value="48" />
+        </attvalues>
+      </node>
+      <node id="AAAAAGGACAGCACCAAATGGAG" label="AAAAAGGACAGCACCAAATGGAG">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="AGAAATGGTTATCTATCAATACA" label="AGAAATGGTTATCTATCAATACA">
+        <attvalues>
+          <attvalue for="0" value="69" />
+        </attvalues>
+      </node>
+      <node id="AAAAATCTTAGAGCCCTTTAGAA" label="AAAAATCTTAGAGCCCTTTAGAA">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="GTAGGATCTGACTTAGAGATAGG" label="GTAGGATCTGACTTAGAGATAGG">
+        <attvalues>
+          <attvalue for="0" value="277" />
+        </attvalues>
+      </node>
+      <node id="AAAACTGGATGACAGAAACCTTG" label="AAAACTGGATGACAGAAACCTTG">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="CCAAAATGCGAATCCAGACTGTA" label="CCAAAATGCGAATCCAGACTGTA">
+        <attvalues>
+          <attvalue for="0" value="164" />
+        </attvalues>
+      </node>
+      <node id="AAAAGCAGGGTATGTCACTGACA" label="AAAAGCAGGGTATGTCACTGACA">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="AATCAAAAGACTGAGTTACATGC" label="AATCAAAAGACTGAGTTACATGC">
+        <attvalues>
+          <attvalue for="0" value="42" />
+        </attvalues>
+      </node>
+      <node id="AAAAGGGGGGACTGGATGGGCTA" label="AAAAGGGGGGACTGGATGGGCTA">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ATCCTTGACTTATGGGTCTATAA" label="ATCCTTGACTTATGGGTCTATAA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="AAAAGGTGGATAATCCTGGGATT" label="AAAAGGTGGATAATCCTGGGATT">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="GTTAGCATTTTGGACATAAGACA" label="GTTAGCATTTTGGACATAAGACA">
+        <attvalues>
+          <attvalue for="0" value="288" />
+        </attvalues>
+      </node>
+      <node id="AAAATAGCCACAGAAAGCATAGT" label="AAAATAGCCACAGAAAGCATAGT">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="TATTGGCAGGCTACCTGGATTCC" label="TATTGGCAGGCTACCTGGATTCC">
+        <attvalues>
+          <attvalue for="0" value="304" />
+        </attvalues>
+      </node>
+      <node id="AAAATTGGGCCTGAAAATCCATA" label="AAAATTGGGCCTGAAAATCCATA">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="GCTATAAAGAAAAAGGACAGCAC" label="GCTATAAAGAAAAAGGACAGCAC">
+        <attvalues>
+          <attvalue for="0" value="251" />
+        </attvalues>
+      </node>
+      <node id="AAACTCATCTGCACCACTAATGT" label="AAACTCATCTGCACCACTAATGT">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="CTAGTTGGAGTAATAAAACTTAT" label="CTAGTTGGAGTAATAAAACTTAT">
+        <attvalues>
+          <attvalue for="0" value="190" />
+        </attvalues>
+      </node>
+      <node id="AAAGACACAGCAGGCAGCAGCTG" label="AAAGACACAGCAGGCAGCAGCTG">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="TGCAAAATGCACAAGGACAAATG" label="TGCAAAATGCACAAGGACAAATG">
+        <attvalues>
+          <attvalue for="0" value="316" />
+        </attvalues>
+      </node>
+      <node id="AAAGACCCCATAGTAGGAGCAGA" label="AAAGACCCCATAGTAGGAGCAGA">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="GGGGCAGCTAGTAGGGAGACTAA" label="GGGGCAGCTAGTAGGGAGACTAA">
+        <attvalues>
+          <attvalue for="0" value="109" />
+        </attvalues>
+      </node>
+      <node id="AAAGAGCAGTTGGACTGGGAGCT" label="AAAGAGCAGTTGGACTGGGAGCT">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="GCGTCAATAACGCTGACGGTACA" label="GCGTCAATAACGCTGACGGTACA">
+        <attvalues>
+          <attvalue for="0" value="250" />
+        </attvalues>
+      </node>
+      <node id="TTGTCTGGTATAGTGCAACAGCA" label="TTGTCTGGTATAGTGCAACAGCA">
+        <attvalues>
+          <attvalue for="0" value="338" />
+        </attvalues>
+      </node>
+      <node id="AAAGGTAGTACCAAGAAGAAAAG" label="AAAGGTAGTACCAAGAAGAAAAG">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="GTTTAGTAAAACATCATATGTAT" label="GTTTAGTAAAACATCATATGTAT">
+        <attvalues>
+          <attvalue for="0" value="290" />
+        </attvalues>
+      </node>
+      <node id="AAAGTAATACACACAGACAACGG" label="AAAGTAATACACACAGACAACGG">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="GTAGTAGAATCTATGAATAAGGA" label="GTAGTAGAATCTATGAATAAGGA">
+        <attvalues>
+          <attvalue for="0" value="281" />
+        </attvalues>
+      </node>
+      <node id="AAAGTCATCCTGGTAGCAGTCCA" label="AAAGTCATCCTGGTAGCAGTCCA">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="GTTATCCCAGCAGAAACAGGACA" label="GTTATCCCAGCAGAAACAGGACA">
+        <attvalues>
+          <attvalue for="0" value="289" />
+        </attvalues>
+      </node>
+      <node id="AAATAAGAAAACAGAAGAAAATA" label="AAATAAGAAAACAGAAGAAAATA">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="AGTGGCAATGAGAGTGATGGGGA" label="AGTGGCAATGAGAGTGATGGGGA">
+        <attvalues>
+          <attvalue for="0" value="108" />
+        </attvalues>
+      </node>
+      <node id="AAATAGATCCTGACCTAGCAGAC" label="AAATAGATCCTGACCTAGCAGAC">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </node>
+      <node id="ATTAACAACACCAAAAAGGATAA" label="ATTAACAACACCAAAAAGGATAA">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="AAATCACTCTTTGGCAACGACCC" label="AAATCACTCTTTGGCAACGACCC">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="TGGAAACCAAAAATGATAGGGGG" label="TGGAAACCAAAAATGATAGGGGG">
+        <attvalues>
+          <attvalue for="0" value="320" />
+        </attvalues>
+      </node>
+      <node id="AAATTAGTAGATTTCAGAGAGCT" label="AAATTAGTAGATTTCAGAGAGCT">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="TTAGGAATACCGCATCCAGCAGG" label="TTAGGAATACCGCATCCAGCAGG">
+        <attvalues>
+          <attvalue for="0" value="335" />
+        </attvalues>
+      </node>
+      <node id="AAATTGTAATACCTCAGCCATTA" label="AAATTGTAATACCTCAGCCATTA">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="TGTTAAATGGCAGTCTAGCAGAA" label="TGTTAAATGGCAGTCTAGCAGAA">
+        <attvalues>
+          <attvalue for="0" value="330" />
+        </attvalues>
+      </node>
+      <node id="AACAAGTAGATAAATTAGTCAGT" label="AACAAGTAGATAAATTAGTCAGT">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="GGCATAGATAAAGCCCAAGAAGA" label="GGCATAGATAAAGCCCAAGAAGA">
+        <attvalues>
+          <attvalue for="0" value="265" />
+        </attvalues>
+      </node>
+      <node id="AACAATGAATGGACATTAGAACT" label="AACAATGAATGGACATTAGAACT">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="GAGCTTAAAAATGAAGCTGTTAG" label="GAGCTTAAAAATGAAGCTGTTAG">
+        <attvalues>
+          <attvalue for="0" value="222" />
+        </attvalues>
+      </node>
+      <node id="AACTAGAGATCCCTCAGACCACT" label="AACTAGAGATCCCTCAGACCACT">
+        <attvalues>
+          <attvalue for="0" value="23" />
+        </attvalues>
+      </node>
+      <node id="CGAAAGCGAAAGTTCCAGAGAAG" label="CGAAAGCGAAAGTTCCAGAGAAG">
+        <attvalues>
+          <attvalue for="0" value="182" />
+        </attvalues>
+      </node>
+      <node id="AACTCCTCAGGGGAGCTAAAGCA" label="AACTCCTCAGGGGAGCTAAAGCA">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="CAATGGACATATCAAATTTATCA" label="CAATGGACATATCAAATTTATCA">
+        <attvalues>
+          <attvalue for="0" value="146" />
+        </attvalues>
+      </node>
+      <node id="AACTGTGGCAAAGAAGGACACCT" label="AACTGTGGCAAAGAAGGACACCT">
+        <attvalues>
+          <attvalue for="0" value="25" />
+        </attvalues>
+      </node>
+      <node id="GAGCCAACAGCCCCACCAGCAGA" label="GAGCCAACAGCCCCACCAGCAGA">
+        <attvalues>
+          <attvalue for="0" value="220" />
+        </attvalues>
+      </node>
+      <node id="AACTTAAATCATTATTTAATACA" label="AACTTAAATCATTATTTAATACA">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+      <node id="GATAAAATAGAGGAAGTACAAAA" label="GATAAAATAGAGGAAGTACAAAA">
+        <attvalues>
+          <attvalue for="0" value="226" />
+        </attvalues>
+      </node>
+      <node id="AAGAACAAATAGGATGGATGACA" label="AAGAACAAATAGGATGGATGACA">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="AAGAACTTAAATCATTATTTAAT" label="AAGAACTTAAATCATTATTTAAT">
+        <attvalues>
+          <attvalue for="0" value="28" />
+        </attvalues>
+      </node>
+      <node id="AAGAAGCAGAAGGTCCATGCACT" label="AAGAAGCAGAAGGTCCATGCACT">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="TATAAGCTTGATATAGTACAAAT" label="TATAAGCTTGATATAGTACAAAT">
+        <attvalues>
+          <attvalue for="0" value="299" />
+        </attvalues>
+      </node>
+      <node id="AAGAGATAATAATCAGATCTGAA" label="AAGAGATAATAATCAGATCTGAA">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="AAGTATAACTATAGGACCAGGAC" label="AAGTATAACTATAGGACCAGGAC">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="ATCTGTAGAAATCAATTGTACCA" label="ATCTGTAGAAATCAATTGTACCA">
+        <attvalues>
+          <attvalue for="0" value="32" />
+        </attvalues>
+      </node>
+      <node id="AAGATCTAGATAAACATGGAGCA" label="AAGATCTAGATAAACATGGAGCA">
+        <attvalues>
+          <attvalue for="0" value="30" />
+        </attvalues>
+      </node>
+      <node id="GTCTGGCTGAGAGCACAAGAGGA" label="GTCTGGCTGAGAGCACAAGAGGA">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="AAGCAATGTATGCCCCTCCCATC" label="AAGCAATGTATGCCCCTCCCATC">
+        <attvalues>
+          <attvalue for="0" value="31" />
+        </attvalues>
+      </node>
+      <node id="AGACCTTCAGACCTGGAGGAGGA" label="AGACCTTCAGACCTGGAGGAGGA">
+        <attvalues>
+          <attvalue for="0" value="82" />
+        </attvalues>
+      </node>
+      <node id="GGAATACTATTGACAAGAGATGG" label="GGAATACTATTGACAAGAGATGG">
+        <attvalues>
+          <attvalue for="0" value="257" />
+        </attvalues>
+      </node>
+      <node id="AAGCAGGCTTGTCCAAAGATATC" label="AAGCAGGCTTGTCCAAAGATATC">
+        <attvalues>
+          <attvalue for="0" value="32" />
+        </attvalues>
+      </node>
+      <node id="ATTTTAAAGTGTAATGATAAGAA" label="ATTTTAAAGTGTAATGATAAGAA">
+        <attvalues>
+          <attvalue for="0" value="83" />
+        </attvalues>
+      </node>
+      <node id="AAGCCAGGAATGGATGGCCCAAA" label="AAGCCAGGAATGGATGGCCCAAA">
+        <attvalues>
+          <attvalue for="0" value="33" />
+        </attvalues>
+      </node>
+      <node id="GAAAAAATAAAAGCATTAACAGA" label="GAAAAAATAAAAGCATTAACAGA">
+        <attvalues>
+          <attvalue for="0" value="200" />
+        </attvalues>
+      </node>
+      <node id="AAGCTTTAGATAAAATAGAGGAA" label="AAGCTTTAGATAAAATAGAGGAA">
+        <attvalues>
+          <attvalue for="0" value="34" />
+        </attvalues>
+      </node>
+      <node id="AGCAGGCAGCAGCTGGCACAGGA" label="AGCAGGCAGCAGCTGGCACAGGA">
+        <attvalues>
+          <attvalue for="0" value="91" />
+        </attvalues>
+      </node>
+      <node id="AAGGAGGTGGCGAGCAAGGCAGA" label="AAGGAGGTGGCGAGCAAGGCAGA">
+        <attvalues>
+          <attvalue for="0" value="35" />
+        </attvalues>
+      </node>
+      <node id="GTGAGCGGATTCTTAGCACTTGC" label="GTGAGCGGATTCTTAGCACTTGC">
+        <attvalues>
+          <attvalue for="0" value="284" />
+        </attvalues>
+      </node>
+      <node id="AAGGATCACCGGCAATATTCCAG" label="AAGGATCACCGGCAATATTCCAG">
+        <attvalues>
+          <attvalue for="0" value="36" />
+        </attvalues>
+      </node>
+      <node id="AGCATGACAAAAATCTTAGAGCC" label="AGCATGACAAAAATCTTAGAGCC">
+        <attvalues>
+          <attvalue for="0" value="92" />
+        </attvalues>
+      </node>
+      <node id="AAGTAGCATAGTGGGATGGCCTC" label="AAGTAGCATAGTGGGATGGCCTC">
+        <attvalues>
+          <attvalue for="0" value="37" />
+        </attvalues>
+      </node>
+      <node id="AGCAGCAGAAGGAGTAGGAGCAG" label="AGCAGCAGAAGGAGTAGGAGCAG">
+        <attvalues>
+          <attvalue for="0" value="89" />
+        </attvalues>
+      </node>
+      <node id="AGATTAATGGAACAAAATGGAAT" label="AGATTAATGGAACAAAATGGAAT">
+        <attvalues>
+          <attvalue for="0" value="87" />
+        </attvalues>
+      </node>
+      <node id="AATAAAGCTTGCCTTGAGTGCTT" label="AATAAAGCTTGCCTTGAGTGCTT">
+        <attvalues>
+          <attvalue for="0" value="38" />
+        </attvalues>
+      </node>
+      <node id="ATCCCTCAGACCACTCTAGACTG" label="ATCCCTCAGACCACTCTAGACTG">
+        <attvalues>
+          <attvalue for="0" value="122" />
+        </attvalues>
+      </node>
+      <node id="AATACCCCTCCTCTAGTAAAATT" label="AATACCCCTCCTCTAGTAAAATT">
+        <attvalues>
+          <attvalue for="0" value="39" />
+        </attvalues>
+      </node>
+      <node id="TAGGAAAAGCAGGGTATGTCACT" label="TAGGAAAAGCAGGGTATGTCACT">
+        <attvalues>
+          <attvalue for="0" value="298" />
+        </attvalues>
+      </node>
+      <node id="AATACTATTGACAAGAGATGGTG" label="AATACTATTGACAAGAGATGGTG">
+        <attvalues>
+          <attvalue for="0" value="40" />
+        </attvalues>
+      </node>
+      <node id="ACCTTCAGACCTGGAGGAGGAAA" label="ACCTTCAGACCTGGAGGAGGAAA">
+        <attvalues>
+          <attvalue for="0" value="62" />
+        </attvalues>
+      </node>
+      <node id="AATCAAAAGACTGAATTACATGC" label="AATCAAAAGACTGAATTACATGC">
+        <attvalues>
+          <attvalue for="0" value="41" />
+        </attvalues>
+      </node>
+      <node id="ATAGAGGAGCTAATAAAAAAGGA" label="ATAGAGGAGCTAATAAAAAAGGA">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="CAATATGCATTAGGAATCATTCA" label="CAATATGCATTAGGAATCATTCA">
+        <attvalues>
+          <attvalue for="0" value="145" />
+        </attvalues>
+      </node>
+      <node id="CAGGATTCAGGATCAGAAGTAAA" label="CAGGATTCAGGATCAGAAGTAAA">
+        <attvalues>
+          <attvalue for="0" value="154" />
+        </attvalues>
+      </node>
+      <node id="GACTCACAGTATGCATTAGGAAT" label="GACTCACAGTATGCATTAGGAAT">
+        <attvalues>
+          <attvalue for="0" value="216" />
+        </attvalues>
+      </node>
+      <node id="AATCATTCAGGCACAACCAGACA" label="AATCATTCAGGCACAACCAGACA">
+        <attvalues>
+          <attvalue for="0" value="43" />
+        </attvalues>
+      </node>
+      <node id="GAGTGAATCAGAGTTAGTCAATC" label="GAGTGAATCAGAGTTAGTCAATC">
+        <attvalues>
+          <attvalue for="0" value="225" />
+        </attvalues>
+      </node>
+      <node id="AATCGAAGAAGGAGGTGGCGAGC" label="AATCGAAGAAGGAGGTGGCGAGC">
+        <attvalues>
+          <attvalue for="0" value="44" />
+        </attvalues>
+      </node>
+      <node id="CCTGTGCCTCTTCAGCTACCACC" label="CCTGTGCCTCTTCAGCTACCACC">
+        <attvalues>
+          <attvalue for="0" value="179" />
+        </attvalues>
+      </node>
+      <node id="AATCTAAAAACAGGAAAATATGC" label="AATCTAAAAACAGGAAAATATGC">
+        <attvalues>
+          <attvalue for="0" value="45" />
+        </attvalues>
+      </node>
+      <node id="ACAGAGGTAGTGCAAAAAGTGGC" label="ACAGAGGTAGTGCAAAAAGTGGC">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="AATGATGTAAAACAATTAACAGA" label="AATGATGTAAAACAATTAACAGA">
+        <attvalues>
+          <attvalue for="0" value="46" />
+        </attvalues>
+      </node>
+      <node id="AATGGCAGTCTAGCAGAAGAAGA" label="AATGGCAGTCTAGCAGAAGAAGA">
+        <attvalues>
+          <attvalue for="0" value="47" />
+        </attvalues>
+      </node>
+      <node id="CCTCCAACAATACAAGAACAAGT" label="CCTCCAACAATACAAGAACAAGT">
+        <attvalues>
+          <attvalue for="0" value="173" />
+        </attvalues>
+      </node>
+      <node id="AATTATATAAATATAAAGTAGTA" label="AATTATATAAATATAAAGTAGTA">
+        <attvalues>
+          <attvalue for="0" value="49" />
+        </attvalues>
+      </node>
+      <node id="AGAAGAGTGGTGGAGAGAGAAAA" label="AGAAGAGTGGTGGAGAGAGAAAA">
+        <attvalues>
+          <attvalue for="0" value="73" />
+        </attvalues>
+      </node>
+      <node id="AATTGGAGAAGTGAATTATATAA" label="AATTGGAGAAGTGAATTATATAA">
+        <attvalues>
+          <attvalue for="0" value="50" />
+        </attvalues>
+      </node>
+      <node id="AATTTATGCAGGGATTAAGGTAA" label="AATTTATGCAGGGATTAAGGTAA">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="TAACAGACATAGTACCACTGACT" label="TAACAGACATAGTACCACTGACT">
+        <attvalues>
+          <attvalue for="0" value="294" />
+        </attvalues>
+      </node>
+      <node id="AATTTCCCAATTAGTCCTATTGA" label="AATTTCCCAATTAGTCCTATTGA">
+        <attvalues>
+          <attvalue for="0" value="51" />
+        </attvalues>
+      </node>
+      <node id="CCATTGACAGAAGAAAAAATAAA" label="CCATTGACAGAAGAAAAAATAAA">
+        <attvalues>
+          <attvalue for="0" value="170" />
+        </attvalues>
+      </node>
+      <node id="AATTTTTCTATTGCAATACAACA" label="AATTTTTCTATTGCAATACAACA">
+        <attvalues>
+          <attvalue for="0" value="52" />
+        </attvalues>
+      </node>
+      <node id="GCAAATTATAAACATGTGGCAGG" label="GCAAATTATAAACATGTGGCAGG">
+        <attvalues>
+          <attvalue for="0" value="233" />
+        </attvalues>
+      </node>
+      <node id="ACAAATAGGATGGATGACAAACA" label="ACAAATAGGATGGATGACAAACA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="ACAGAAACCTTGCTAGTCCAAAA" label="ACAGAAACCTTGCTAGTCCAAAA">
+        <attvalues>
+          <attvalue for="0" value="55" />
+        </attvalues>
+      </node>
+      <node id="ACACATGGAATTAAGCCAGTGGT" label="ACACATGGAATTAAGCCAGTGGT">
+        <attvalues>
+          <attvalue for="0" value="53" />
+        </attvalues>
+      </node>
+      <node id="ACACCAGACAAAAAACATCAGAA" label="ACACCAGACAAAAAACATCAGAA">
+        <attvalues>
+          <attvalue for="0" value="54" />
+        </attvalues>
+      </node>
+      <node id="CCTGACAAATGGACAGTCCAGCC" label="CCTGACAAATGGACAGTCCAGCC">
+        <attvalues>
+          <attvalue for="0" value="175" />
+        </attvalues>
+      </node>
+      <node id="CATAAAGCAAGGGTTTTGGCTGA" label="CATAAAGCAAGGGTTTTGGCTGA">
+        <attvalues>
+          <attvalue for="0" value="156" />
+        </attvalues>
+      </node>
+      <node id="CCCATACAAAGAGAAACATGGGA" label="CCCATACAAAGAGAAACATGGGA">
+        <attvalues>
+          <attvalue for="0" value="171" />
+        </attvalues>
+      </node>
+      <node id="TGGTGGATGGAGTATTGGCAGGC" label="TGGTGGATGGAGTATTGGCAGGC">
+        <attvalues>
+          <attvalue for="0" value="326" />
+        </attvalues>
+      </node>
+      <node id="ACAGATAGAGTTATAGAAATAGG" label="ACAGATAGAGTTATAGAAATAGG">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="ATGGGTGGCAAGTGGTCAAAAAG" label="ATGGGTGGCAAGTGGTCAAAAAG">
+        <attvalues>
+          <attvalue for="0" value="131" />
+        </attvalues>
+      </node>
+      <node id="ACAGGAAAATATGCCAGAAAAAG" label="ACAGGAAAATATGCCAGAAAAAG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="ACAGGATCAGAAGAACTTAAATC" label="ACAGGATCAGAAGAACTTAAATC">
+        <attvalues>
+          <attvalue for="0" value="57" />
+        </attvalues>
+      </node>
+      <node id="AGCTTTAGATAAAATAGAGGAAG" label="AGCTTTAGATAAAATAGAGGAAG">
+        <attvalues>
+          <attvalue for="0" value="95" />
+        </attvalues>
+      </node>
+      <node id="ACAGGATGAGGATTAGAACATGG" label="ACAGGATGAGGATTAGAACATGG">
+        <attvalues>
+          <attvalue for="0" value="58" />
+        </attvalues>
+      </node>
+      <node id="TATGTATATCTCAAAGAAAGCTA" label="TATGTATATCTCAAAGAAAGCTA">
+        <attvalues>
+          <attvalue for="0" value="302" />
+        </attvalues>
+      </node>
+      <node id="ACAGTCAACTCTCAAGACAGGAT" label="ACAGTCAACTCTCAAGACAGGAT">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="ACAGTGCCCTAGCACGAAAACAC" label="ACAGTGCCCTAGCACGAAAACAC">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="AGTACTATAAAGACTGCTGACAA" label="AGTACTATAAAGACTGCTGACAA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="ACATGTGGAAAAATAACATGGTA" label="ACATGTGGAAAAATAACATGGTA">
+        <attvalues>
+          <attvalue for="0" value="59" />
+        </attvalues>
+      </node>
+      <node id="AGTTAACTCCTCTCTGCGTTACT" label="AGTTAACTCCTCTCTGCGTTACT">
+        <attvalues>
+          <attvalue for="0" value="109" />
+        </attvalues>
+      </node>
+      <node id="ACATTAAAGCCAGGAATGGATGG" label="ACATTAAAGCCAGGAATGGATGG">
+        <attvalues>
+          <attvalue for="0" value="60" />
+        </attvalues>
+      </node>
+      <node id="GCATTAACAGAAATTTGTAAAGA" label="GCATTAACAGAAATTTGTAAAGA">
+        <attvalues>
+          <attvalue for="0" value="245" />
+        </attvalues>
+      </node>
+      <node id="ACCATACCTAGTATAAACAATGA" label="ACCATACCTAGTATAAACAATGA">
+        <attvalues>
+          <attvalue for="0" value="61" />
+        </attvalues>
+      </node>
+      <node id="ACGGTACAGGCCAGACAATTATT" label="ACGGTACAGGCCAGACAATTATT">
+        <attvalues>
+          <attvalue for="0" value="63" />
+        </attvalues>
+      </node>
+      <node id="TGGGGCTGCTCTGGAAAAATCAT" label="TGGGGCTGCTCTGGAAAAATCAT">
+        <attvalues>
+          <attvalue for="0" value="323" />
+        </attvalues>
+      </node>
+      <node id="ACTAGTACCCTTCAAGAACAAAT" label="ACTAGTACCCTTCAAGAACAAAT">
+        <attvalues>
+          <attvalue for="0" value="64" />
+        </attvalues>
+      </node>
+      <node id="CCAGTGGGAGACATCTATAAAAG" label="CCAGTGGGAGACATCTATAAAAG">
+        <attvalues>
+          <attvalue for="0" value="169" />
+        </attvalues>
+      </node>
+      <node id="ACTCTTTGGCAACGACCCTTAGT" label="ACTCTTTGGCAACGACCCTTAGT">
+        <attvalues>
+          <attvalue for="0" value="65" />
+        </attvalues>
+      </node>
+      <node id="ATGATACAGTATTAGAAGAAATA" label="ATGATACAGTATTAGAAGAAATA">
+        <attvalues>
+          <attvalue for="0" value="126" />
+        </attvalues>
+      </node>
+      <node id="GCAGATGATACAGTATTAGAAGA" label="GCAGATGATACAGTATTAGAAGA">
+        <attvalues>
+          <attvalue for="0" value="238" />
+        </attvalues>
+      </node>
+      <node id="AGAAAAAATATAGACTAAAACAT" label="AGAAAAAATATAGACTAAAACAT">
+        <attvalues>
+          <attvalue for="0" value="66" />
+        </attvalues>
+      </node>
+      <node id="GCAGGGAGTTGGAAAGATTCGCA" label="GCAGGGAGTTGGAAAGATTCGCA">
+        <attvalues>
+          <attvalue for="0" value="241" />
+        </attvalues>
+      </node>
+      <node id="AGAAAAGACAAGAGATCCTTGAT" label="AGAAAAGACAAGAGATCCTTGAT">
+        <attvalues>
+          <attvalue for="0" value="67" />
+        </attvalues>
+      </node>
+      <node id="CCTGATTGGCAAAACTACACACC" label="CCTGATTGGCAAAACTACACACC">
+        <attvalues>
+          <attvalue for="0" value="177" />
+        </attvalues>
+      </node>
+      <node id="GATTGGCAGAACTACACACCAGG" label="GATTGGCAGAACTACACACCAGG">
+        <attvalues>
+          <attvalue for="0" value="231" />
+        </attvalues>
+      </node>
+      <node id="AGAAAATTAGTAGATTTCAGAGA" label="AGAAAATTAGTAGATTTCAGAGA">
+        <attvalues>
+          <attvalue for="0" value="68" />
+        </attvalues>
+      </node>
+      <node id="TACCTCATCCCGCGGGATTAAAA" label="TACCTCATCCCGCGGGATTAAAA">
+        <attvalues>
+          <attvalue for="0" value="262" />
+        </attvalues>
+      </node>
+      <node id="GAACAAAAATAGAGGAGCTAAGA" label="GAACAAAAATAGAGGAGCTAAGA">
+        <attvalues>
+          <attvalue for="0" value="180" />
+        </attvalues>
+      </node>
+      <node id="AGAACATGGAACAGTTTAGTAAA" label="AGAACATGGAACAGTTTAGTAAA">
+        <attvalues>
+          <attvalue for="0" value="70" />
+        </attvalues>
+      </node>
+      <node id="TATAGACATCACTATGAAAGTAG" label="TATAGACATCACTATGAAAGTAG">
+        <attvalues>
+          <attvalue for="0" value="300" />
+        </attvalues>
+      </node>
+      <node id="AGAACTGTTAGAGGAGCTTAAAA" label="AGAACTGTTAGAGGAGCTTAAAA">
+        <attvalues>
+          <attvalue for="0" value="71" />
+        </attvalues>
+      </node>
+      <node id="AGACATTTTCCTAGGCCCTGGCT" label="AGACATTTTCCTAGGCCCTGGCT">
+        <attvalues>
+          <attvalue for="0" value="81" />
+        </attvalues>
+      </node>
+      <node id="AGAACTTTGAATGCATGGGTGAA" label="AGAACTTTGAATGCATGGGTGAA">
+        <attvalues>
+          <attvalue for="0" value="72" />
+        </attvalues>
+      </node>
+      <node id="AGGGTTTTAACCCAGAAGTAATA" label="AGGGTTTTAACCCAGAAGTAATA">
+        <attvalues>
+          <attvalue for="0" value="103" />
+        </attvalues>
+      </node>
+      <node id="CTGGCTGTGGAAAGATACCTAAA" label="CTGGCTGTGGAAAGATACCTAAA">
+        <attvalues>
+          <attvalue for="0" value="197" />
+        </attvalues>
+      </node>
+      <node id="GGGCTATAGAGGCGCAGCAGCAT" label="GGGCTATAGAGGCGCAGCAGCAT">
+        <attvalues>
+          <attvalue for="0" value="271" />
+        </attvalues>
+      </node>
+      <node id="AGAAGCAGAATTAGAGTTGGCAG" label="AGAAGCAGAATTAGAGTTGGCAG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="GTACAGAAACAAGGGCAGGACCA" label="GTACAGAAACAAGGGCAGGACCA">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="AGAAGGAGTAGGAGCAGTATCTC" label="AGAAGGAGTAGGAGCAGTATCTC">
+        <attvalues>
+          <attvalue for="0" value="74" />
+        </attvalues>
+      </node>
+      <node id="TAGTAATATGAATAATGCTGATA" label="TAGTAATATGAATAATGCTGATA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="AGAAGTGAATTATATAAATATAA" label="AGAAGTGAATTATATAAATATAA">
+        <attvalues>
+          <attvalue for="0" value="75" />
+        </attvalues>
+      </node>
+      <node id="AGAATGTATAGCCCTGTCAGCAT" label="AGAATGTATAGCCCTGTCAGCAT">
+        <attvalues>
+          <attvalue for="0" value="76" />
+        </attvalues>
+      </node>
+      <node id="AGTCCATTTTAAAAGCATTAGGA" label="AGTCCATTTTAAAAGCATTAGGA">
+        <attvalues>
+          <attvalue for="0" value="107" />
+        </attvalues>
+      </node>
+      <node id="AGAATTAAGTGCTTCAACTGTGG" label="AGAATTAAGTGCTTCAACTGTGG">
+        <attvalues>
+          <attvalue for="0" value="77" />
+        </attvalues>
+      </node>
+      <node id="GAAATTGCAGGGCCCCTAGAAAA" label="GAAATTGCAGGGCCCCTAGAAAA">
+        <attvalues>
+          <attvalue for="0" value="202" />
+        </attvalues>
+      </node>
+      <node id="AGAATTGGGTGTCAACATAGCAG" label="AGAATTGGGTGTCAACATAGCAG">
+        <attvalues>
+          <attvalue for="0" value="78" />
+        </attvalues>
+      </node>
+      <node id="GGGAGAAGAGGCAGGAATGGAGC" label="GGGAGAAGAGGCAGGAATGGAGC">
+        <attvalues>
+          <attvalue for="0" value="269" />
+        </attvalues>
+      </node>
+      <node id="AGACACAGCAGGCAGCAGCTGGC" label="AGACACAGCAGGCAGCAGCTGGC">
+        <attvalues>
+          <attvalue for="0" value="79" />
+        </attvalues>
+      </node>
+      <node id="AGCAGCAAAGTCAGCCAAAATTA" label="AGCAGCAAAGTCAGCCAAAATTA">
+        <attvalues>
+          <attvalue for="0" value="88" />
+        </attvalues>
+      </node>
+      <node id="AGACAGCATACTTTCTGCTAAAA" label="AGACAGCATACTTTCTGCTAAAA">
+        <attvalues>
+          <attvalue for="0" value="80" />
+        </attvalues>
+      </node>
+      <node id="AGCCTGTTGGTGGGCCAATGTCC" label="AGCCTGTTGGTGGGCCAATGTCC">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="CTTAGGACAGTACATCTATAACA" label="CTTAGGACAGTACATCTATAACA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="AGAGAGAAATTAGCAATTACACA" label="AGAGAGAAATTAGCAATTACACA">
+        <attvalues>
+          <attvalue for="0" value="83" />
+        </attvalues>
+      </node>
+      <node id="ATATATGAGATACTTACAGAATC" label="ATATATGAGATACTTACAGAATC">
+        <attvalues>
+          <attvalue for="0" value="83" />
+        </attvalues>
+      </node>
+      <node id="AGAGAGCAAGCTGAACACCTTAA" label="AGAGAGCAAGCTGAACACCTTAA">
+        <attvalues>
+          <attvalue for="0" value="84" />
+        </attvalues>
+      </node>
+      <node id="GAAAGCCAGCATCCAAAGGTAAG" label="GAAAGCCAGCATCCAAAGGTAAG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="AGAGCAGAAGACAGTGGAAATGA" label="AGAGCAGAAGACAGTGGAAATGA">
+        <attvalues>
+          <attvalue for="0" value="85" />
+        </attvalues>
+      </node>
+      <node id="TGGCCAAACTTGTGGAAATGGGG" label="TGGCCAAACTTGTGGAAATGGGG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="AGAGGGAACCCGACAGGCCCGAA" label="AGAGGGAACCCGACAGGCCCGAA">
+        <attvalues>
+          <attvalue for="0" value="86" />
+        </attvalues>
+      </node>
+      <node id="CTCAGGAGGAGATCTAGAAATTA" label="CTCAGGAGGAGATCTAGAAATTA">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="GTAGGCTTTCCAGTCAGGCCGCA" label="GTAGGCTTTCCAGTCAGGCCGCA">
+        <attvalues>
+          <attvalue for="0" value="278" />
+        </attvalues>
+      </node>
+      <node id="AGCAGGAGCAGAAAGACAAGGAA" label="AGCAGGAGCAGAAAGACAAGGAA">
+        <attvalues>
+          <attvalue for="0" value="90" />
+        </attvalues>
+      </node>
+      <node id="CAGTGTTAGTAGGACCTACACCT" label="CAGTGTTAGTAGGACCTACACCT">
+        <attvalues>
+          <attvalue for="0" value="155" />
+        </attvalues>
+      </node>
+      <node id="GGGGGAATTGGAGGTTTTATCAA" label="GGGGGAATTGGAGGTTTTATCAA">
+        <attvalues>
+          <attvalue for="0" value="274" />
+        </attvalues>
+      </node>
+      <node id="TGCAAAATGCACAAGGGCAAATG" label="TGCAAAATGCACAAGGGCAAATG">
+        <attvalues>
+          <attvalue for="0" value="317" />
+        </attvalues>
+      </node>
+      <node id="AGCTGGACTGTCAATGATATACA" label="AGCTGGACTGTCAATGATATACA">
+        <attvalues>
+          <attvalue for="0" value="93" />
+        </attvalues>
+      </node>
+      <node id="AGCTGGGGATTTACTACACCAGA" label="AGCTGGGGATTTACTACACCAGA">
+        <attvalues>
+          <attvalue for="0" value="94" />
+        </attvalues>
+      </node>
+      <node id="GCAGGCAGCAGCTGGCACAGGAA" label="GCAGGCAGCAGCTGGCACAGGAA">
+        <attvalues>
+          <attvalue for="0" value="240" />
+        </attvalues>
+      </node>
+      <node id="AGGAAATATAACAGATGAAGTAA" label="AGGAAATATAACAGATGAAGTAA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="GTACTTTTAATATGACCACAGAA" label="GTACTTTTAATATGACCACAGAA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="AGGAAGCTGCAGAATGGGACAGG" label="AGGAAGCTGCAGAATGGGACAGG">
+        <attvalues>
+          <attvalue for="0" value="96" />
+        </attvalues>
+      </node>
+      <node id="ATGAGAGAACCAAGGGGAAGTGA" label="ATGAGAGAACCAAGGGGAAGTGA">
+        <attvalues>
+          <attvalue for="0" value="125" />
+        </attvalues>
+      </node>
+      <node id="AGGAAGGTGCTATTTTTAGATGG" label="AGGAAGGTGCTATTTTTAGATGG">
+        <attvalues>
+          <attvalue for="0" value="97" />
+        </attvalues>
+      </node>
+      <node id="GGGGAAGCTATGCATGGACAAGT" label="GGGGAAGCTATGCATGGACAAGT">
+        <attvalues>
+          <attvalue for="0" value="272" />
+        </attvalues>
+      </node>
+      <node id="AGGACACCTAGCCAGAAATTGCA" label="AGGACACCTAGCCAGAAATTGCA">
+        <attvalues>
+          <attvalue for="0" value="98" />
+        </attvalues>
+      </node>
+      <node id="TTTAGGGAAAATTTGGCCTTCCA" label="TTTAGGGAAAATTTGGCCTTCCA">
+        <attvalues>
+          <attvalue for="0" value="339" />
+        </attvalues>
+      </node>
+      <node id="AGGACGAAGACAGAGAAGTGCTG" label="AGGACGAAGACAGAGAAGTGCTG">
+        <attvalues>
+          <attvalue for="0" value="99" />
+        </attvalues>
+      </node>
+      <node id="AGGGAGGTGTGGTTTGGGAGGAG" label="AGGGAGGTGTGGTTTGGGAGGAG">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="AGGCAGGGATACTCACCTTTGTC" label="AGGCAGGGATACTCACCTTTGTC">
+        <attvalues>
+          <attvalue for="0" value="100" />
+        </attvalues>
+      </node>
+      <node id="CGAAGAAGGAGGTGGCGAGCAAG" label="CGAAGAAGGAGGTGGCGAGCAAG">
+        <attvalues>
+          <attvalue for="0" value="184" />
+        </attvalues>
+      </node>
+      <node id="AGGCTATAGAGGCTCAACAACAT" label="AGGCTATAGAGGCTCAACAACAT">
+        <attvalues>
+          <attvalue for="0" value="101" />
+        </attvalues>
+      </node>
+      <node id="CCTGGCTCTGGAAAGATACCTAA" label="CCTGGCTCTGGAAAGATACCTAA">
+        <attvalues>
+          <attvalue for="0" value="178" />
+        </attvalues>
+      </node>
+      <node id="CTGTACTGGGTCTCTCTTGCTAG" label="CTGTACTGGGTCTCTCTTGCTAG">
+        <attvalues>
+          <attvalue for="0" value="198" />
+        </attvalues>
+      </node>
+      <node id="TCGCTTGTACTGGGTCTCTCTTG" label="TCGCTTGTACTGGGTCTCTCTTG">
+        <attvalues>
+          <attvalue for="0" value="312" />
+        </attvalues>
+      </node>
+      <node id="AGGGGGGACTGGATGGGTTAATT" label="AGGGGGGACTGGATGGGTTAATT">
+        <attvalues>
+          <attvalue for="0" value="102" />
+        </attvalues>
+      </node>
+      <node id="GAACTACACACCAGGGCCAGGGA" label="GAACTACACACCAGGGCCAGGGA">
+        <attvalues>
+          <attvalue for="0" value="204" />
+        </attvalues>
+      </node>
+      <node id="TTAAATATGATGCTAAATATAGT" label="TTAAATATGATGCTAAATATAGT">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="AGGGTTTTGGCTGAGGCAATGAG" label="AGGGTTTTGGCTGAGGCAATGAG">
+        <attvalues>
+          <attvalue for="0" value="104" />
+        </attvalues>
+      </node>
+      <node id="CAGAGAGGCAATTTTAAGGGCCA" label="CAGAGAGGCAATTTTAAGGGCCA">
+        <attvalues>
+          <attvalue for="0" value="151" />
+        </attvalues>
+      </node>
+      <node id="AGGTTAGTTAAGAGAATAAGAGA" label="AGGTTAGTTAAGAGAATAAGAGA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="AGTAAGACAATATGATCAGATAC" label="AGTAAGACAATATGATCAGATAC">
+        <attvalues>
+          <attvalue for="0" value="105" />
+        </attvalues>
+      </node>
+      <node id="ATAGAAATTTGTGGAAAAAAGGC" label="ATAGAAATTTGTGGAAAAAAGGC">
+        <attvalues>
+          <attvalue for="0" value="117" />
+        </attvalues>
+      </node>
+      <node id="TGGCCGGGGCGGAGTTGGGGAGT" label="TGGCCGGGGCGGAGTTGGGGAGT">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="AGTATAGGTTAATAAATTGTAAT" label="AGTATAGGTTAATAAATTGTAAT">
+        <attvalues>
+          <attvalue for="0" value="106" />
+        </attvalues>
+      </node>
+      <node id="ATGATGACAGCATGCCAGGGAGT" label="ATGATGACAGCATGCCAGGGAGT">
+        <attvalues>
+          <attvalue for="0" value="127" />
+        </attvalues>
+      </node>
+      <node id="CATGCCTGTGTACCCACAGACCC" label="CATGCCTGTGTACCCACAGACCC">
+        <attvalues>
+          <attvalue for="0" value="161" />
+        </attvalues>
+      </node>
+      <node id="CCACAGACCCCAACCCACAAGAA" label="CCACAGACCCCAACCCACAAGAA">
+        <attvalues>
+          <attvalue for="0" value="166" />
+        </attvalues>
+      </node>
+      <node id="ATAAGAACATATTGGGGTCTGCA" label="ATAAGAACATATTGGGGTCTGCA">
+        <attvalues>
+          <attvalue for="0" value="110" />
+        </attvalues>
+      </node>
+      <node id="CATGGGGTCTCCATAGAATGGAG" label="CATGGGGTCTCCATAGAATGGAG">
+        <attvalues>
+          <attvalue for="0" value="162" />
+        </attvalues>
+      </node>
+      <node id="ATAAGGAAAGCCATATTAGGACA" label="ATAAGGAAAGCCATATTAGGACA">
+        <attvalues>
+          <attvalue for="0" value="111" />
+        </attvalues>
+      </node>
+      <node id="ATTAGTAACACCAACAAGGACAA" label="ATTAGTAACACCAACAAGGACAA">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="ATAATAGACATAATAGCATCAGA" label="ATAATAGACATAATAGCATCAGA">
+        <attvalues>
+          <attvalue for="0" value="112" />
+        </attvalues>
+      </node>
+      <node id="GTTTATTACAGGGACAGCAGAGA" label="GTTTATTACAGGGACAGCAGAGA">
+        <attvalues>
+          <attvalue for="0" value="291" />
+        </attvalues>
+      </node>
+      <node id="TATTACAGGGACAGCAGAGACCC" label="TATTACAGGGACAGCAGAGACCC">
+        <attvalues>
+          <attvalue for="0" value="303" />
+        </attvalues>
+      </node>
+      <node id="ATAATAGAGGAGCTAATAAAAAA" label="ATAATAGAGGAGCTAATAAAAAA">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="CTATTTTTAGATGGGATAGATAA" label="CTATTTTTAGATGGGATAGATAA">
+        <attvalues>
+          <attvalue for="0" value="193" />
+        </attvalues>
+      </node>
+      <node id="ATAATGATGCAGAGAGGCAATTT" label="ATAATGATGCAGAGAGGCAATTT">
+        <attvalues>
+          <attvalue for="0" value="114" />
+        </attvalues>
+      </node>
+      <node id="ATACTATTGACAAGAGATGGTGG" label="ATACTATTGACAAGAGATGGTGG">
+        <attvalues>
+          <attvalue for="0" value="115" />
+        </attvalues>
+      </node>
+      <node id="GGGCAAAGAGAAGAGTGGTGGAG" label="GGGCAAAGAGAAGAGTGGTGGAG">
+        <attvalues>
+          <attvalue for="0" value="270" />
+        </attvalues>
+      </node>
+      <node id="ATACTCACCTTTGTCTTTCCAGA" label="ATACTCACCTTTGTCTTTCCAGA">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="ATACTGCATTCACTATACCTAGT" label="ATACTGCATTCACTATACCTAGT">
+        <attvalues>
+          <attvalue for="0" value="116" />
+        </attvalues>
+      </node>
+      <node id="GGATCACCAGCAATATTTCAGGC" label="GGATCACCAGCAATATTTCAGGC">
+        <attvalues>
+          <attvalue for="0" value="262" />
+        </attvalues>
+      </node>
+      <node id="TGTTGACTCAGATTGGTTGCACT" label="TGTTGACTCAGATTGGTTGCACT">
+        <attvalues>
+          <attvalue for="0" value="331" />
+        </attvalues>
+      </node>
+      <node id="ATAGACATCATTATGAAAGCCAG" label="ATAGACATCATTATGAAAGCCAG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="CCAAAGGTAAGTTCAGAAGTACA" label="CCAAAGGTAAGTTCAGAAGTACA">
+        <attvalues>
+          <attvalue for="0" value="165" />
+        </attvalues>
+      </node>
+      <node id="CTATAGTAGCAAAGGAAATAGTA" label="CTATAGTAGCAAAGGAAATAGTA">
+        <attvalues>
+          <attvalue for="0" value="191" />
+        </attvalues>
+      </node>
+      <node id="GGAGGAAATGAACAAGTAGATAA" label="GGAGGAAATGAACAAGTAGATAA">
+        <attvalues>
+          <attvalue for="0" value="261" />
+        </attvalues>
+      </node>
+      <node id="ATAGCCCGAGAACTGCATCCAGA" label="ATAGCCCGAGAACTGCATCCAGA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="GGACTTCCGCTGGGGACTTTCCA" label="GGACTTCCGCTGGGGACTTTCCA">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="CCAGACCCCTTCCCATCATCAGA" label="CCAGACCCCTTCCCATCATCAGA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="TGGTATATAAAAATATTTATAAT" label="TGGTATATAAAAATATTTATAAT">
+        <attvalues>
+          <attvalue for="0" value="325" />
+        </attvalues>
+      </node>
+      <node id="ATATGGCAATTAGATTGTACACA" label="ATATGGCAATTAGATTGTACACA">
+        <attvalues>
+          <attvalue for="0" value="118" />
+        </attvalues>
+      </node>
+      <node id="ATCCCAGCAGAAACAGGACAGGA" label="ATCCCAGCAGAAACAGGACAGGA">
+        <attvalues>
+          <attvalue for="0" value="121" />
+        </attvalues>
+      </node>
+      <node id="ATATTTATAATGATAGTAGGAGG" label="ATATTTATAATGATAGTAGGAGG">
+        <attvalues>
+          <attvalue for="0" value="119" />
+        </attvalues>
+      </node>
+      <node id="CATCAGAGGGAACCCGACAGGCC" label="CATCAGAGGGAACCCGACAGGCC">
+        <attvalues>
+          <attvalue for="0" value="159" />
+        </attvalues>
+      </node>
+      <node id="ATCAGAAGAACTTAAATCATTAT" label="ATCAGAAGAACTTAAATCATTAT">
+        <attvalues>
+          <attvalue for="0" value="120" />
+        </attvalues>
+      </node>
+      <node id="ATCATACTTCCATGCAGGATAAA" label="ATCATACTTCCATGCAGGATAAA">
+        <attvalues>
+          <attvalue for="0" value="32" />
+        </attvalues>
+      </node>
+      <node id="CCAGTGAAAGTAATACACACAGA" label="CCAGTGAAAGTAATACACACAGA">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="GGCGCCCGAACAGGGACTTGAAG" label="GGCGCCCGAACAGGGACTTGAAG">
+        <attvalues>
+          <attvalue for="0" value="268" />
+        </attvalues>
+      </node>
+      <node id="ATCCGGGAAGTCAGCCTACAACT" label="ATCCGGGAAGTCAGCCTACAACT">
+        <attvalues>
+          <attvalue for="0" value="123" />
+        </attvalues>
+      </node>
+      <node id="TCCTATACCAAAGCAGTAAGTAA" label="TCCTATACCAAAGCAGTAAGTAA">
+        <attvalues>
+          <attvalue for="0" value="309" />
+        </attvalues>
+      </node>
+      <node id="CCAGGGATCAGATTCCCACTGTG" label="CCAGGGATCAGATTCCCACTGTG">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="ATGACAAAAATCTTAGAGCCCTT" label="ATGACAAAAATCTTAGAGCCCTT">
+        <attvalues>
+          <attvalue for="0" value="124" />
+        </attvalues>
+      </node>
+      <node id="CCAGTGGGAGAAATCTATAAAAG" label="CCAGTGGGAGAAATCTATAAAAG">
+        <attvalues>
+          <attvalue for="0" value="168" />
+        </attvalues>
+      </node>
+      <node id="GCAATGAGTCAAGTACAACAGGC" label="GCAATGAGTCAAGTACAACAGGC">
+        <attvalues>
+          <attvalue for="0" value="235" />
+        </attvalues>
+      </node>
+      <node id="ATGCCAAAACCATAATAGTACAG" label="ATGCCAAAACCATAATAGTACAG">
+        <attvalues>
+          <attvalue for="0" value="128" />
+        </attvalues>
+      </node>
+      <node id="CATAGTTTTAATTGTGGAGGAGA" label="CATAGTTTTAATTGTGGAGGAGA">
+        <attvalues>
+          <attvalue for="0" value="157" />
+        </attvalues>
+      </node>
+      <node id="ATGGCAGTCTAGCAGAAGAAGAG" label="ATGGCAGTCTAGCAGAAGAAGAG">
+        <attvalues>
+          <attvalue for="0" value="129" />
+        </attvalues>
+      </node>
+      <node id="ATGGGATATGAACTCCATCCTGA" label="ATGGGATATGAACTCCATCCTGA">
+        <attvalues>
+          <attvalue for="0" value="130" />
+        </attvalues>
+      </node>
+      <node id="GATGGACAGTCCAGCCTATAGAA" label="GATGGACAGTCCAGCCTATAGAA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="GAGTAGGAGCAGTATCTCAAGAT" label="GAGTAGGAGCAGTATCTCAAGAT">
+        <attvalues>
+          <attvalue for="0" value="224" />
+        </attvalues>
+      </node>
+      <node id="ATGTGATGCAACCTTTAGAAATA" label="ATGTGATGCAACCTTTAGAAATA">
+        <attvalues>
+          <attvalue for="0" value="132" />
+        </attvalues>
+      </node>
+      <node id="GCAATAGTAGGACTAGTAGTAGC" label="GCAATAGTAGGACTAGTAGTAGC">
+        <attvalues>
+          <attvalue for="0" value="234" />
+        </attvalues>
+      </node>
+      <node id="ATGTGGAAAAATAACATGGTAGA" label="ATGTGGAAAAATAACATGGTAGA">
+        <attvalues>
+          <attvalue for="0" value="133" />
+        </attvalues>
+      </node>
+      <node id="CTAAAGCCATGTGTAAAATTAAC" label="CTAAAGCCATGTGTAAAATTAAC">
+        <attvalues>
+          <attvalue for="0" value="185" />
+        </attvalues>
+      </node>
+      <node id="TAACAGAAGATAGATGGAACAAG" label="TAACAGAAGATAGATGGAACAAG">
+        <attvalues>
+          <attvalue for="0" value="293" />
+        </attvalues>
+      </node>
+      <node id="GACAGATGGAACAAGCCCCAGAA" label="GACAGATGGAACAAGCCCCAGAA">
+        <attvalues>
+          <attvalue for="0" value="213" />
+        </attvalues>
+      </node>
+      <node id="GCTGTTAGACATTTTCCTAGGCC" label="GCTGTTAGACATTTTCCTAGGCC">
+        <attvalues>
+          <attvalue for="0" value="253" />
+        </attvalues>
+      </node>
+      <node id="ATTATGGAAAACAGATGGCAGGT" label="ATTATGGAAAACAGATGGCAGGT">
+        <attvalues>
+          <attvalue for="0" value="134" />
+        </attvalues>
+      </node>
+      <node id="ATTCCACCAGGCCAGATGAGGGA" label="ATTCCACCAGGCCAGATGAGGGA">
+        <attvalues>
+          <attvalue for="0" value="135" />
+        </attvalues>
+      </node>
+      <node id="ATTGCACACATCTAGAAGGAAAA" label="ATTGCACACATCTAGAAGGAAAA">
+        <attvalues>
+          <attvalue for="0" value="136" />
+        </attvalues>
+      </node>
+      <node id="CAGGAGACAGCATACTTTCTGCT" label="CAGGAGACAGCATACTTTCTGCT">
+        <attvalues>
+          <attvalue for="0" value="153" />
+        </attvalues>
+      </node>
+      <node id="ATTGGGGGGTACAGTGCAGGGGA" label="ATTGGGGGGTACAGTGCAGGGGA">
+        <attvalues>
+          <attvalue for="0" value="137" />
+        </attvalues>
+      </node>
+      <node id="ATTTCAAAAATTGGGCCTGAAAA" label="ATTTCAAAAATTGGGCCTGAAAA">
+        <attvalues>
+          <attvalue for="0" value="138" />
+        </attvalues>
+      </node>
+      <node id="ATTTTGGACATAAGACAAGGGCC" label="ATTTTGGACATAAGACAAGGGCC">
+        <attvalues>
+          <attvalue for="0" value="139" />
+        </attvalues>
+      </node>
+      <node id="CGAATCCAGACTGTAAGTCCATT" label="CGAATCCAGACTGTAAGTCCATT">
+        <attvalues>
+          <attvalue for="0" value="91" />
+        </attvalues>
+      </node>
+      <node id="ATTTTTCTATTGCAATACAACAC" label="ATTTTTCTATTGCAATACAACAC">
+        <attvalues>
+          <attvalue for="0" value="140" />
+        </attvalues>
+      </node>
+      <node id="CAAAGCCTAAAGCCATGTGTAAA" label="CAAAGCCTAAAGCCATGTGTAAA">
+        <attvalues>
+          <attvalue for="0" value="141" />
+        </attvalues>
+      </node>
+      <node id="CAACAAATAATAGAACAGTTACA" label="CAACAAATAATAGAACAGTTACA">
+        <attvalues>
+          <attvalue for="0" value="142" />
+        </attvalues>
+      </node>
+      <node id="CAACTGCCTGTTACACCCCATGA" label="CAACTGCCTGTTACACCCCATGA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="CAATACATGGATGACTTGTATGT" label="CAATACATGGATGACTTGTATGT">
+        <attvalues>
+          <attvalue for="0" value="143" />
+        </attvalues>
+      </node>
+      <node id="CAGCACAGAACAAAAATAGAGGA" label="CAGCACAGAACAAAAATAGAGGA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="CAATAGTAGGACTGATAGTAGCG" label="CAATAGTAGGACTGATAGTAGCG">
+        <attvalues>
+          <attvalue for="0" value="144" />
+        </attvalues>
+      </node>
+      <node id="TGGGTTACAGTTTATTATGGGGT" label="TGGGTTACAGTTTATTATGGGGT">
+        <attvalues>
+          <attvalue for="0" value="324" />
+        </attvalues>
+      </node>
+      <node id="TGTGGACTATAGTAGCTATAGAA" label="TGTGGACTATAGTAGCTATAGAA">
+        <attvalues>
+          <attvalue for="0" value="48" />
+        </attvalues>
+      </node>
+      <node id="CAATTGCTGTTAAATGGCAGTCT" label="CAATTGCTGTTAAATGGCAGTCT">
+        <attvalues>
+          <attvalue for="0" value="147" />
+        </attvalues>
+      </node>
+      <node id="CACAAAGGGATTGGAGGAAATGA" label="CACAAAGGGATTGGAGGAAATGA">
+        <attvalues>
+          <attvalue for="0" value="148" />
+        </attvalues>
+      </node>
+      <node id="CACAGCAATTGGAGAGCAATGGC" label="CACAGCAATTGGAGAGCAATGGC">
+        <attvalues>
+          <attvalue for="0" value="149" />
+        </attvalues>
+      </node>
+      <node id="GTGGCCAGCTGTGATAAATGTCA" label="GTGGCCAGCTGTGATAAATGTCA">
+        <attvalues>
+          <attvalue for="0" value="286" />
+        </attvalues>
+      </node>
+      <node id="TATGGCAATTAGATTGTACACAT" label="TATGGCAATTAGATTGTACACAT">
+        <attvalues>
+          <attvalue for="0" value="118" />
+        </attvalues>
+      </node>
+      <node id="CACATGAGACAGAAGTGCACAAT" label="CACATGAGACAGAAGTGCACAAT">
+        <attvalues>
+          <attvalue for="0" value="32" />
+        </attvalues>
+      </node>
+      <node id="CAGAGAACAGGGAGATTCTAAAA" label="CAGAGAACAGGGAGATTCTAAAA">
+        <attvalues>
+          <attvalue for="0" value="150" />
+        </attvalues>
+      </node>
+      <node id="GCCAGAAATTGCAGGGCCCCTAG" label="GCCAGAAATTGCAGGGCCCCTAG">
+        <attvalues>
+          <attvalue for="0" value="246" />
+        </attvalues>
+      </node>
+      <node id="CAGCCTACAACTGCTTGTAGCAA" label="CAGCCTACAACTGCTTGTAGCAA">
+        <attvalues>
+          <attvalue for="0" value="152" />
+        </attvalues>
+      </node>
+      <node id="TGCTTTCTGAACAAGGGCTTAGG" label="TGCTTTCTGAACAAGGGCTTAGG">
+        <attvalues>
+          <attvalue for="0" value="319" />
+        </attvalues>
+      </node>
+      <node id="CAGGGAGAAGAGGCAGGAATGGA" label="CAGGGAGAAGAGGCAGGAATGGA">
+        <attvalues>
+          <attvalue for="0" value="77" />
+        </attvalues>
+      </node>
+      <node id="CGAAATATGTTGACTCAGATTGG" label="CGAAATATGTTGACTCAGATTGG">
+        <attvalues>
+          <attvalue for="0" value="183" />
+        </attvalues>
+      </node>
+      <node id="CATATTAGGACAAGTAGTTAGAC" label="CATATTAGGACAAGTAGTTAGAC">
+        <attvalues>
+          <attvalue for="0" value="158" />
+        </attvalues>
+      </node>
+      <node id="GGATCCCTACAATATTTGGCACT" label="GGATCCCTACAATATTTGGCACT">
+        <attvalues>
+          <attvalue for="0" value="263" />
+        </attvalues>
+      </node>
+      <node id="GGCGAGCAAGGCAGAGACAGATC" label="GGCGAGCAAGGCAGAGACAGATC">
+        <attvalues>
+          <attvalue for="0" value="267" />
+        </attvalues>
+      </node>
+      <node id="CATGCAGGGCCTATTCCACCAGG" label="CATGCAGGGCCTATTCCACCAGG">
+        <attvalues>
+          <attvalue for="0" value="160" />
+        </attvalues>
+      </node>
+      <node id="CTAGCAGACCAACTGATTCATCT" label="CTAGCAGACCAACTGATTCATCT">
+        <attvalues>
+          <attvalue for="0" value="187" />
+        </attvalues>
+      </node>
+      <node id="GATCCTGACCTAGCAGACCAACT" label="GATCCTGACCTAGCAGACCAACT">
+        <attvalues>
+          <attvalue for="0" value="229" />
+        </attvalues>
+      </node>
+      <node id="CATTTTCCTAGGCCCTGGCTCCA" label="CATTTTCCTAGGCCCTGGCTCCA">
+        <attvalues>
+          <attvalue for="0" value="163" />
+        </attvalues>
+      </node>
+      <node id="GAAGAAATGATGACAGCATGCCA" label="GAAGAAATGATGACAGCATGCCA">
+        <attvalues>
+          <attvalue for="0" value="205" />
+        </attvalues>
+      </node>
+      <node id="GGAGAAAAGGACTGGCAATTGGG" label="GGAGAAAAGGACTGGCAATTGGG">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="CCACAGGGATGGAAAGGATCACC" label="CCACAGGGATGGAAAGGATCACC">
+        <attvalues>
+          <attvalue for="0" value="167" />
+        </attvalues>
+      </node>
+      <node id="GACAAAAATCTTAGAGCCCTTTA" label="GACAAAAATCTTAGAGCCCTTTA">
+        <attvalues>
+          <attvalue for="0" value="212" />
+        </attvalues>
+      </node>
+      <node id="GCTTCAAGCTAGTACCAGTTGAC" label="GCTTCAAGCTAGTACCAGTTGAC">
+        <attvalues>
+          <attvalue for="0" value="254" />
+        </attvalues>
+      </node>
+      <node id="TGTTGGTGGGCAAATGTCACACA" label="TGTTGGTGGGCAAATGTCACACA">
+        <attvalues>
+          <attvalue for="0" value="332" />
+        </attvalues>
+      </node>
+      <node id="GCCATAAAGAAAAAAGATAGTAC" label="GCCATAAAGAAAAAAGATAGTAC">
+        <attvalues>
+          <attvalue for="0" value="247" />
+        </attvalues>
+      </node>
+      <node id="CCGGGAAGTCAGCCTACAACTGC" label="CCGGGAAGTCAGCCTACAACTGC">
+        <attvalues>
+          <attvalue for="0" value="172" />
+        </attvalues>
+      </node>
+      <node id="TCCTATGGCAGGAAGAAGCGGAA" label="TCCTATGGCAGGAAGAAGCGGAA">
+        <attvalues>
+          <attvalue for="0" value="310" />
+        </attvalues>
+      </node>
+      <node id="CCTACAATATTTGGCACTGAAAG" label="CCTACAATATTTGGCACTGAAAG">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="GAACAGGAGACATAATAGGAGAT" label="GAACAGGAGACATAATAGGAGAT">
+        <attvalues>
+          <attvalue for="0" value="83" />
+        </attvalues>
+      </node>
+      <node id="CCTCCAGCAGCAGAAGGAGTAGG" label="CCTCCAGCAGCAGAAGGAGTAGG">
+        <attvalues>
+          <attvalue for="0" value="174" />
+        </attvalues>
+      </node>
+      <node id="GGAAAACTAAATTGGGCAAGTCA" label="GGAAAACTAAATTGGGCAAGTCA">
+        <attvalues>
+          <attvalue for="0" value="255" />
+        </attvalues>
+      </node>
+      <node id="GTGGGAAAACTAAATTGGGCAAG" label="GTGGGAAAACTAAATTGGGCAAG">
+        <attvalues>
+          <attvalue for="0" value="287" />
+        </attvalues>
+      </node>
+      <node id="CCTGACCTAGCAGACCAACTGAT" label="CCTGACCTAGCAGACCAACTGAT">
+        <attvalues>
+          <attvalue for="0" value="176" />
+        </attvalues>
+      </node>
+      <node id="TGTGAATATCCATCAGGACATAA" label="TGTGAATATCCATCAGGACATAA">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="TGTGTTTTGGATGGTGCTTCAAG" label="TGTGTTTTGGATGGTGCTTCAAG">
+        <attvalues>
+          <attvalue for="0" value="329" />
+        </attvalues>
+      </node>
+      <node id="GGACTGAGACTGGGGTGGGAAGC" label="GGACTGAGACTGGGGTGGGAAGC">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="TCAAATATCTGGGGAATCTTCTG" label="TCAAATATCTGGGGAATCTTCTG">
+        <attvalues>
+          <attvalue for="0" value="305" />
+        </attvalues>
+      </node>
+      <node id="CCTTCCAACAAGGGAAGGCCGGG" label="CCTTCCAACAAGGGAAGGCCGGG">
+        <attvalues>
+          <attvalue for="0" value="180" />
+        </attvalues>
+      </node>
+      <node id="CCTTTAGATGAAAGCTTTAGAAA" label="CCTTTAGATGAAAGCTTTAGAAA">
+        <attvalues>
+          <attvalue for="0" value="181" />
+        </attvalues>
+      </node>
+      <node id="GAGATGGGTGCGAGAGCGTCAGT" label="GAGATGGGTGCGAGAGCGTCAGT">
+        <attvalues>
+          <attvalue for="0" value="218" />
+        </attvalues>
+      </node>
+      <node id="GCGGCGACTGGTGAGTACGCCAA" label="GCGGCGACTGGTGAGTACGCCAA">
+        <attvalues>
+          <attvalue for="0" value="249" />
+        </attvalues>
+      </node>
+      <node id="GGAATGGATGGACCAAAGGTTAA" label="GGAATGGATGGACCAAAGGTTAA">
+        <attvalues>
+          <attvalue for="0" value="88" />
+        </attvalues>
+      </node>
+      <node id="CTGTGCCTCTTCAGCTACCACCG" label="CTGTGCCTCTTCAGCTACCACCG">
+        <attvalues>
+          <attvalue for="0" value="199" />
+        </attvalues>
+      </node>
+      <node id="TTAGAAGAAATGATGACAGCATG" label="TTAGAAGAAATGATGACAGCATG">
+        <attvalues>
+          <attvalue for="0" value="334" />
+        </attvalues>
+      </node>
+      <node id="CGGGAAATTTTCCTCAGAGCAGA" label="CGGGAAATTTTCCTCAGAGCAGA">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="GAGCCAACAGCCCCGCCAGCAGA" label="GAGCCAACAGCCCCGCCAGCAGA">
+        <attvalues>
+          <attvalue for="0" value="221" />
+        </attvalues>
+      </node>
+      <node id="CTACGGAGCCTGTGCCTCTTCAG" label="CTACGGAGCCTGTGCCTCTTCAG">
+        <attvalues>
+          <attvalue for="0" value="186" />
+        </attvalues>
+      </node>
+      <node id="GAAGGTCTCAAATATCTGGGGAA" label="GAAGGTCTCAAATATCTGGGGAA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="CTAGGACTTTGGGGCTGCTCTGG" label="CTAGGACTTTGGGGCTGCTCTGG">
+        <attvalues>
+          <attvalue for="0" value="188" />
+        </attvalues>
+      </node>
+      <node id="GCACCACTGCTGTGCCCTGGAAC" label="GCACCACTGCTGTGCCCTGGAAC">
+        <attvalues>
+          <attvalue for="0" value="236" />
+        </attvalues>
+      </node>
+      <node id="CTAGTGATTTTAATTTGCCACCT" label="CTAGTGATTTTAATTTGCCACCT">
+        <attvalues>
+          <attvalue for="0" value="189" />
+        </attvalues>
+      </node>
+      <node id="GAAGCTATGCATGGACAAGTAGA" label="GAAGCTATGCATGGACAAGTAGA">
+        <attvalues>
+          <attvalue for="0" value="208" />
+        </attvalues>
+      </node>
+      <node id="TGGTTTGACATAACAAAATGGCT" label="TGGTTTGACATAACAAAATGGCT">
+        <attvalues>
+          <attvalue for="0" value="327" />
+        </attvalues>
+      </node>
+      <node id="CTATTTTGTGCATCAGATGCCAA" label="CTATTTTGTGCATCAGATGCCAA">
+        <attvalues>
+          <attvalue for="0" value="192" />
+        </attvalues>
+      </node>
+      <node id="CTCAGGTCAGGGAAAAAATAAAG" label="CTCAGGTCAGGGAAAAAATAAAG">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="CTCCACATACCTAGAAGAATCAG" label="CTCCACATACCTAGAAGAATCAG">
+        <attvalues>
+          <attvalue for="0" value="194" />
+        </attvalues>
+      </node>
+      <node id="GGGATGGCCTCAGGTCAGGGAAA" label="GGGATGGCCTCAGGTCAGGGAAA">
+        <attvalues>
+          <attvalue for="0" value="144" />
+        </attvalues>
+      </node>
+      <node id="CTCCTATGGCAGGAAGAAGCGGA" label="CTCCTATGGCAGGAAGAAGCGGA">
+        <attvalues>
+          <attvalue for="0" value="195" />
+        </attvalues>
+      </node>
+      <node id="TCCTGTACCAAAGCAGTGAGTAG" label="TCCTGTACCAAAGCAGTGAGTAG">
+        <attvalues>
+          <attvalue for="0" value="311" />
+        </attvalues>
+      </node>
+      <node id="CTGAAAATCCATACAATACTCCA" label="CTGAAAATCCATACAATACTCCA">
+        <attvalues>
+          <attvalue for="0" value="196" />
+        </attvalues>
+      </node>
+      <node id="CTGGAACTCCACTTGGAGTAATA" label="CTGGAACTCCACTTGGAGTAATA">
+        <attvalues>
+          <attvalue for="0" value="83" />
+        </attvalues>
+      </node>
+      <node id="GGACTGAGACGGGGGTGGGAAGG" label="GGACTGAGACGGGGGTGGGAAGG">
+        <attvalues>
+          <attvalue for="0" value="260" />
+        </attvalues>
+      </node>
+      <node id="GTCAACATAGCAGAATAGGCATT" label="GTCAACATAGCAGAATAGGCATT">
+        <attvalues>
+          <attvalue for="0" value="282" />
+        </attvalues>
+      </node>
+      <node id="GAAAAAATTCGGTTACGGCCAGG" label="GAAAAAATTCGGTTACGGCCAGG">
+        <attvalues>
+          <attvalue for="0" value="201" />
+        </attvalues>
+      </node>
+      <node id="GAGTTAGAAAGATTCGCACTTAA" label="GAGTTAGAAAGATTCGCACTTAA">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="GAAGTACATATCCCACTAGGAGA" label="GAAGTACATATCCCACTAGGAGA">
+        <attvalues>
+          <attvalue for="0" value="209" />
+        </attvalues>
+      </node>
+      <node id="GGGATGGGGGAAGAGATAACCTC" label="GGGATGGGGGAAGAGATAACCTC">
+        <attvalues>
+          <attvalue for="0" value="264" />
+        </attvalues>
+      </node>
+      <node id="GAACACCTTAAGACAGCAGTACA" label="GAACACCTTAAGACAGCAGTACA">
+        <attvalues>
+          <attvalue for="0" value="203" />
+        </attvalues>
+      </node>
+      <node id="GAAGCAGGAACCGAGGGACAAGG" label="GAAGCAGGAACCGAGGGACAAGG">
+        <attvalues>
+          <attvalue for="0" value="206" />
+        </attvalues>
+      </node>
+      <node id="GAAGCGGAAGCACCGACGAGGAA" label="GAAGCGGAAGCACCGACGAGGAA">
+        <attvalues>
+          <attvalue for="0" value="207" />
+        </attvalues>
+      </node>
+      <node id="TCAGAGCAGTAAGGATCATCAAA" label="TCAGAGCAGTAAGGATCATCAAA">
+        <attvalues>
+          <attvalue for="0" value="307" />
+        </attvalues>
+      </node>
+      <node id="GTTATATTGGGGCCAGGAACTAA" label="GTTATATTGGGGCCAGGAACTAA">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="TCTCCATAGAATGGAGGCAGAGA" label="TCTCCATAGAATGGAGGCAGAGA">
+        <attvalues>
+          <attvalue for="0" value="314" />
+        </attvalues>
+      </node>
+      <node id="TTGGGGTCTGCAAACAGGAGAAA" label="TTGGGGTCTGCAAACAGGAGAAA">
+        <attvalues>
+          <attvalue for="0" value="337" />
+        </attvalues>
+      </node>
+      <node id="GAATCTATGAATAAAGAATTAAA" label="GAATCTATGAATAAAGAATTAAA">
+        <attvalues>
+          <attvalue for="0" value="210" />
+        </attvalues>
+      </node>
+      <node id="TTAAAAGAAAAGGGGGGATTGGG" label="TTAAAAGAAAAGGGGGGATTGGG">
+        <attvalues>
+          <attvalue for="0" value="333" />
+        </attvalues>
+      </node>
+      <node id="GAATGGGAGTTTGTTAATACCCC" label="GAATGGGAGTTTGTTAATACCCC">
+        <attvalues>
+          <attvalue for="0" value="211" />
+        </attvalues>
+      </node>
+      <node id="GACACCAGGCAGCAATGCAGATG" label="GACACCAGGCAGCAATGCAGATG">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="GACAGTGGAAATGAGAGTGAAGG" label="GACAGTGGAAATGAGAGTGAAGG">
+        <attvalues>
+          <attvalue for="0" value="214" />
+        </attvalues>
+      </node>
+      <node id="TCAGACAACTTGTGGGTTACAGT" label="TCAGACAACTTGTGGGTTACAGT">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="GACATACAAACTAAAGAATTACA" label="GACATACAAACTAAAGAATTACA">
+        <attvalues>
+          <attvalue for="0" value="215" />
+        </attvalues>
+      </node>
+      <node id="GTAGTAATACAAGACAATAGTGA" label="GTAGTAATACAAGACAATAGTGA">
+        <attvalues>
+          <attvalue for="0" value="279" />
+        </attvalues>
+      </node>
+      <node id="GAGAGACAGGCTAATTTTTTAGG" label="GAGAGACAGGCTAATTTTTTAGG">
+        <attvalues>
+          <attvalue for="0" value="217" />
+        </attvalues>
+      </node>
+      <node id="GAGCCAAAGCACTAACAGATATA" label="GAGCCAAAGCACTAACAGATATA">
+        <attvalues>
+          <attvalue for="0" value="219" />
+        </attvalues>
+      </node>
+      <node id="GCAGAATTAGAATTGGCAGAGAA" label="GCAGAATTAGAATTGGCAGAGAA">
+        <attvalues>
+          <attvalue for="0" value="237" />
+        </attvalues>
+      </node>
+      <node id="TGGGGGATGGGGGAAGAGATAAC" label="TGGGGGATGGGGGAAGAGATAAC">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="GGATGGGGGAAGAGATAACCTCC" label="GGATGGGGGAAGAGATAACCTCC">
+        <attvalues>
+          <attvalue for="0" value="264" />
+        </attvalues>
+      </node>
+      <node id="GAGGGAGAAGAGGCAGGAATGGA" label="GAGGGAGAAGAGGCAGGAATGGA">
+        <attvalues>
+          <attvalue for="0" value="223" />
+        </attvalues>
+      </node>
+      <node id="TTCCAGTCAGGCCGCAGGTACCT" label="TTCCAGTCAGGCCGCAGGTACCT">
+        <attvalues>
+          <attvalue for="0" value="278" />
+        </attvalues>
+      </node>
+      <node id="TCATGGGTACCAGCACACAAAGG" label="TCATGGGTACCAGCACACAAAGG">
+        <attvalues>
+          <attvalue for="0" value="308" />
+        </attvalues>
+      </node>
+      <node id="GATCAGATACTTATAGAAATTTG" label="GATCAGATACTTATAGAAATTTG">
+        <attvalues>
+          <attvalue for="0" value="227" />
+        </attvalues>
+      </node>
+      <node id="TAAATTTCCCAATTAGTCCTATT" label="TAAATTTCCCAATTAGTCCTATT">
+        <attvalues>
+          <attvalue for="0" value="51" />
+        </attvalues>
+      </node>
+      <node id="GATCCTAACCTAGAGCCCTGGAA" label="GATCCTAACCTAGAGCCCTGGAA">
+        <attvalues>
+          <attvalue for="0" value="228" />
+        </attvalues>
+      </node>
+      <node id="GATGCATGGGAAAAAATTCGGTT" label="GATGCATGGGAAAAAATTCGGTT">
+        <attvalues>
+          <attvalue for="0" value="230" />
+        </attvalues>
+      </node>
+      <node id="TAGAAAGATTCGCACTTAACCCT" label="TAGAAAGATTCGCACTTAACCCT">
+        <attvalues>
+          <attvalue for="0" value="296" />
+        </attvalues>
+      </node>
+      <node id="GCAAAATGCACAAGGGCAAATGG" label="GCAAAATGCACAAGGGCAAATGG">
+        <attvalues>
+          <attvalue for="0" value="232" />
+        </attvalues>
+      </node>
+      <node id="TAAAAGAAACCATCAATGAGGAA" label="TAAAAGAAACCATCAATGAGGAA">
+        <attvalues>
+          <attvalue for="0" value="292" />
+        </attvalues>
+      </node>
+      <node id="GTATGCTCCTCCCATCAGTGGAA" label="GTATGCTCCTCCCATCAGTGGAA">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="TTTATCAAGAGCCATTTAAAAAT" label="TTTATCAAGAGCCATTTAAAAAT">
+        <attvalues>
+          <attvalue for="0" value="341" />
+        </attvalues>
+      </node>
+      <node id="GCAGCAATGCAAATGTTAAAAGA" label="GCAGCAATGCAAATGTTAAAAGA">
+        <attvalues>
+          <attvalue for="0" value="239" />
+        </attvalues>
+      </node>
+      <node id="GCAGGGCCTATTCCACCAGGCCA" label="GCAGGGCCTATTCCACCAGGCCA">
+        <attvalues>
+          <attvalue for="0" value="242" />
+        </attvalues>
+      </node>
+      <node id="GGCCTTTTAGAAACAGCAGAAGG" label="GGCCTTTTAGAAACAGCAGAAGG">
+        <attvalues>
+          <attvalue for="0" value="266" />
+        </attvalues>
+      </node>
+      <node id="GCAGGGGAAAGAATAATAGACAT" label="GCAGGGGAAAGAATAATAGACAT">
+        <attvalues>
+          <attvalue for="0" value="243" />
+        </attvalues>
+      </node>
+      <node id="GCATATTTTTCAGTTCCTTTAGA" label="GCATATTTTTCAGTTCCTTTAGA">
+        <attvalues>
+          <attvalue for="0" value="244" />
+        </attvalues>
+      </node>
+      <node id="TACTGCATTCACCATACCTAGTA" label="TACTGCATTCACCATACCTAGTA">
+        <attvalues>
+          <attvalue for="0" value="295" />
+        </attvalues>
+      </node>
+      <node id="GCCCAGAAGTAATACCCATGTTC" label="GCCCAGAAGTAATACCCATGTTC">
+        <attvalues>
+          <attvalue for="0" value="248" />
+        </attvalues>
+      </node>
+      <node id="TGGGGATACTTGGGAAGGGGTTG" label="TGGGGATACTTGGGAAGGGGTTG">
+        <attvalues>
+          <attvalue for="0" value="322" />
+        </attvalues>
+      </node>
+      <node id="GGAACAGGAGCTACATTAGAAGA" label="GGAACAGGAGCTACATTAGAAGA">
+        <attvalues>
+          <attvalue for="0" value="256" />
+        </attvalues>
+      </node>
+      <node id="GGAATCAGATATCAGTACAATGT" label="GGAATCAGATATCAGTACAATGT">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="GGAATTCCCTACAATCCCCAAAG" label="GGAATTCCCTACAATCCCCAAAG">
+        <attvalues>
+          <attvalue for="0" value="258" />
+        </attvalues>
+      </node>
+      <node id="GGACTCGAAAGCGAAAGTTCCAG" label="GGACTCGAAAGCGAAAGTTCCAG">
+        <attvalues>
+          <attvalue for="0" value="259" />
+        </attvalues>
+      </node>
+      <node id="GGGGGAAAATTAGATGCATGGGA" label="GGGGGAAAATTAGATGCATGGGA">
+        <attvalues>
+          <attvalue for="0" value="273" />
+        </attvalues>
+      </node>
+      <node id="GTGCTATTAATTTGCTTGATACA" label="GTGCTATTAATTTGCTTGATACA">
+        <attvalues>
+          <attvalue for="0" value="285" />
+        </attvalues>
+      </node>
+      <node id="GCTGCATAAAAGCAGCCGCTTTT" label="GCTGCATAAAAGCAGCCGCTTTT">
+        <attvalues>
+          <attvalue for="0" value="252" />
+        </attvalues>
+      </node>
+      <node id="TCCGGGAAGTCAGCCTACAACTG" label="TCCGGGAAGTCAGCCTACAACTG">
+        <attvalues>
+          <attvalue for="0" value="123" />
+        </attvalues>
+      </node>
+      <node id="TATGATCAGATACTTATAGAAAT" label="TATGATCAGATACTTATAGAAAT">
+        <attvalues>
+          <attvalue for="0" value="301" />
+        </attvalues>
+      </node>
+      <node id="GTAAAATTATGGTACCAGTTAGA" label="GTAAAATTATGGTACCAGTTAGA">
+        <attvalues>
+          <attvalue for="0" value="275" />
+        </attvalues>
+      </node>
+      <node id="TTTCTATGTAGATGGGGCAGCTA" label="TTTCTATGTAGATGGGGCAGCTA">
+        <attvalues>
+          <attvalue for="0" value="342" />
+        </attvalues>
+      </node>
+      <node id="GTACCAAGAAGAAAAGCAAAGAT" label="GTACCAAGAAGAAAAGCAAAGAT">
+        <attvalues>
+          <attvalue for="0" value="276" />
+        </attvalues>
+      </node>
+      <node id="TGAGGATTAGAACATGGAACAGT" label="TGAGGATTAGAACATGGAACAGT">
+        <attvalues>
+          <attvalue for="0" value="315" />
+        </attvalues>
+      </node>
+      <node id="GTAGTACCAAGAAGAAAAGCAAA" label="GTAGTACCAAGAAGAAAAGCAAA">
+        <attvalues>
+          <attvalue for="0" value="280" />
+        </attvalues>
+      </node>
+      <node id="GTCACTGACAGAGGAAGACAAAA" label="GTCACTGACAGAGGAAGACAAAA">
+        <attvalues>
+          <attvalue for="0" value="283" />
+        </attvalues>
+      </node>
+      <node id="TGCTATTTCTTTGCTTGATGCTA" label="TGCTATTTCTTTGCTTGATGCTA">
+        <attvalues>
+          <attvalue for="0" value="113" />
+        </attvalues>
+      </node>
+      <node id="TGGAAAGGTGAAGGGGCAGTAGT" label="TGGAAAGGTGAAGGGGCAGTAGT">
+        <attvalues>
+          <attvalue for="0" value="321" />
+        </attvalues>
+      </node>
+      <node id="TTTTCAGTTCCCTTAGATGAAGA" label="TTTTCAGTTCCCTTAGATGAAGA">
+        <attvalues>
+          <attvalue for="0" value="344" />
+        </attvalues>
+      </node>
+      <node id="TAGCAAGGGAACCCACTGCTTAA" label="TAGCAAGGGAACCCACTGCTTAA">
+        <attvalues>
+          <attvalue for="0" value="297" />
+        </attvalues>
+      </node>
+      <node id="TGTACTCCAGCTGGTTATGCGAT" label="TGTACTCCAGCTGGTTATGCGAT">
+        <attvalues>
+          <attvalue for="0" value="328" />
+        </attvalues>
+      </node>
+      <node id="TCAGAAGTACACATTCCACTAGG" label="TCAGAAGTACACATTCCACTAGG">
+        <attvalues>
+          <attvalue for="0" value="306" />
+        </attvalues>
+      </node>
+      <node id="TGCCTGTGTACCCACAGACCCCA" label="TGCCTGTGTACCCACAGACCCCA">
+        <attvalues>
+          <attvalue for="0" value="318" />
+        </attvalues>
+      </node>
+      <node id="TGGAAATTAGTGCAATAGTAGGA" label="TGGAAATTAGTGCAATAGTAGGA">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="TCTCAAAGAAAGCTAAAAAGTGG" label="TCTCAAAGAAAGCTAAAAAGTGG">
+        <attvalues>
+          <attvalue for="0" value="313" />
+        </attvalues>
+      </node>
+      <node id="TTGATCCTTGGGTTGGTGATAAT" label="TTGATCCTTGGGTTGGTGATAAT">
+        <attvalues>
+          <attvalue for="0" value="336" />
+        </attvalues>
+      </node>
+      <node id="TTTGTTCATTTCAGAATTGGGTG" label="TTTGTTCATTTCAGAATTGGGTG">
+        <attvalues>
+          <attvalue for="0" value="343" />
+        </attvalues>
+      </node>
+      <node id="TTTATAATGATAGTAGGAGGTTT" label="TTTATAATGATAGTAGGAGGTTT">
+        <attvalues>
+          <attvalue for="0" value="340" />
+        </attvalues>
+      </node>
+      <node id="GACGAAGAAAGAGAAGTGCTGAT" label="GACGAAGAAAGAGAAGTGCTGAT">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="AAAAACAGGAAAATATGCCAGAA" target="AATTAACAGAAGTGGTGCAAAAA" />
+      <edge id="1" source="AATTAACAGAAGTGGTGCAAAAA" target="AATCAAAAGACTGAATTACATGC" />
+      <edge id="2" source="AAAAAGGACAGCACCAAATGGAG" target="AGAAATGGTTATCTATCAATACA" />
+      <edge id="3" source="AGAAATGGTTATCTATCAATACA" target="GAACAAAAATAGAGGAGCTAAGA" />
+      <edge id="4" source="AAAAATCTTAGAGCCCTTTAGAA" target="GTAGGATCTGACTTAGAGATAGG" />
+      <edge id="5" source="GTAGGATCTGACTTAGAGATAGG" target="ACACCAGACAAAAAACATCAGAA" />
+      <edge id="6" source="AAAACTGGATGACAGAAACCTTG" target="CCAAAATGCGAATCCAGACTGTA" />
+      <edge id="7" source="CCAAAATGCGAATCCAGACTGTA" target="GAAGAAATGATGACAGCATGCCA" />
+      <edge id="8" source="AAAAGCAGGGTATGTCACTGACA" target="AATCAAAAGACTGAGTTACATGC" />
+      <edge id="9" source="AATCAAAAGACTGAGTTACATGC" target="CAGGATTCAGGATCAGAAGTAAA" />
+      <edge id="10" source="AATCAAAAGACTGAGTTACATGC" target="GACTCACAGTATGCATTAGGAAT" />
+      <edge id="11" source="AAAAGGGGGGACTGGATGGGCTA" target="ATCCTTGACTTATGGGTCTATAA" />
+      <edge id="12" source="ATCCTTGACTTATGGGTCTATAA" target="CCAGGGATCAGATTCCCACTGTG" />
+      <edge id="13" source="AAAAGGTGGATAATCCTGGGATT" target="GTTAGCATTTTGGACATAAGACA" />
+      <edge id="14" source="GTTAGCATTTTGGACATAAGACA" target="GGAACAGGAGCTACATTAGAAGA" />
+      <edge id="15" source="AAAATAGCCACAGAAAGCATAGT" target="TATTGGCAGGCTACCTGGATTCC" />
+      <edge id="16" source="TATTGGCAGGCTACCTGGATTCC" target="GAATGGGAGTTTGTTAATACCCC" />
+      <edge id="17" source="AAAATTGGGCCTGAAAATCCATA" target="GCTATAAAGAAAAAGGACAGCAC" />
+      <edge id="18" source="GCTATAAAGAAAAAGGACAGCAC" target="CCTTTAGATGAAAGCTTTAGAAA" />
+      <edge id="19" source="AAACTCATCTGCACCACTAATGT" target="CTAGTTGGAGTAATAAAACTTAT" />
+      <edge id="20" source="CTAGTTGGAGTAATAAAACTTAT" target="AGGCAGGGATACTCACCTTTGTC" />
+      <edge id="21" source="CTAGTTGGAGTAATAAAACTTAT" target="TGGTTTGACATAACAAAATGGCT" />
+      <edge id="22" source="AAAGACACAGCAGGCAGCAGCTG" target="TGCAAAATGCACAAGGACAAATG" />
+      <edge id="23" source="TGCAAAATGCACAAGGACAAATG" target="GACACCAGGCAGCAATGCAGATG" />
+      <edge id="24" source="TGCAAAATGCACAAGGACAAATG" target="GCCCAGAAGTAATACCCATGTTC" />
+      <edge id="25" source="AAAGACCCCATAGTAGGAGCAGA" target="AAAAGCAGGGTATGTCACTGACA" />
+      <edge id="26" source="AAAGACCCCATAGTAGGAGCAGA" target="GGGGCAGCTAGTAGGGAGACTAA" />
+      <edge id="27" source="GGGGCAGCTAGTAGGGAGACTAA" target="AATCAAAAGACTGAATTACATGC" />
+      <edge id="28" source="AAAGAGCAGTTGGACTGGGAGCT" target="GCGTCAATAACGCTGACGGTACA" />
+      <edge id="29" source="AAAGAGCAGTTGGACTGGGAGCT" target="TTGTCTGGTATAGTGCAACAGCA" />
+      <edge id="30" source="GCGTCAATAACGCTGACGGTACA" target="AGGCTATAGAGGCTCAACAACAT" />
+      <edge id="31" source="TTGTCTGGTATAGTGCAACAGCA" target="AGGCTATAGAGGCTCAACAACAT" />
+      <edge id="32" source="AAAGGTAGTACCAAGAAGAAAAG" target="GTTTAGTAAAACATCATATGTAT" />
+      <edge id="33" source="GTTTAGTAAAACATCATATGTAT" target="TATAGACATCACTATGAAAGTAG" />
+      <edge id="34" source="AAAGTAATACACACAGACAACGG" target="GTAGTAGAATCTATGAATAAGGA" />
+      <edge id="35" source="GTAGTAGAATCTATGAATAAGGA" target="GCAGGGGAAAGAATAATAGACAT" />
+      <edge id="36" source="AAAGTCATCCTGGTAGCAGTCCA" target="GTTATCCCAGCAGAAACAGGACA" />
+      <edge id="37" source="GTTATCCCAGCAGAAACAGGACA" target="TGGAAAGGTGAAGGGGCAGTAGT" />
+      <edge id="38" source="AAATAAGAAAACAGAAGAAAATA" target="AGTGGCAATGAGAGTGATGGGGA" />
+      <edge id="39" source="AGTGGCAATGAGAGTGATGGGGA" target="CATGCCTGTGTACCCACAGACCC" />
+      <edge id="40" source="AGTGGCAATGAGAGTGATGGGGA" target="CCACAGACCCCAACCCACAAGAA" />
+      <edge id="41" source="AAATAGATCCTGACCTAGCAGAC" target="ATTAACAACACCAAAAAGGATAA" />
+      <edge id="42" source="ATTAACAACACCAAAAAGGATAA" target="TAACAGAAGATAGATGGAACAAG" />
+      <edge id="43" source="AAATCACTCTTTGGCAACGACCC" target="TGGAAACCAAAAATGATAGGGGG" />
+      <edge id="44" source="TGGAAACCAAAAATGATAGGGGG" target="GATCAGATACTTATAGAAATTTG" />
+      <edge id="45" source="AAATTAGTAGATTTCAGAGAGCT" target="TTAGGAATACCGCATCCAGCAGG" />
+      <edge id="46" source="TTAGGAATACCGCATCCAGCAGG" target="GCATATTTTTCAGTTCCTTTAGA" />
+      <edge id="47" source="AAATTGTAATACCTCAGCCATTA" target="TGTTAAATGGCAGTCTAGCAGAA" />
+      <edge id="48" source="TGTTAAATGGCAGTCTAGCAGAA" target="ATGCCAAAACCATAATAGTACAG" />
+      <edge id="49" source="AACAAGTAGATAAATTAGTCAGT" target="GGCATAGATAAAGCCCAAGAAGA" />
+      <edge id="50" source="GGCATAGATAAAGCCCAAGAAGA" target="CACAGCAATTGGAGAGCAATGGC" />
+      <edge id="51" source="AACAATGAATGGACATTAGAACT" target="GAGCTTAAAAATGAAGCTGTTAG" />
+      <edge id="52" source="GAGCTTAAAAATGAAGCTGTTAG" target="CATTTTCCTAGGCCCTGGCTCCA" />
+      <edge id="53" source="AACTAGAGATCCCTCAGACCACT" target="CGAAAGCGAAAGTTCCAGAGAAG" />
+      <edge id="54" source="CGAAAGCGAAAGTTCCAGAGAAG" target="GAGATGGGTGCGAGAGCGTCAGT" />
+      <edge id="55" source="CGAAAGCGAAAGTTCCAGAGAAG" target="GCGGCGACTGGTGAGTACGCCAA" />
+      <edge id="56" source="AACTCCTCAGGGGAGCTAAAGCA" target="CAATGGACATATCAAATTTATCA" />
+      <edge id="57" source="CAATGGACATATCAAATTTATCA" target="AATACCCCTCCTCTAGTAAAATT" />
+      <edge id="58" source="AACTGTGGCAAAGAAGGACACCT" target="GAGCCAACAGCCCCACCAGCAGA" />
+      <edge id="59" source="GAGCCAACAGCCCCACCAGCAGA" target="GAAGCAGGAACCGAGGGACAAGG" />
+      <edge id="60" source="GAGCCAACAGCCCCACCAGCAGA" target="TGGGGGATGGGGGAAGAGATAAC" />
+      <edge id="61" source="AACTTAAATCATTATTTAATACA" target="AAAGACACAGCAGGCAGCAGCTG" />
+      <edge id="62" source="AACTTAAATCATTATTTAATACA" target="GATAAAATAGAGGAAGTACAAAA" />
+      <edge id="63" source="GATAAAATAGAGGAAGTACAAAA" target="AGACACAGCAGGCAGCAGCTGGC" />
+      <edge id="64" source="GATAAAATAGAGGAAGTACAAAA" target="GCAGGCAGCAGCTGGCACAGGAA" />
+      <edge id="65" source="AAGAACAAATAGGATGGATGACA" target="AAAAGGTGGATAATCCTGGGATT" />
+      <edge id="66" source="AAGAACTTAAATCATTATTTAAT" target="GATAAAATAGAGGAAGTACAAAA" />
+      <edge id="67" source="AAGAAGCAGAAGGTCCATGCACT" target="TATAAGCTTGATATAGTACAAAT" />
+      <edge id="68" source="TATAAGCTTGATATAGTACAAAT" target="ATTTTAAAGTGTAATGATAAGAA" />
+      <edge id="69" source="TATAAGCTTGATATAGTACAAAT" target="TGTACTCCAGCTGGTTATGCGAT" />
+      <edge id="70" source="AAGAGATAATAATCAGATCTGAA" target="AAGTATAACTATAGGACCAGGAC" />
+      <edge id="71" source="AAGAGATAATAATCAGATCTGAA" target="ATCTGTAGAAATCAATTGTACCA" />
+      <edge id="72" source="AAGTATAACTATAGGACCAGGAC" target="AGATTAATGGAACAAAATGGAAT" />
+      <edge id="73" source="ATCTGTAGAAATCAATTGTACCA" target="AAGTATAACTATAGGACCAGGAC" />
+      <edge id="74" source="AAGATCTAGATAAACATGGAGCA" target="GTCTGGCTGAGAGCACAAGAGGA" />
+      <edge id="75" source="GTCTGGCTGAGAGCACAAGAGGA" target="AAAAGGGGGGACTGGATGGGCTA" />
+      <edge id="76" source="GTCTGGCTGAGAGCACAAGAGGA" target="GCTTCAAGCTAGTACCAGTTGAC" />
+      <edge id="77" source="AAGCAATGTATGCCCCTCCCATC" target="AGACCTTCAGACCTGGAGGAGGA" />
+      <edge id="78" source="AAGCAATGTATGCCCCTCCCATC" target="GGAATACTATTGACAAGAGATGG" />
+      <edge id="79" source="AGACCTTCAGACCTGGAGGAGGA" target="AATTGGAGAAGTGAATTATATAA" />
+      <edge id="80" source="GGAATACTATTGACAAGAGATGG" target="AGAAGTGAATTATATAAATATAA" />
+      <edge id="81" source="AAGCAGGCTTGTCCAAAGATATC" target="ATTTTAAAGTGTAATGATAAGAA" />
+      <edge id="82" source="ATTTTAAAGTGTAATGATAAGAA" target="AAGAGATAATAATCAGATCTGAA" />
+      <edge id="83" source="ATTTTAAAGTGTAATGATAAGAA" target="ACACATGGAATTAAGCCAGTGGT" />
+      <edge id="84" source="AAGCCAGGAATGGATGGCCCAAA" target="GAAAAAATAAAAGCATTAACAGA" />
+      <edge id="85" source="GAAAAAATAAAAGCATTAACAGA" target="ATTTCAAAAATTGGGCCTGAAAA" />
+      <edge id="86" source="AAGCTTTAGATAAAATAGAGGAA" target="AGCAGGCAGCAGCTGGCACAGGA" />
+      <edge id="87" source="AGCAGGCAGCAGCTGGCACAGGA" target="TGCAAAATGCACAAGGGCAAATG" />
+      <edge id="88" source="AAGGAGGTGGCGAGCAAGGCAGA" target="GTGAGCGGATTCTTAGCACTTGC" />
+      <edge id="89" source="GTGAGCGGATTCTTAGCACTTGC" target="CCTGTGCCTCTTCAGCTACCACC" />
+      <edge id="90" source="AAGGATCACCGGCAATATTCCAG" target="AGCATGACAAAAATCTTAGAGCC" />
+      <edge id="91" source="AGCATGACAAAAATCTTAGAGCC" target="GAACAAAAATAGAGGAGCTAAGA" />
+      <edge id="92" source="AAGTAGCATAGTGGGATGGCCTC" target="AGCAGCAGAAGGAGTAGGAGCAG" />
+      <edge id="93" source="AGCAGCAGAAGGAGTAGGAGCAG" target="GTAGGCTTTCCAGTCAGGCCGCA" />
+      <edge id="94" source="AGATTAATGGAACAAAATGGAAT" target="CTCAGGAGGAGATCTAGAAATTA" />
+      <edge id="95" source="AATAAAGCTTGCCTTGAGTGCTT" target="ATCCCTCAGACCACTCTAGACTG" />
+      <edge id="96" source="ATCCCTCAGACCACTCTAGACTG" target="CGAAAGCGAAAGTTCCAGAGAAG" />
+      <edge id="97" source="ATCCCTCAGACCACTCTAGACTG" target="GGCGCCCGAACAGGGACTTGAAG" />
+      <edge id="98" source="AATACCCCTCCTCTAGTAAAATT" target="TAGGAAAAGCAGGGTATGTCACT" />
+      <edge id="99" source="TAGGAAAAGCAGGGTATGTCACT" target="AATCAAAAGACTGAGTTACATGC" />
+      <edge id="100" source="AATACTATTGACAAGAGATGGTG" target="ACCTTCAGACCTGGAGGAGGAAA" />
+      <edge id="101" source="ACCTTCAGACCTGGAGGAGGAAA" target="AATTATATAAATATAAAGTAGTA" />
+      <edge id="102" source="ACCTTCAGACCTGGAGGAGGAAA" target="AGAAGAGTGGTGGAGAGAGAAAA" />
+      <edge id="103" source="AATCAAAAGACTGAATTACATGC" target="ATAGAGGAGCTAATAAAAAAGGA" />
+      <edge id="104" source="AATCAAAAGACTGAATTACATGC" target="CAATATGCATTAGGAATCATTCA" />
+      <edge id="105" source="ATAGAGGAGCTAATAAAAAAGGA" target="CTATAGTAGCAAAGGAAATAGTA" />
+      <edge id="106" source="ATAGAGGAGCTAATAAAAAAGGA" target="GGAGGAAATGAACAAGTAGATAA" />
+      <edge id="107" source="CAATATGCATTAGGAATCATTCA" target="ATAATAGAGGAGCTAATAAAAAA" />
+      <edge id="108" source="CAGGATTCAGGATCAGAAGTAAA" target="ATAGAGGAGCTAATAAAAAAGGA" />
+      <edge id="109" source="GACTCACAGTATGCATTAGGAAT" target="GAGTGAATCAGAGTTAGTCAATC" />
+      <edge id="110" source="AATCATTCAGGCACAACCAGACA" target="GAGTGAATCAGAGTTAGTCAATC" />
+      <edge id="111" source="GAGTGAATCAGAGTTAGTCAATC" target="CACAAAGGGATTGGAGGAAATGA" />
+      <edge id="112" source="GAGTGAATCAGAGTTAGTCAATC" target="TCATGGGTACCAGCACACAAAGG" />
+      <edge id="113" source="AATCGAAGAAGGAGGTGGCGAGC" target="CCTGTGCCTCTTCAGCTACCACC" />
+      <edge id="114" source="CCTGTGCCTCTTCAGCTACCACC" target="GGACTGAGACTGGGGTGGGAAGC" />
+      <edge id="115" source="CCTGTGCCTCTTCAGCTACCACC" target="TCAAATATCTGGGGAATCTTCTG" />
+      <edge id="116" source="AATCTAAAAACAGGAAAATATGC" target="ACAGAGGTAGTGCAAAAAGTGGC" />
+      <edge id="117" source="ACAGAGGTAGTGCAAAAAGTGGC" target="CCCATACAAAGAGAAACATGGGA" />
+      <edge id="118" source="ACAGAGGTAGTGCAAAAAGTGGC" target="TGGTGGATGGAGTATTGGCAGGC" />
+      <edge id="119" source="AATGATGTAAAACAATTAACAGA" target="AAAATAGCCACAGAAAGCATAGT" />
+      <edge id="120" source="AATGGCAGTCTAGCAGAAGAAGA" target="CCTCCAACAATACAAGAACAAGT" />
+      <edge id="121" source="CCTCCAACAATACAAGAACAAGT" target="GAACAGGAGACATAATAGGAGAT" />
+      <edge id="122" source="AATTATATAAATATAAAGTAGTA" target="AGAAGAGTGGTGGAGAGAGAAAA" />
+      <edge id="123" source="AGAAGAGTGGTGGAGAGAGAAAA" target="CTGGCTGTGGAAAGATACCTAAA" />
+      <edge id="124" source="AGAAGAGTGGTGGAGAGAGAAAA" target="GGGCTATAGAGGCGCAGCAGCAT" />
+      <edge id="125" source="AATTGGAGAAGTGAATTATATAA" target="AAAGAGCAGTTGGACTGGGAGCT" />
+      <edge id="126" source="AATTTATGCAGGGATTAAGGTAA" target="TAACAGACATAGTACCACTGACT" />
+      <edge id="127" source="TAACAGACATAGTACCACTGACT" target="AGAAGCAGAATTAGAGTTGGCAG" />
+      <edge id="128" source="AATTTCCCAATTAGTCCTATTGA" target="CCATTGACAGAAGAAAAAATAAA" />
+      <edge id="129" source="CCATTGACAGAAGAAAAAATAAA" target="GCCATAAAGAAAAAAGATAGTAC" />
+      <edge id="130" source="AATTTTTCTATTGCAATACAACA" target="GCAAATTATAAACATGTGGCAGG" />
+      <edge id="131" source="GCAAATTATAAACATGTGGCAGG" target="ATACTATTGACAAGAGATGGTGG" />
+      <edge id="132" source="GCAAATTATAAACATGTGGCAGG" target="GTATGCTCCTCCCATCAGTGGAA" />
+      <edge id="133" source="ACAAATAGGATGGATGACAAACA" target="AAAACTGGATGACAGAAACCTTG" />
+      <edge id="134" source="ACAAATAGGATGGATGACAAACA" target="ACAGAAACCTTGCTAGTCCAAAA" />
+      <edge id="135" source="ACAGAAACCTTGCTAGTCCAAAA" target="CATAAAGCAAGGGTTTTGGCTGA" />
+      <edge id="136" source="ACACATGGAATTAAGCCAGTGGT" target="AATGGCAGTCTAGCAGAAGAAGA" />
+      <edge id="137" source="ACACCAGACAAAAAACATCAGAA" target="CCTGACAAATGGACAGTCCAGCC" />
+      <edge id="138" source="CCTGACAAATGGACAGTCCAGCC" target="GGAAAACTAAATTGGGCAAGTCA" />
+      <edge id="139" source="CCTGACAAATGGACAGTCCAGCC" target="GTGGGAAAACTAAATTGGGCAAG" />
+      <edge id="140" source="CATAAAGCAAGGGTTTTGGCTGA" target="ATAATGATGCAGAGAGGCAATTT" />
+      <edge id="141" source="CCCATACAAAGAGAAACATGGGA" target="AAAGACCCCATAGTAGGAGCAGA" />
+      <edge id="142" source="TGGTGGATGGAGTATTGGCAGGC" target="GTAAAATTATGGTACCAGTTAGA" />
+      <edge id="143" source="ACAGATAGAGTTATAGAAATAGG" target="AAGTAGCATAGTGGGATGGCCTC" />
+      <edge id="144" source="ACAGATAGAGTTATAGAAATAGG" target="ATGGGTGGCAAGTGGTCAAAAAG" />
+      <edge id="145" source="ATGGGTGGCAAGTGGTCAAAAAG" target="GAGTAGGAGCAGTATCTCAAGAT" />
+      <edge id="146" source="ACAGGAAAATATGCCAGAAAAAG" target="AATGATGTAAAACAATTAACAGA" />
+      <edge id="147" source="ACAGGATCAGAAGAACTTAAATC" target="AGCTTTAGATAAAATAGAGGAAG" />
+      <edge id="148" source="AGCTTTAGATAAAATAGAGGAAG" target="GCAGGCAGCAGCTGGCACAGGAA" />
+      <edge id="149" source="ACAGGATGAGGATTAGAACATGG" target="TATGTATATCTCAAAGAAAGCTA" />
+      <edge id="150" source="TATGTATATCTCAAAGAAAGCTA" target="GAAGTACATATCCCACTAGGAGA" />
+      <edge id="151" source="ACAGTCAACTCTCAAGACAGGAT" target="AACTTAAATCATTATTTAATACA" />
+      <edge id="152" source="ACAGTGCCCTAGCACGAAAACAC" target="AGTACTATAAAGACTGCTGACAA" />
+      <edge id="153" source="AGTACTATAAAGACTGCTGACAA" target="TGGCCGGGGCGGAGTTGGGGAGT" />
+      <edge id="154" source="ACATGTGGAAAAATAACATGGTA" target="AGTTAACTCCTCTCTGCGTTACT" />
+      <edge id="155" source="AGTTAACTCCTCTCTGCGTTACT" target="AGGAAATATAACAGATGAAGTAA" />
+      <edge id="156" source="ACATTAAAGCCAGGAATGGATGG" target="GCATTAACAGAAATTTGTAAAGA" />
+      <edge id="157" source="GCATTAACAGAAATTTGTAAAGA" target="AAAAAGGACAGCACCAAATGGAG" />
+      <edge id="158" source="GCATTAACAGAAATTTGTAAAGA" target="CTGAAAATCCATACAATACTCCA" />
+      <edge id="159" source="ACCATACCTAGTATAAACAATGA" target="AAGGATCACCGGCAATATTCCAG" />
+      <edge id="160" source="ACGGTACAGGCCAGACAATTATT" target="TGGGGCTGCTCTGGAAAAATCAT" />
+      <edge id="161" source="TGGGGCTGCTCTGGAAAAATCAT" target="CTGGAACTCCACTTGGAGTAATA" />
+      <edge id="162" source="ACTAGTACCCTTCAAGAACAAAT" target="CCAGTGGGAGACATCTATAAAAG" />
+      <edge id="163" source="CCAGTGGGAGACATCTATAAAAG" target="AGAATGTATAGCCCTGTCAGCAT" />
+      <edge id="164" source="ACTCTTTGGCAACGACCCTTAGT" target="ATGATACAGTATTAGAAGAAATA" />
+      <edge id="165" source="ACTCTTTGGCAACGACCCTTAGT" target="GCAGATGATACAGTATTAGAAGA" />
+      <edge id="166" source="ATGATACAGTATTAGAAGAAATA" target="TGTTGACTCAGATTGGTTGCACT" />
+      <edge id="167" source="GCAGATGATACAGTATTAGAAGA" target="AGTAAGACAATATGATCAGATAC" />
+      <edge id="168" source="AGAAAAAATATAGACTAAAACAT" target="GCAGGGAGTTGGAAAGATTCGCA" />
+      <edge id="169" source="GCAGGGAGTTGGAAAGATTCGCA" target="GGCCTTTTAGAAACAGCAGAAGG" />
+      <edge id="170" source="AGAAAAGACAAGAGATCCTTGAT" target="CCTGATTGGCAAAACTACACACC" />
+      <edge id="171" source="AGAAAAGACAAGAGATCCTTGAT" target="GATTGGCAGAACTACACACCAGG" />
+      <edge id="172" source="CCTGATTGGCAAAACTACACACC" target="TGTGTTTTGGATGGTGCTTCAAG" />
+      <edge id="173" source="GATTGGCAGAACTACACACCAGG" target="AGGACGAAGACAGAGAAGTGCTG" />
+      <edge id="174" source="AGAAAATTAGTAGATTTCAGAGA" target="TACCTCATCCCGCGGGATTAAAA" />
+      <edge id="175" source="TACCTCATCCCGCGGGATTAAAA" target="TTTTCAGTTCCCTTAGATGAAGA" />
+      <edge id="176" source="GAACAAAAATAGAGGAGCTAAGA" target="AAAAACAGGAAAATATGCCAGAA" />
+      <edge id="177" source="GAACAAAAATAGAGGAGCTAAGA" target="AGCTGGGGATTTACTACACCAGA" />
+      <edge id="178" source="AGAACATGGAACAGTTTAGTAAA" target="TATAGACATCACTATGAAAGTAG" />
+      <edge id="179" source="TATAGACATCACTATGAAAGTAG" target="TCAGAAGTACACATTCCACTAGG" />
+      <edge id="180" source="AGAACTGTTAGAGGAGCTTAAAA" target="AGACATTTTCCTAGGCCCTGGCT" />
+      <edge id="181" source="AGACATTTTCCTAGGCCCTGGCT" target="CTTAGGACAGTACATCTATAACA" />
+      <edge id="182" source="AGAACTTTGAATGCATGGGTGAA" target="AGGGTTTTAACCCAGAAGTAATA" />
+      <edge id="183" source="AGGGTTTTAACCCAGAAGTAATA" target="TTAAATATGATGCTAAATATAGT" />
+      <edge id="184" source="CTGGCTGTGGAAAGATACCTAAA" target="CTAGGACTTTGGGGCTGCTCTGG" />
+      <edge id="185" source="GGGCTATAGAGGCGCAGCAGCAT" target="CTGGAACTCCACTTGGAGTAATA" />
+      <edge id="186" source="AGAAGCAGAATTAGAGTTGGCAG" target="GTACAGAAACAAGGGCAGGACCA" />
+      <edge id="187" source="GTACAGAAACAAGGGCAGGACCA" target="ACAGGAAAATATGCCAGAAAAAG" />
+      <edge id="188" source="AGAAGGAGTAGGAGCAGTATCTC" target="TAGTAATATGAATAATGCTGATA" />
+      <edge id="189" source="TAGTAATATGAATAATGCTGATA" target="AGAAAAGACAAGAGATCCTTGAT" />
+      <edge id="190" source="AGAAGTGAATTATATAAATATAA" target="AAAGAGCAGTTGGACTGGGAGCT" />
+      <edge id="191" source="AGAATGTATAGCCCTGTCAGCAT" target="AGTCCATTTTAAAAGCATTAGGA" />
+      <edge id="192" source="AGTCCATTTTAAAAGCATTAGGA" target="ATGATGACAGCATGCCAGGGAGT" />
+      <edge id="193" source="AGAATTAAGTGCTTCAACTGTGG" target="GAAATTGCAGGGCCCCTAGAAAA" />
+      <edge id="194" source="GAAATTGCAGGGCCCCTAGAAAA" target="CCTTCCAACAAGGGAAGGCCGGG" />
+      <edge id="195" source="GAAATTGCAGGGCCCCTAGAAAA" target="GGGATGGGGGAAGAGATAACCTC" />
+      <edge id="196" source="AGAATTGGGTGTCAACATAGCAG" target="GGGAGAAGAGGCAGGAATGGAGC" />
+      <edge id="197" source="GGGAGAAGAGGCAGGAATGGAGC" target="TCCGGGAAGTCAGCCTACAACTG" />
+      <edge id="198" source="AGACACAGCAGGCAGCAGCTGGC" target="AGCAGCAAAGTCAGCCAAAATTA" />
+      <edge id="199" source="AGCAGCAAAGTCAGCCAAAATTA" target="TGCAAAATGCACAAGGACAAATG" />
+      <edge id="200" source="AGACAGCATACTTTCTGCTAAAA" target="AGCCTGTTGGTGGGCCAATGTCC" />
+      <edge id="201" source="AGCCTGTTGGTGGGCCAATGTCC" target="AGAGAGCAAGCTGAACACCTTAA" />
+      <edge id="202" source="CTTAGGACAGTACATCTATAACA" target="GTCAACATAGCAGAATAGGCATT" />
+      <edge id="203" source="AGAGAGAAATTAGCAATTACACA" target="ATATATGAGATACTTACAGAATC" />
+      <edge id="204" source="ATATATGAGATACTTACAGAATC" target="CCAGACCCCTTCCCATCATCAGA" />
+      <edge id="205" source="ATATATGAGATACTTACAGAATC" target="TGGTATATAAAAATATTTATAAT" />
+      <edge id="206" source="AGAGAGCAAGCTGAACACCTTAA" target="GAAAGCCAGCATCCAAAGGTAAG" />
+      <edge id="207" source="GAAAGCCAGCATCCAAAGGTAAG" target="GAAGTACATATCCCACTAGGAGA" />
+      <edge id="208" source="AGAGCAGAAGACAGTGGAAATGA" target="TGGCCAAACTTGTGGAAATGGGG" />
+      <edge id="209" source="TGGCCAAACTTGTGGAAATGGGG" target="TTGATCCTTGGGTTGGTGATAAT" />
+      <edge id="210" source="AGAGGGAACCCGACAGGCCCGAA" target="AAGGAGGTGGCGAGCAAGGCAGA" />
+      <edge id="211" source="CTCAGGAGGAGATCTAGAAATTA" target="AATTTTTCTATTGCAATACAACA" />
+      <edge id="212" source="CTCAGGAGGAGATCTAGAAATTA" target="ATTTTTCTATTGCAATACAACAC" />
+      <edge id="213" source="GTAGGCTTTCCAGTCAGGCCGCA" target="AGGGGGGACTGGATGGGTTAATT" />
+      <edge id="214" source="AGCAGGAGCAGAAAGACAAGGAA" target="CAGTGTTAGTAGGACCTACACCT" />
+      <edge id="215" source="AGCAGGAGCAGAAAGACAAGGAA" target="GGGGGAATTGGAGGTTTTATCAA" />
+      <edge id="216" source="CAGTGTTAGTAGGACCTACACCT" target="CGAAATATGTTGACTCAGATTGG" />
+      <edge id="217" source="GGGGGAATTGGAGGTTTTATCAA" target="TATGATCAGATACTTATAGAAAT" />
+      <edge id="218" source="TGCAAAATGCACAAGGGCAAATG" target="GACACCAGGCAGCAATGCAGATG" />
+      <edge id="219" source="AGCTGGACTGTCAATGATATACA" target="AACTCCTCAGGGGAGCTAAAGCA" />
+      <edge id="220" source="AGCTGGGGATTTACTACACCAGA" target="AGCTGGACTGTCAATGATATACA" />
+      <edge id="221" source="GCAGGCAGCAGCTGGCACAGGAA" target="GCAAAATGCACAAGGGCAAATGG" />
+      <edge id="222" source="AGGAAATATAACAGATGAAGTAA" target="GTACTTTTAATATGACCACAGAA" />
+      <edge id="223" source="GTACTTTTAATATGACCACAGAA" target="AAGAAGCAGAAGGTCCATGCACT" />
+      <edge id="224" source="AGGAAGCTGCAGAATGGGACAGG" target="ATGAGAGAACCAAGGGGAAGTGA" />
+      <edge id="225" source="ATGAGAGAACCAAGGGGAAGTGA" target="CCAGTGGGAGAAATCTATAAAAG" />
+      <edge id="226" source="AGGAAGGTGCTATTTTTAGATGG" target="GGGGAAGCTATGCATGGACAAGT" />
+      <edge id="227" source="GGGGAAGCTATGCATGGACAAGT" target="AAAGTCATCCTGGTAGCAGTCCA" />
+      <edge id="228" source="AGGACACCTAGCCAGAAATTGCA" target="TTTAGGGAAAATTTGGCCTTCCA" />
+      <edge id="229" source="TTTAGGGAAAATTTGGCCTTCCA" target="GGATGGGGGAAGAGATAACCTCC" />
+      <edge id="230" source="AGGACGAAGACAGAGAAGTGCTG" target="AGGGAGGTGTGGTTTGGGAGGAG" />
+      <edge id="231" source="AGGGAGGTGTGGTTTGGGAGGAG" target="CTGTACTGGGTCTCTCTTGCTAG" />
+      <edge id="232" source="AGGGAGGTGTGGTTTGGGAGGAG" target="TCGCTTGTACTGGGTCTCTCTTG" />
+      <edge id="233" source="AGGCAGGGATACTCACCTTTGTC" target="AATCGAAGAAGGAGGTGGCGAGC" />
+      <edge id="234" source="AGGCAGGGATACTCACCTTTGTC" target="CGAAGAAGGAGGTGGCGAGCAAG" />
+      <edge id="235" source="CGAAGAAGGAGGTGGCGAGCAAG" target="CTGTGCCTCTTCAGCTACCACCG" />
+      <edge id="236" source="AGGCTATAGAGGCTCAACAACAT" target="AAACTCATCTGCACCACTAATGT" />
+      <edge id="237" source="AGGCTATAGAGGCTCAACAACAT" target="CCTGGCTCTGGAAAGATACCTAA" />
+      <edge id="238" source="CCTGGCTCTGGAAAGATACCTAA" target="AAACTCATCTGCACCACTAATGT" />
+      <edge id="239" source="CTGTACTGGGTCTCTCTTGCTAG" target="AACTAGAGATCCCTCAGACCACT" />
+      <edge id="240" source="CTGTACTGGGTCTCTCTTGCTAG" target="ATCCCTCAGACCACTCTAGACTG" />
+      <edge id="241" source="AGGGGGGACTGGATGGGTTAATT" target="GAACTACACACCAGGGCCAGGGA" />
+      <edge id="242" source="AGGGGGGACTGGATGGGTTAATT" target="GATTGGCAGAACTACACACCAGG" />
+      <edge id="243" source="GAACTACACACCAGGGCCAGGGA" target="CTGTACTGGGTCTCTCTTGCTAG" />
+      <edge id="244" source="TTAAATATGATGCTAAATATAGT" target="GCAGCAATGCAAATGTTAAAAGA" />
+      <edge id="245" source="AGGGTTTTGGCTGAGGCAATGAG" target="CAGAGAGGCAATTTTAAGGGCCA" />
+      <edge id="246" source="CAGAGAGGCAATTTTAAGGGCCA" target="GCCAGAAATTGCAGGGCCCCTAG" />
+      <edge id="247" source="AGGTTAGTTAAGAGAATAAGAGA" target="AGAGCAGAAGACAGTGGAAATGA" />
+      <edge id="248" source="AGTAAGACAATATGATCAGATAC" target="ATAGAAATTTGTGGAAAAAAGGC" />
+      <edge id="249" source="ATAGAAATTTGTGGAAAAAAGGC" target="TGTTGACTCAGATTGGTTGCACT" />
+      <edge id="250" source="TGGCCGGGGCGGAGTTGGGGAGT" target="TAGCAAGGGAACCCACTGCTTAA" />
+      <edge id="251" source="AGTATAGGTTAATAAATTGTAAT" target="AAGCAGGCTTGTCCAAAGATATC" />
+      <edge id="252" source="ATGATGACAGCATGCCAGGGAGT" target="GCAATGAGTCAAGTACAACAGGC" />
+      <edge id="253" source="CATGCCTGTGTACCCACAGACCC" target="ATGTGGAAAAATAACATGGTAGA" />
+      <edge id="254" source="CCACAGACCCCAACCCACAAGAA" target="CAAAGCCTAAAGCCATGTGTAAA" />
+      <edge id="255" source="ATAAGAACATATTGGGGTCTGCA" target="CATGGGGTCTCCATAGAATGGAG" />
+      <edge id="256" source="CATGGGGTCTCCATAGAATGGAG" target="CTAGCAGACCAACTGATTCATCT" />
+      <edge id="257" source="CATGGGGTCTCCATAGAATGGAG" target="GATCCTGACCTAGCAGACCAACT" />
+      <edge id="258" source="ATAAGGAAAGCCATATTAGGACA" target="ATTAGTAACACCAACAAGGACAA" />
+      <edge id="259" source="ATTAGTAACACCAACAAGGACAA" target="GACAGATGGAACAAGCCCCAGAA" />
+      <edge id="260" source="ATTAGTAACACCAACAAGGACAA" target="GCTGTTAGACATTTTCCTAGGCC" />
+      <edge id="261" source="ATAATAGACATAATAGCATCAGA" target="GTTTATTACAGGGACAGCAGAGA" />
+      <edge id="262" source="ATAATAGACATAATAGCATCAGA" target="TATTACAGGGACAGCAGAGACCC" />
+      <edge id="263" source="GTTTATTACAGGGACAGCAGAGA" target="GTAGTACCAAGAAGAAAAGCAAA" />
+      <edge id="264" source="TATTACAGGGACAGCAGAGACCC" target="AAAGGTAGTACCAAGAAGAAAAG" />
+      <edge id="265" source="ATAATAGAGGAGCTAATAAAAAA" target="CTATTTTTAGATGGGATAGATAA" />
+      <edge id="266" source="CTATTTTTAGATGGGATAGATAA" target="CTAGTGATTTTAATTTGCCACCT" />
+      <edge id="267" source="ATAATGATGCAGAGAGGCAATTT" target="AGAATTAAGTGCTTCAACTGTGG" />
+      <edge id="268" source="ATACTATTGACAAGAGATGGTGG" target="ACCTTCAGACCTGGAGGAGGAAA" />
+      <edge id="269" source="ATACTATTGACAAGAGATGGTGG" target="GGGCAAAGAGAAGAGTGGTGGAG" />
+      <edge id="270" source="GGGCAAAGAGAAGAGTGGTGGAG" target="ACGGTACAGGCCAGACAATTATT" />
+      <edge id="271" source="ATACTCACCTTTGTCTTTCCAGA" target="AGAGGGAACCCGACAGGCCCGAA" />
+      <edge id="272" source="ATACTGCATTCACTATACCTAGT" target="AAAAATCTTAGAGCCCTTTAGAA" />
+      <edge id="273" source="ATACTGCATTCACTATACCTAGT" target="GGATCACCAGCAATATTTCAGGC" />
+      <edge id="274" source="GGATCACCAGCAATATTTCAGGC" target="ATGACAAAAATCTTAGAGCCCTT" />
+      <edge id="275" source="TGTTGACTCAGATTGGTTGCACT" target="AAGCCAGGAATGGATGGCCCAAA" />
+      <edge id="276" source="TGTTGACTCAGATTGGTTGCACT" target="AATTTCCCAATTAGTCCTATTGA" />
+      <edge id="277" source="ATAGACATCATTATGAAAGCCAG" target="CCAAAGGTAAGTTCAGAAGTACA" />
+      <edge id="278" source="CCAAAGGTAAGTTCAGAAGTACA" target="GGAGAAAAGGACTGGCAATTGGG" />
+      <edge id="279" source="CTATAGTAGCAAAGGAAATAGTA" target="AGACAGCATACTTTCTGCTAAAA" />
+      <edge id="280" source="GGAGGAAATGAACAAGTAGATAA" target="AGGAAGGTGCTATTTTTAGATGG" />
+      <edge id="281" source="ATAGCCCGAGAACTGCATCCAGA" target="GGACTTCCGCTGGGGACTTTCCA" />
+      <edge id="282" source="GGACTTCCGCTGGGGACTTTCCA" target="GCTGCATAAAAGCAGCCGCTTTT" />
+      <edge id="283" source="CCAGACCCCTTCCCATCATCAGA" target="GGCGAGCAAGGCAGAGACAGATC" />
+      <edge id="284" source="TGGTATATAAAAATATTTATAAT" target="ATACTCACCTTTGTCTTTCCAGA" />
+      <edge id="285" source="ATATGGCAATTAGATTGTACACA" target="ATCCCAGCAGAAACAGGACAGGA" />
+      <edge id="286" source="ATCCCAGCAGAAACAGGACAGGA" target="CCAGTGAAAGTAATACACACAGA" />
+      <edge id="287" source="ATATTTATAATGATAGTAGGAGG" target="CATCAGAGGGAACCCGACAGGCC" />
+      <edge id="288" source="CATCAGAGGGAACCCGACAGGCC" target="GGCGAGCAAGGCAGAGACAGATC" />
+      <edge id="289" source="ATCAGAAGAACTTAAATCATTAT" target="AAGCTTTAGATAAAATAGAGGAA" />
+      <edge id="290" source="ATCATACTTCCATGCAGGATAAA" target="AATACTATTGACAAGAGATGGTG" />
+      <edge id="291" source="CCAGTGAAAGTAATACACACAGA" target="TGTTGGTGGGCAAATGTCACACA" />
+      <edge id="292" source="GGCGCCCGAACAGGGACTTGAAG" target="GGACTCGAAAGCGAAAGTTCCAG" />
+      <edge id="293" source="ATCCGGGAAGTCAGCCTACAACT" target="TCCTATACCAAAGCAGTAAGTAA" />
+      <edge id="294" source="TCCTATACCAAAGCAGTAAGTAA" target="CAATAGTAGGACTGATAGTAGCG" />
+      <edge id="295" source="TCCTATACCAAAGCAGTAAGTAA" target="TGGAAATTAGTGCAATAGTAGGA" />
+      <edge id="296" source="CCAGGGATCAGATTCCCACTGTG" target="GCTTCAAGCTAGTACCAGTTGAC" />
+      <edge id="297" source="ATGACAAAAATCTTAGAGCCCTT" target="GTAGGATCTGACTTAGAGATAGG" />
+      <edge id="298" source="CCAGTGGGAGAAATCTATAAAAG" target="ATTTTGGACATAAGACAAGGGCC" />
+      <edge id="299" source="GCAATGAGTCAAGTACAACAGGC" target="AACTGTGGCAAAGAAGGACACCT" />
+      <edge id="300" source="GCAATGAGTCAAGTACAACAGGC" target="AGGACACCTAGCCAGAAATTGCA" />
+      <edge id="301" source="ATGCCAAAACCATAATAGTACAG" target="CATAGTTTTAATTGTGGAGGAGA" />
+      <edge id="302" source="CATAGTTTTAATTGTGGAGGAGA" target="AAGCAATGTATGCCCCTCCCATC" />
+      <edge id="303" source="ATGGCAGTCTAGCAGAAGAAGAG" target="ATGCCAAAACCATAATAGTACAG" />
+      <edge id="304" source="ATGGGATATGAACTCCATCCTGA" target="GATGGACAGTCCAGCCTATAGAA" />
+      <edge id="305" source="GATGGACAGTCCAGCCTATAGAA" target="AATTTATGCAGGGATTAAGGTAA" />
+      <edge id="306" source="GAGTAGGAGCAGTATCTCAAGAT" target="TTCCAGTCAGGCCGCAGGTACCT" />
+      <edge id="307" source="ATGTGATGCAACCTTTAGAAATA" target="GCAATAGTAGGACTAGTAGTAGC" />
+      <edge id="308" source="GCAATAGTAGGACTAGTAGTAGC" target="AAATAAGAAAACAGAAGAAAATA" />
+      <edge id="309" source="ATGTGGAAAAATAACATGGTAGA" target="CTAAAGCCATGTGTAAAATTAAC" />
+      <edge id="310" source="CTAAAGCCATGTGTAAAATTAAC" target="AAATTGTAATACCTCAGCCATTA" />
+      <edge id="311" source="CTAAAGCCATGTGTAAAATTAAC" target="AGTATAGGTTAATAAATTGTAAT" />
+      <edge id="312" source="TAACAGAAGATAGATGGAACAAG" target="AACAATGAATGGACATTAGAACT" />
+      <edge id="313" source="TAACAGAAGATAGATGGAACAAG" target="CATTTTCCTAGGCCCTGGCTCCA" />
+      <edge id="314" source="GACAGATGGAACAAGCCCCAGAA" target="AGAACTGTTAGAGGAGCTTAAAA" />
+      <edge id="315" source="GACAGATGGAACAAGCCCCAGAA" target="GCTGTTAGACATTTTCCTAGGCC" />
+      <edge id="316" source="GCTGTTAGACATTTTCCTAGGCC" target="GAGGGAGAAGAGGCAGGAATGGA" />
+      <edge id="317" source="GCTGTTAGACATTTTCCTAGGCC" target="TGGGGATACTTGGGAAGGGGTTG" />
+      <edge id="318" source="ATTATGGAAAACAGATGGCAGGT" target="AGAACATGGAACAGTTTAGTAAA" />
+      <edge id="319" source="ATTCCACCAGGCCAGATGAGGGA" target="AAGAACAAATAGGATGGATGACA" />
+      <edge id="320" source="ATTGCACACATCTAGAAGGAAAA" target="CAGGAGACAGCATACTTTCTGCT" />
+      <edge id="321" source="CAGGAGACAGCATACTTTCTGCT" target="AAAGTAATACACACAGACAACGG" />
+      <edge id="322" source="ATTGGGGGGTACAGTGCAGGGGA" target="ATAATAGACATAATAGCATCAGA" />
+      <edge id="323" source="ATTTCAAAAATTGGGCCTGAAAA" target="AGAAAATTAGTAGATTTCAGAGA" />
+      <edge id="324" source="ATTTTGGACATAAGACAAGGGCC" target="CGAATCCAGACTGTAAGTCCATT" />
+      <edge id="325" source="CGAATCCAGACTGTAAGTCCATT" target="TTAGAAGAAATGATGACAGCATG" />
+      <edge id="326" source="ATTTTTCTATTGCAATACAACAC" target="ATCATACTTCCATGCAGGATAAA" />
+      <edge id="327" source="ATTTTTCTATTGCAATACAACAC" target="GCAAATTATAAACATGTGGCAGG" />
+      <edge id="328" source="CAAAGCCTAAAGCCATGTGTAAA" target="ATGGCAGTCTAGCAGAAGAAGAG" />
+      <edge id="329" source="CAACAAATAATAGAACAGTTACA" target="ATCAGAAGAACTTAAATCATTAT" />
+      <edge id="330" source="CAACTGCCTGTTACACCCCATGA" target="ATAGCCCGAGAACTGCATCCAGA" />
+      <edge id="331" source="CAATACATGGATGACTTGTATGT" target="CAGCACAGAACAAAAATAGAGGA" />
+      <edge id="332" source="CAGCACAGAACAAAAATAGAGGA" target="ATGGGATATGAACTCCATCCTGA" />
+      <edge id="333" source="CAATAGTAGGACTGATAGTAGCG" target="TGGGTTACAGTTTATTATGGGGT" />
+      <edge id="334" source="CAATAGTAGGACTGATAGTAGCG" target="TGTGGACTATAGTAGCTATAGAA" />
+      <edge id="335" source="TGGGTTACAGTTTATTATGGGGT" target="CTATTTTGTGCATCAGATGCCAA" />
+      <edge id="336" source="TGTGGACTATAGTAGCTATAGAA" target="AGGTTAGTTAAGAGAATAAGAGA" />
+      <edge id="337" source="TGTGGACTATAGTAGCTATAGAA" target="GACAGTGGAAATGAGAGTGAAGG" />
+      <edge id="338" source="CAATTGCTGTTAAATGGCAGTCT" target="AAGAGATAATAATCAGATCTGAA" />
+      <edge id="339" source="CACAAAGGGATTGGAGGAAATGA" target="GGCATAGATAAAGCCCAAGAAGA" />
+      <edge id="340" source="CACAGCAATTGGAGAGCAATGGC" target="GTGGCCAGCTGTGATAAATGTCA" />
+      <edge id="341" source="CACAGCAATTGGAGAGCAATGGC" target="TATGGCAATTAGATTGTACACAT" />
+      <edge id="342" source="GTGGCCAGCTGTGATAAATGTCA" target="ATATGGCAATTAGATTGTACACA" />
+      <edge id="343" source="TATGGCAATTAGATTGTACACAT" target="CCAGTGAAAGTAATACACACAGA" />
+      <edge id="344" source="CACATGAGACAGAAGTGCACAAT" target="ACATGTGGAAAAATAACATGGTA" />
+      <edge id="345" source="CAGAGAACAGGGAGATTCTAAAA" target="AATCTAAAAACAGGAAAATATGC" />
+      <edge id="346" source="GCCAGAAATTGCAGGGCCCCTAG" target="GAGAGACAGGCTAATTTTTTAGG" />
+      <edge id="347" source="CAGCCTACAACTGCTTGTAGCAA" target="TCCTATACCAAAGCAGTAAGTAA" />
+      <edge id="348" source="CAGCCTACAACTGCTTGTAGCAA" target="TGCTTTCTGAACAAGGGCTTAGG" />
+      <edge id="349" source="TGCTTTCTGAACAAGGGCTTAGG" target="CTCCTATGGCAGGAAGAAGCGGA" />
+      <edge id="350" source="CAGGGAGAAGAGGCAGGAATGGA" target="CAGCCTACAACTGCTTGTAGCAA" />
+      <edge id="351" source="CGAAATATGTTGACTCAGATTGG" target="GGAATGGATGGACCAAAGGTTAA" />
+      <edge id="352" source="CATATTAGGACAAGTAGTTAGAC" target="ATTAGTAACACCAACAAGGACAA" />
+      <edge id="353" source="CATATTAGGACAAGTAGTTAGAC" target="GGATCCCTACAATATTTGGCACT" />
+      <edge id="354" source="GGATCCCTACAATATTTGGCACT" target="GACAGATGGAACAAGCCCCAGAA" />
+      <edge id="355" source="GGCGAGCAAGGCAGAGACAGATC" target="CTACGGAGCCTGTGCCTCTTCAG" />
+      <edge id="356" source="GGCGAGCAAGGCAGAGACAGATC" target="CTGTGCCTCTTCAGCTACCACCG" />
+      <edge id="357" source="CATGCAGGGCCTATTCCACCAGG" target="ACTAGTACCCTTCAAGAACAAAT" />
+      <edge id="358" source="CTAGCAGACCAACTGATTCATCT" target="ATAAGGAAAGCCATATTAGGACA" />
+      <edge id="359" source="CTAGCAGACCAACTGATTCATCT" target="CATATTAGGACAAGTAGTTAGAC" />
+      <edge id="360" source="GATCCTGACCTAGCAGACCAACT" target="CATATTAGGACAAGTAGTTAGAC" />
+      <edge id="361" source="CATTTTCCTAGGCCCTGGCTCCA" target="AGAATTGGGTGTCAACATAGCAG" />
+      <edge id="362" source="CATTTTCCTAGGCCCTGGCTCCA" target="CAGGGAGAAGAGGCAGGAATGGA" />
+      <edge id="363" source="GAAGAAATGATGACAGCATGCCA" target="GAAATTGCAGGGCCCCTAGAAAA" />
+      <edge id="364" source="GGAGAAAAGGACTGGCAATTGGG" target="CTAGCAGACCAACTGATTCATCT" />
+      <edge id="365" source="CCACAGGGATGGAAAGGATCACC" target="GACAAAAATCTTAGAGCCCTTTA" />
+      <edge id="366" source="GACAAAAATCTTAGAGCCCTTTA" target="CAATACATGGATGACTTGTATGT" />
+      <edge id="367" source="GCTTCAAGCTAGTACCAGTTGAC" target="ACAGTGCCCTAGCACGAAAACAC" />
+      <edge id="368" source="GCTTCAAGCTAGTACCAGTTGAC" target="CAACTGCCTGTTACACCCCATGA" />
+      <edge id="369" source="TGTTGGTGGGCAAATGTCACACA" target="GAACACCTTAAGACAGCAGTACA" />
+      <edge id="370" source="TGTTGGTGGGCAAATGTCACACA" target="GGAATTCCCTACAATCCCCAAAG" />
+      <edge id="371" source="GCCATAAAGAAAAAAGATAGTAC" target="TACCTCATCCCGCGGGATTAAAA" />
+      <edge id="372" source="CCGGGAAGTCAGCCTACAACTGC" target="TCCTATGGCAGGAAGAAGCGGAA" />
+      <edge id="373" source="TCCTATGGCAGGAAGAAGCGGAA" target="TCCTGTACCAAAGCAGTGAGTAG" />
+      <edge id="374" source="CCTACAATATTTGGCACTGAAAG" target="ATTAACAACACCAAAAAGGATAA" />
+      <edge id="375" source="GAACAGGAGACATAATAGGAGAT" target="ATTTTTCTATTGCAATACAACAC" />
+      <edge id="376" source="CCTCCAGCAGCAGAAGGAGTAGG" target="GTCTGGCTGAGAGCACAAGAGGA" />
+      <edge id="377" source="GGAAAACTAAATTGGGCAAGTCA" target="GAGCCAAAGCACTAACAGATATA" />
+      <edge id="378" source="GTGGGAAAACTAAATTGGGCAAG" target="GAGCCAAAGCACTAACAGATATA" />
+      <edge id="379" source="CCTGACCTAGCAGACCAACTGAT" target="TGTGAATATCCATCAGGACATAA" />
+      <edge id="380" source="TGTGAATATCCATCAGGACATAA" target="CCTACAATATTTGGCACTGAAAG" />
+      <edge id="381" source="TGTGTTTTGGATGGTGCTTCAAG" target="GACGAAGAAAGAGAAGTGCTGAT" />
+      <edge id="382" source="GGACTGAGACTGGGGTGGGAAGC" target="GTGCTATTAATTTGCTTGATACA" />
+      <edge id="383" source="TCAAATATCTGGGGAATCTTCTG" target="CTCCACATACCTAGAAGAATCAG" />
+      <edge id="384" source="CCTTCCAACAAGGGAAGGCCGGG" target="GAGCCAACAGCCCCACCAGCAGA" />
+      <edge id="385" source="CCTTTAGATGAAAGCTTTAGAAA" target="ACCATACCTAGTATAAACAATGA" />
+      <edge id="386" source="GAGATGGGTGCGAGAGCGTCAGT" target="CAACAAATAATAGAACAGTTACA" />
+      <edge id="387" source="GCGGCGACTGGTGAGTACGCCAA" target="GATGCATGGGAAAAAATTCGGTT" />
+      <edge id="388" source="GGAATGGATGGACCAAAGGTTAA" target="AAAATTGGGCCTGAAAATCCATA" />
+      <edge id="389" source="GGAATGGATGGACCAAAGGTTAA" target="GCATTAACAGAAATTTGTAAAGA" />
+      <edge id="390" source="CTGTGCCTCTTCAGCTACCACCG" target="GGACTGAGACGGGGGTGGGAAGG" />
+      <edge id="391" source="CTGTGCCTCTTCAGCTACCACCG" target="GGACTGAGACTGGGGTGGGAAGC" />
+      <edge id="392" source="TTAGAAGAAATGATGACAGCATG" target="GCAATGAGTCAAGTACAACAGGC" />
+      <edge id="393" source="CGGGAAATTTTCCTCAGAGCAGA" target="GAGCCAACAGCCCCGCCAGCAGA" />
+      <edge id="394" source="GAGCCAACAGCCCCGCCAGCAGA" target="GGATGGGGGAAGAGATAACCTCC" />
+      <edge id="395" source="CTACGGAGCCTGTGCCTCTTCAG" target="GAAGGTCTCAAATATCTGGGGAA" />
+      <edge id="396" source="GAAGGTCTCAAATATCTGGGGAA" target="GTTATATTGGGGCCAGGAACTAA" />
+      <edge id="397" source="CTAGGACTTTGGGGCTGCTCTGG" target="GCACCACTGCTGTGCCCTGGAAC" />
+      <edge id="398" source="GCACCACTGCTGTGCCCTGGAAC" target="AGAGAGAAATTAGCAATTACACA" />
+      <edge id="399" source="CTAGTGATTTTAATTTGCCACCT" target="GAAGCTATGCATGGACAAGTAGA" />
+      <edge id="400" source="GAAGCTATGCATGGACAAGTAGA" target="ATTGCACACATCTAGAAGGAAAA" />
+      <edge id="401" source="TGGTTTGACATAACAAAATGGCT" target="TTTATAATGATAGTAGGAGGTTT" />
+      <edge id="402" source="CTATTTTGTGCATCAGATGCCAA" target="AGTTAACTCCTCTCTGCGTTACT" />
+      <edge id="403" source="CTCAGGTCAGGGAAAAAATAAAG" target="AAGATCTAGATAAACATGGAGCA" />
+      <edge id="404" source="CTCAGGTCAGGGAAAAAATAAAG" target="AGAAGGAGTAGGAGCAGTATCTC" />
+      <edge id="405" source="CTCCACATACCTAGAAGAATCAG" target="CTCAGGTCAGGGAAAAAATAAAG" />
+      <edge id="406" source="CTCCACATACCTAGAAGAATCAG" target="GGGATGGCCTCAGGTCAGGGAAA" />
+      <edge id="407" source="GGGATGGCCTCAGGTCAGGGAAA" target="CCTCCAGCAGCAGAAGGAGTAGG" />
+      <edge id="408" source="CTCCTATGGCAGGAAGAAGCGGA" target="TCCTGTACCAAAGCAGTGAGTAG" />
+      <edge id="409" source="TCCTGTACCAAAGCAGTGAGTAG" target="ATGTGATGCAACCTTTAGAAATA" />
+      <edge id="410" source="CTGAAAATCCATACAATACTCCA" target="AAATTAGTAGATTTCAGAGAGCT" />
+      <edge id="411" source="CTGGAACTCCACTTGGAGTAATA" target="AGAGAGAAATTAGCAATTACACA" />
+      <edge id="412" source="CTGGAACTCCACTTGGAGTAATA" target="ATATTTATAATGATAGTAGGAGG" />
+      <edge id="413" source="GGACTGAGACGGGGGTGGGAAGG" target="GTTATATTGGGGCCAGGAACTAA" />
+      <edge id="414" source="GTCAACATAGCAGAATAGGCATT" target="ATCCGGGAAGTCAGCCTACAACT" />
+      <edge id="415" source="GAAAAAATTCGGTTACGGCCAGG" target="GAGTTAGAAAGATTCGCACTTAA" />
+      <edge id="416" source="GAGTTAGAAAGATTCGCACTTAA" target="ACAGGATCAGAAGAACTTAAATC" />
+      <edge id="417" source="GAAGTACATATCCCACTAGGAGA" target="TCTCCATAGAATGGAGGCAGAGA" />
+      <edge id="418" source="GAAGTACATATCCCACTAGGAGA" target="TTGGGGTCTGCAAACAGGAGAAA" />
+      <edge id="419" source="GGGATGGGGGAAGAGATAACCTC" target="AAATCACTCTTTGGCAACGACCC" />
+      <edge id="420" source="GAACACCTTAAGACAGCAGTACA" target="ATTGGGGGGTACAGTGCAGGGGA" />
+      <edge id="421" source="GAAGCAGGAACCGAGGGACAAGG" target="ACTCTTTGGCAACGACCCTTAGT" />
+      <edge id="422" source="GAAGCGGAAGCACCGACGAGGAA" target="TCAGAGCAGTAAGGATCATCAAA" />
+      <edge id="423" source="TCAGAGCAGTAAGGATCATCAAA" target="CAATAGTAGGACTGATAGTAGCG" />
+      <edge id="424" source="GTTATATTGGGGCCAGGAACTAA" target="TGCTATTTCTTTGCTTGATGCTA" />
+      <edge id="425" source="TCTCCATAGAATGGAGGCAGAGA" target="AAATAGATCCTGACCTAGCAGAC" />
+      <edge id="426" source="TCTCCATAGAATGGAGGCAGAGA" target="CCTGACCTAGCAGACCAACTGAT" />
+      <edge id="427" source="TTGGGGTCTGCAAACAGGAGAAA" target="CATGGGGTCTCCATAGAATGGAG" />
+      <edge id="428" source="TTGGGGTCTGCAAACAGGAGAAA" target="TCTCCATAGAATGGAGGCAGAGA" />
+      <edge id="429" source="GAATCTATGAATAAAGAATTAAA" target="TTAAAAGAAAAGGGGGGATTGGG" />
+      <edge id="430" source="TTAAAAGAAAAGGGGGGATTGGG" target="ATAATAGACATAATAGCATCAGA" />
+      <edge id="431" source="GAATGGGAGTTTGTTAATACCCC" target="AAAGACCCCATAGTAGGAGCAGA" />
+      <edge id="432" source="GACACCAGGCAGCAATGCAGATG" target="AGGAAGCTGCAGAATGGGACAGG" />
+      <edge id="433" source="GACACCAGGCAGCAATGCAGATG" target="CATGCAGGGCCTATTCCACCAGG" />
+      <edge id="434" source="GACAGTGGAAATGAGAGTGAAGG" target="TCAGACAACTTGTGGGTTACAGT" />
+      <edge id="435" source="TCAGACAACTTGTGGGTTACAGT" target="TGCCTGTGTACCCACAGACCCCA" />
+      <edge id="436" source="GACATACAAACTAAAGAATTACA" target="GTAGTAATACAAGACAATAGTGA" />
+      <edge id="437" source="GTAGTAATACAAGACAATAGTGA" target="GTACCAAGAAGAAAAGCAAAGAT" />
+      <edge id="438" source="GAGAGACAGGCTAATTTTTTAGG" target="CGGGAAATTTTCCTCAGAGCAGA" />
+      <edge id="439" source="GAGCCAAAGCACTAACAGATATA" target="CAGAGAACAGGGAGATTCTAAAA" />
+      <edge id="440" source="GAGCCAAAGCACTAACAGATATA" target="GCAGAATTAGAATTGGCAGAGAA" />
+      <edge id="441" source="GCAGAATTAGAATTGGCAGAGAA" target="TTTATCAAGAGCCATTTAAAAAT" />
+      <edge id="442" source="TGGGGGATGGGGGAAGAGATAAC" target="AGCAGGAGCAGAAAGACAAGGAA" />
+      <edge id="443" source="GGATGGGGGAAGAGATAACCTCC" target="AGCAGGAGCAGAAAGACAAGGAA" />
+      <edge id="444" source="GGATGGGGGAAGAGATAACCTCC" target="GAAGCAGGAACCGAGGGACAAGG" />
+      <edge id="445" source="GAGGGAGAAGAGGCAGGAATGGA" target="CCGGGAAGTCAGCCTACAACTGC" />
+      <edge id="446" source="TTCCAGTCAGGCCGCAGGTACCT" target="AGGGGGGACTGGATGGGTTAATT" />
+      <edge id="447" source="TCATGGGTACCAGCACACAAAGG" target="AACAAGTAGATAAATTAGTCAGT" />
+      <edge id="448" source="GATCAGATACTTATAGAAATTTG" target="TAAATTTCCCAATTAGTCCTATT" />
+      <edge id="449" source="TAAATTTCCCAATTAGTCCTATT" target="ACATTAAAGCCAGGAATGGATGG" />
+      <edge id="450" source="GATCCTAACCTAGAGCCCTGGAA" target="CAGCCTACAACTGCTTGTAGCAA" />
+      <edge id="451" source="GATGCATGGGAAAAAATTCGGTT" target="TAGAAAGATTCGCACTTAACCCT" />
+      <edge id="452" source="TAGAAAGATTCGCACTTAACCCT" target="ACAGTCAACTCTCAAGACAGGAT" />
+      <edge id="453" source="GCAAAATGCACAAGGGCAAATGG" target="AGAACTTTGAATGCATGGGTGAA" />
+      <edge id="454" source="GCAAAATGCACAAGGGCAAATGG" target="TAAAAGAAACCATCAATGAGGAA" />
+      <edge id="455" source="TAAAAGAAACCATCAATGAGGAA" target="ACAAATAGGATGGATGACAAACA" />
+      <edge id="456" source="GTATGCTCCTCCCATCAGTGGAA" target="ATACTATTGACAAGAGATGGTGG" />
+      <edge id="457" source="TTTATCAAGAGCCATTTAAAAAT" target="ACAGAGGTAGTGCAAAAAGTGGC" />
+      <edge id="458" source="GCAGCAATGCAAATGTTAAAAGA" target="GCAGGGCCTATTCCACCAGGCCA" />
+      <edge id="459" source="GCAGGGCCTATTCCACCAGGCCA" target="ACAAATAGGATGGATGACAAACA" />
+      <edge id="460" source="GGCCTTTTAGAAACAGCAGAAGG" target="AACTTAAATCATTATTTAATACA" />
+      <edge id="461" source="GCAGGGGAAAGAATAATAGACAT" target="GACATACAAACTAAAGAATTACA" />
+      <edge id="462" source="GCATATTTTTCAGTTCCTTTAGA" target="TACTGCATTCACCATACCTAGTA" />
+      <edge id="463" source="TACTGCATTCACCATACCTAGTA" target="GGAATCAGATATCAGTACAATGT" />
+      <edge id="464" source="GCCCAGAAGTAATACCCATGTTC" target="ATTCCACCAGGCCAGATGAGGGA" />
+      <edge id="465" source="TGGGGATACTTGGGAAGGGGTTG" target="TTTGTTCATTTCAGAATTGGGTG" />
+      <edge id="466" source="GGAACAGGAGCTACATTAGAAGA" target="AGGGTTTTGGCTGAGGCAATGAG" />
+      <edge id="467" source="GGAATCAGATATCAGTACAATGT" target="CCACAGGGATGGAAAGGATCACC" />
+      <edge id="468" source="GGAATTCCCTACAATCCCCAAAG" target="GAATCTATGAATAAAGAATTAAA" />
+      <edge id="469" source="GGACTCGAAAGCGAAAGTTCCAG" target="GGGGGAAAATTAGATGCATGGGA" />
+      <edge id="470" source="GGGGGAAAATTAGATGCATGGGA" target="AGAAAAAATATAGACTAAAACAT" />
+      <edge id="471" source="GTGCTATTAATTTGCTTGATACA" target="ACAGATAGAGTTATAGAAATAGG" />
+      <edge id="472" source="TCCGGGAAGTCAGCCTACAACTG" target="GAAGCGGAAGCACCGACGAGGAA" />
+      <edge id="473" source="TATGATCAGATACTTATAGAAAT" target="GGAATGGATGGACCAAAGGTTAA" />
+      <edge id="474" source="GTAAAATTATGGTACCAGTTAGA" target="TTTCTATGTAGATGGGGCAGCTA" />
+      <edge id="475" source="TTTCTATGTAGATGGGGCAGCTA" target="GTCACTGACAGAGGAAGACAAAA" />
+      <edge id="476" source="GTACCAAGAAGAAAAGCAAAGAT" target="TGAGGATTAGAACATGGAACAGT" />
+      <edge id="477" source="TGAGGATTAGAACATGGAACAGT" target="TCTCAAAGAAAGCTAAAAAGTGG" />
+      <edge id="478" source="GTAGTACCAAGAAGAAAAGCAAA" target="ATTATGGAAAACAGATGGCAGGT" />
+      <edge id="479" source="GTCACTGACAGAGGAAGACAAAA" target="AATCATTCAGGCACAACCAGACA" />
+      <edge id="480" source="TGCTATTTCTTTGCTTGATGCTA" target="CTCAGGTCAGGGAAAAAATAAAG" />
+      <edge id="481" source="TGCTATTTCTTTGCTTGATGCTA" target="CTCCACATACCTAGAAGAATCAG" />
+      <edge id="482" source="TGGAAAGGTGAAGGGGCAGTAGT" target="ACAGGATGAGGATTAGAACATGG" />
+      <edge id="483" source="TTTTCAGTTCCCTTAGATGAAGA" target="ATACTGCATTCACTATACCTAGT" />
+      <edge id="484" source="TAGCAAGGGAACCCACTGCTTAA" target="AATAAAGCTTGCCTTGAGTGCTT" />
+      <edge id="485" source="TGTACTCCAGCTGGTTATGCGAT" target="CAATTGCTGTTAAATGGCAGTCT" />
+      <edge id="486" source="TCAGAAGTACACATTCCACTAGG" target="ATAAGAACATATTGGGGTCTGCA" />
+      <edge id="487" source="TCAGAAGTACACATTCCACTAGG" target="TTGGGGTCTGCAAACAGGAGAAA" />
+      <edge id="488" source="TGCCTGTGTACCCACAGACCCCA" target="CTAAAGCCATGTGTAAAATTAAC" />
+      <edge id="489" source="TGGAAATTAGTGCAATAGTAGGA" target="TGTGGACTATAGTAGCTATAGAA" />
+      <edge id="490" source="TCTCAAAGAAAGCTAAAAAGTGG" target="ATAGACATCATTATGAAAGCCAG" />
+      <edge id="491" source="TTGATCCTTGGGTTGGTGATAAT" target="CACATGAGACAGAAGTGCACAAT" />
+      <edge id="492" source="TTTGTTCATTTCAGAATTGGGTG" target="GATCCTAACCTAGAGCCCTGGAA" />
+      <edge id="493" source="TTTATAATGATAGTAGGAGGTTT" target="AGGCAGGGATACTCACCTTTGTC" />
+    </edges>
+  </graph>
+</gexf>
