@@ -1,0 +1,19 @@
+## Some commands that may or may not be useful going forward. Mostly formatting files for attribute annotation
+
+#FORMATTING GENE FASTAS FOR SWIGG
+
+$ for NUCL_GENES in *gene_nucl.fasta ; do bioawk -c fastx '{print}' $NUCL_GENES | while read LINE ; do ATTR=$( echo "$LINE" | sed 's/.*\(\[gene=.*\]\) \[protein=.*/\1/' ) ; echo "$LINE" | awk -v GENE="$ATTR" '{ print ">"$1, GENE ; print $2 }' ; done > ${NUCL_GENES%.fasta}.sort1.fasta ; done 
+
+
+#MAKING THE kmer_sublineage_info.tsv FILE FROM SURYA KMER-to-CONTIG output
+
+$ cat HIV_full_Refs_k23_1.tsv.fasta.reference_hits | while read LINE ; do SUB_LINEAGE=$( echo "$LINE" | cut -f2 | cut -d "." -f2 ) ; echo "$LINE" | awk -v SUBQ="$SUB_LINEAGE" '{print $1, SUBQ, $3}' ; done > HIV_full_Refs_k23_1.tsv.fasta.reference_hits.sort1.txt
+
+$ cat HIV_full_Refs_k23_1.tsv.fasta.reference_hits.sort1.txt | cut -d " " -f2,3 | sort -u | sed 's/ /	/g' > HIV_full_Refs_k23_1.tsv.fasta.kmer_sub_lineage_pairs.txt
+
+$ cut -f2 HIV_full_Refs_k23_1.tsv.fasta.kmer_sub_lineage_pairs.txt | sort -u | while read LINE ; do LINEAGE=$( awk -v KMER="$LINE" '{if ($2 == KMER) print $1}' HIV_full_Refs_k23_1.tsv.fasta.kmer_sub_lineage_pairs.txt | sort -u | sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/,/g' ) ; echo -e "$LINE\t$LINEAGE" ; done > HIV_full_Refs_k23_1.kmer_sublineage_info.tsv
+
+
+#MAKE RANDOM READS FROM A REFERENCE GENOME USING BBTOOLS/BBMAP
+
+$ bash randomreads.sh ref=/Users/tiszamj/Documents/Mike_Tisza/virus_hackathon2/HIV_1/Ref.A2.CY.94.94CY017_41.AF286237.fasta out=/Users/tiszamj/Documents/Mike_Tisza/virus_hackathon2/HIV_1/Ref.A2.CY.94.94CY017_41.AF286237.1000reads_150bp.fq paired interleaved length=150 reads=1000 seed=12255 snprate=0.01 amp=1
